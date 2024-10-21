@@ -1,0 +1,8 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "alwaysUpdateLinks": true,
+  "newFileFolderPath": "Inbox",
+  "attachmentFolderPath": "./attachments",
+  "vimMode": true
+}
