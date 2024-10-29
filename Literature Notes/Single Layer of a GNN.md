@@ -29,7 +29,7 @@ so we add the node itself with its own MSG function(B weights matrix)
 and we get
 ![[Pasted image 20240716181009.png|450]]
 
-after **Message** and **Aggregation** we execute [[Nonelinearity activation function]]
+after **Message** and **Aggregation** we execute *None linearity activation function*
 ## References
 
 [Standford cs224w Lecture 7.2](https://www.youtube.com/watch?v=247Mkqj_wRM&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn&index=22)

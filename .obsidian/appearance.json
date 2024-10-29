@@ -3,5 +3,8 @@
   "baseFontSize": 18,
   "baseFontSizeAction": true,
   "cssTheme": "Tokyo Night",
-  "accentColor": "#aa62d0"
+  "accentColor": "#aa62d0",
+  "enabledCssSnippets": [
+    "math_size"
+  ]
 }

@@ -8,6 +8,8 @@ Tags: #paper
 
 ## GATv2Conv
 
+An improved version of  [[Graph Attention Networks]]
+
 ![[Pasted image 20240915105656.png]]
 we define $i$ as the *query* and all the neighbors as *keys*
 in the example above $j$

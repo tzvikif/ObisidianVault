@@ -38,6 +38,9 @@ $\left[ \begin{array}{c} {N} \\ {k} \end{array} \right]$
 $\underset{\theta} {\mathrm{argmax}} ~p(D|\theta)$
 nabla $\nabla$
 
+"LL" $\mathcal{L}$
+$\mathscr{L}$
+
 ```
 [
     // Math mode

@@ -25,6 +25,7 @@ hello
 - [ ] make stuff
 - [ ] more stuff
 
+<u>Underline</u>
 # Links
 link to Header use "#"
 [[Maximum Likelihood Estimation#Salmon catfish example|salmon catfish example]]
@@ -58,7 +59,6 @@ print('hello world!)
 
 [^1]: Definition of the footnote
 [^2]: Another definition
-
 
 ## References
 

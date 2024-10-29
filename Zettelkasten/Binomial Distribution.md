@@ -2,9 +2,9 @@
 
 2024-09-23 18:01
 
-Status: #in_progress
+Status: 
 
-Tags:
+Tags: #stat
 
 # Binomial Distribution
 
@@ -37,6 +37,7 @@ $\mathbb{E}[X]=N\cdot f$
 **Lemma**
 if $X_{1}, X_{2},\dots, X_{n}$ are independent *Bernoulli(p)* random variables, then the random variable $X$ defined by $X=X_{1}+ X_{2}+\dots+ X_{n}$ has a *Binomial(n,p)* distribution.
 $\mathbb{E}[X_{1}+X_{2}+\dots +X_{N} ]=\mathbb{E}[X_{1}]+\mathbb{E}[X_{2}]+\dots + \mathbb{E}[X_{N}]$
+
 
 for every $X_{i}$ 
 $\mathbb{E}[X_{i}]=f\cdot 1 + (1-f)\cdot 0 = f$

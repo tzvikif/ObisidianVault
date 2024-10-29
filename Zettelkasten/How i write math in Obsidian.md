@@ -8,6 +8,8 @@ Tags: #video
 
 ## How i write math in Obsidian
 
+[[LaTex]]
+
 - changes Theme to Tokyo night. (setting -> appearance->Theme)
 - Accent Color (setting -> appearance->Accent color) 
 
@@ -19,7 +21,7 @@ for example
  
  - `{trigger: "ck", replacement: "`$0`$1", options: "tAw"},`
  
-
+for using
 - using https://www.mathcha.io/editor for creating math graphs images
 - https://simpletex.cn/ai/latex_ocr for converting image to latex.
 
