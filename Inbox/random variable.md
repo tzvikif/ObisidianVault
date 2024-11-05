@@ -4,23 +4,34 @@
 
 Status: #in_progress
 
-Tags:
+Tags: #video
 
-# random variable
+# Random Variable
 
-## Intuition
+## Definition
 
-we have a *random experiment* (coin tossing, cube throwing, success in a test,...)
-and we want to analyze it. to help to do that we use *random variable*s
-for example in a soccer game which we consider as a *random experiment* we are interested in the number of:
-- goals
-- shots
-- shots on goals
-- fouls
-each of the results of the above can give us some information about the outcome of the random experiment.
+a *random variable* $X$ is a function from the sample space to a real numbers
+$$X:\Omega\to \mathbb{R}$$
+כאשר $\Omega$ היא אוסף של מאורעות.
+>$Z$ is a function on $\Omega$
 
 
-## Example
+
+## Example1
+
+נסתכל על ניסוי של זריקת 2 קוביות הוגנות כל אחת בעלת 4 פיאות.
+![[Random variable_omega.png|400]]
+we call each event  $\omega$. $p(\omega)=\frac{1}{16}$
+
+ we are interested in the sum the two dices.
+ Let $Z$ be the sum. $Z$ connects a collection of event to a number.
+ ![[Random variableZ.png|400]]
+$Z:\Omega\to\{2,3,4,5,6,7,8\}$
+- we can look at $Z$ as a set. $\{Z=5\}=\{\omega:Z(\omega)=5\}$. all the events that sums to 5. (the green events)
+- $Z$ is not *random* but the events in $\Omega$ are. We call $Z$ *random* variable because the events in $\Omega$ are random. random input yields to random output.
+**9:20**
+$Z(\omega)=X_{1}(\omega)+X_{2}(\omega)$
+## Example2
 
 we toss a coin 5 times. 
 $S=\{TTTTT,TTTTH, \dots , HHHHHH\}$
@@ -34,12 +45,6 @@ in that experiment  $X \in \{0,1,2,3,4,5\}$
 - $\dots$
 - $X$ assigns the value 5 to the outcome $\{HH H H H \}$
 
-## Definition
-
-a *random variable* $X$ is a function from the sample space to the real numbers
-$$X:S\to R$$
-כאשר $S$ היא אוסף של מאורעות.
-$R_{x}$ is the set of possible value of $X$
-in the above example $R_{x}=\{0,1,2,3,4,5\}$
 ## References
 
+https://www.youtube.com/watch?v=KQHfOZHNZ3k&t=359s

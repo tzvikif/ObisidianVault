@@ -13,7 +13,9 @@ It quantifies the amount of information obtained about one random variable throu
 if we have random variable X and Y.
 and i know the distribution of X if the MI is high i'l know much about the distribution of Y as well.
 ### Definition
-![[Pasted image 20240717112554.png]]
+
+For two random variable $X$ and $Y$, the mutual information$I(X;Y)$ is defined as
+$I(X;Y)=\sum_{x\in X}\sum_{y\in Y}p(x,y)\log\left( \frac{p(x,y)}{p(x)p(y)} \right)$
 
 properties:
 $$

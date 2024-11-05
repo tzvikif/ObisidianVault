@@ -8,21 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cbc7a38cc6243aae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/29-10-2024.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "29-10-2024"
-            }
-          },
-          {
-            "id": "5999e6e2fa10e050",
+            "id": "e18871ae37d12546",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,20 +22,49 @@
             }
           },
           {
-            "id": "75f4c78d74e2bc47",
+            "id": "6df36e884cbced49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/LaTex.md",
+                "file": "Inbox/Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LaTex"
+              "title": "Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes"
+            }
+          },
+          {
+            "id": "6101782afe99d3c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/05-11-2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05-11-2024"
+            }
+          },
+          {
+            "id": "581e53a9fe7aa89d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Take a look later.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Take a look later"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,12 +116,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 419.5,
-    "collapsed": true
+    "width": 419.5
   },
   "right": {
     "id": "0f70a3d4bbdff5f5",
@@ -122,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/29-10-2024.md",
+                "file": "Inbox/Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 29-10-2024"
+              "title": "Backlinks for Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes"
             }
           },
           {
@@ -141,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Temporal Graph Networks (TGN) from scratch.md",
+                "file": "Literature Notes/mutual information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Temporal Graph Networks (TGN) from scratch"
+              "title": "Outgoing links from mutual information"
             }
           },
           {
@@ -176,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,36 +206,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cbc7a38cc6243aae",
+  "active": "6101782afe99d3c8",
   "lastOpenFiles": [
-    "Inbox/Temporal Graph Networks (TGN) from scratch.md",
-    "Journal/29-10-2024.md",
-    "Excalidraw/Drawing 2024-10-10 13.52.36.excalidraw.md",
+    "Journal/05-11-2024.md",
     "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
-    "Inbox/attachments/Temporal Graph Networks (TGN) from scratch Message Function.png",
-    "Inbox/LaTex.md",
-    "Zettelkasten/Maximum Likelihood Data Science Concepts(MLE).md",
-    "Inbox/logistic regression.md",
-    "Journal/2024-09-10.md",
+    "Inbox/Take a look later.md",
+    "Excalidraw/Drawing 2024-11-04 11.56.38.excalidraw.md",
+    "Journal/04-11-2024.md",
+    "Literature Notes/mutual information.md",
+    "Zettelkasten/Shannon information content of an outcome.md",
+    "Inbox/Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes.md",
+    "Zettelkasten/Entropy.md",
+    "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md",
     "Inbox/rdcmTrustAI.md",
+    "Inbox/Forecasting Principles and Practice.md",
+    "Inbox/LaTex.md",
+    "Journal/03-11-2024.md",
+    "Inbox/bayes rule.md",
+    "Inbox/Maximum Likelihood Estimation.md",
+    "Zettelkasten/Maximum Likelihood Data Science Concepts(MLE).md",
+    "Inbox/My Neovim Zettelkasten Based on Obsidian.md",
+    "Inbox/RAG_Techniques.md",
     "Inbox/How Powerful are Graph Neural Networks GIN.md",
-    "Inbox/attachments/Temporal Graph Networks (TGN) from scratch encoder decoder.png",
-    "Inbox/attachments/Temporal Graph Networks (TGN) from scratch dynamic graph.png",
-    "Inbox/attachments/Temporal Graph Networks (TGN) from scratch static graph.png",
-    "Inbox/Temporal GNN(TGNN).md",
     "Inbox/rdcmZoom.md",
-    "Inbox/Useful  markdown syntax in Obsidian.md",
-    "Journal/27-10-2024.md",
     "Inbox/rdcmZoomStatus.md",
-    "Inbox/Obsidian Cheat sheet.md",
-    "Journal/attachments/27-10-2024.png",
-    "Excalidraw/IntroductionToInformationTheory1.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-25 10.06.25.excalidraw.md",
-    "Journal/24-10-2024.md",
-    "Templates/Full Note.md",
-    "Inbox/Everything Starts with a Note-taking System.md",
-    "Inbox/Linux terminal commands.md",
-    "Zettelkasten/How i write math in Obsidian.md",
+    "Inbox/Temporal GNN(TGN).md",
+    "Journal/10-2024/02-11-2024.md",
+    "Journal/10-2024/2024-13-10.md",
+    "Inbox/IPv6.md",
+    "Journal/10-2024",
+    "Inbox/attachments/Temporal Graph Networks for Deep Learning on Dynamic Graphs-4.png",
+    "Inbox/attachments/Temporal Graph Networks for Deep Learning on Dynamic Graphs-3.png",
+    "Inbox/attachments/Temporal Graph Networks for Deep Learning on Dynamic Graphs-2.png",
+    "Inbox/attachments/Temporal Graph Networks for Deep Learning on Dynamic Graphs-1.png",
+    "Inbox/attachments/Random variableZ.png",
+    "Inbox/attachments/Random variable_omega.png",
+    "Inbox/attachments/Temporal Graph Networks for Deep Learning on Dynamic Graphs.png",
+    "Excalidraw/attachments/Pasted Image 20241029135146_387.png",
+    "Excalidraw/attachments/Pasted Image 20241029135016_353.png",
+    "Excalidraw/attachments/Pasted Image 20241029135001_352.png",
     "Input/Deutsch/Input/Unterrichten",
     "Input/Deutsch/Input/Untitled",
     "Input/Deutsch/Input/Verben",
@@ -227,21 +252,12 @@
     "Input/Deutsch/Input",
     "Input/Deutsch/Verben",
     "Input/Deutsch/Untitled",
-    "Zettelkasten/Binomial Distribution.md",
-    "Inbox/Attention Is All You Need.md",
-    "Literature Notes/Single Layer of a GNN.md",
-    "Inbox/attachments/Filtering in Obsidian.png",
     "Input/Radcom",
-    "Journal/attachments/21-10-2024 kuskus.png",
-    "Literature Notes/attachments/Jensen's_Inequality_convex1.png",
-    "Pasted image 20240815140626.png",
-    "Pasted image 20240815135155.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Literature Notes/attachments",
     "Untitled 3.canvas",
-    "Journal/09-2024",
     "test canvas.canvas"
   ]
 }

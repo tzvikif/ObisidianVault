@@ -4,7 +4,7 @@
 
 Status: #in_progress
 
-Tags: #paper, #consume
+Tags: #paper
 
 # How Powerful are Graph Neural Networks GIN
 
@@ -14,7 +14,7 @@ Tags: #paper, #consume
 יש הבנה מוגבלת של מאפייני הייצוג, וכן מתי GNN פועל בצורה טובה יותר או פחות.
 המאמר מציע *theoretical framework* לניתוח היכולת של GNN לתפוס גרפים בעלי ארכיטיקרטורות שונות.
 בהמשך הם יציעו ארכיטקרטורה פשוטה שטובה לפחות כמו
-[[Weisfiler_Lehman_algorithm | Weisfeiler-Lehman graph isomorphism test]]
+[[Weisfiler_Lehman_algorithm |Weisfeiler-Lehman graph isomorphism test]]
 
 ## References
 

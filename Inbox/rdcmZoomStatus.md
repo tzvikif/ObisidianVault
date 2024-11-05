@@ -13,5 +13,9 @@ Tags: #moc
 - [x] send Nitin instruction how to create zoom session.
 - [ ] 
 
+03-11-2024
+
+- [ ] give Ran model *.ubj
+- [ ] 
 [[rdcmZoom]]
 ## References

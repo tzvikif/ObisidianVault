@@ -7,24 +7,15 @@ Status:
 Tags: 
 
 
-## Entropy
+# Entropy
 
-$$
-H(X)
-$$
-the Expectation of the "surprise" of the distribution of **Random Variable** $X$
+the *Entropy* of an *ensemble* is the average [[Shannon information content of an outcome|Shannon information content]]
+$H(X)=\displaystyle \sum_{x\in X}p(x)\cdot log_2\frac{1}{p(x)}$ bits
 
-$1/logP(x)$ is the "surprise" of event $x$ occurred. 
+*ensemble* is the [[PDF]] of the *random variable* $X$ (collection of probabilities for each outcome of $X$)
 
-![[Pasted image 20240721170028.png|400]]
+## conditional entropy:
 
-
-$P(x)$ is the probability to get x
-we go over all the value of y and get the expectation of the surprise:
-
-$H(X)=-\displaystyle \sum\limits_{x \in X}p(x)\log p(x)$
-
-conditional entropy:
 $H(X|Y)=-\displaystyle \sum\limits_{y\in Y}p(y)\displaystyle \sum\limits_{x \in X}p(x|y)\log p(x|y)$
 ## References
 

@@ -27,7 +27,7 @@ $P(x=Tails)=0.9$
 
 ![[Pasted image 20241001115752.png|500]]
 
-[[shannon information content of an outcome]] tells us how much information we gain(in bits) if an even occurred. 
+[[Shannon information content of an outcome]] tells us how much information we gain(in bits) if an even occurred. 
 from  the image above we can see that we gain more information from the *Head* event. 
 
 ### H.W

@@ -40,17 +40,17 @@ The likelihood above used a single student. How do we extend that idea to all st
 
 using the *independent* assumption we can multiply all individual probability.
 $\mathbb{}$
-$\large \mathcal{L}(y|x,\beta)=p(y_{1}|x_{1},\beta)\cdots p(y_{n}|x_{n},\beta)$
+$\mathcal{L}(y|x,\beta)=p(y_{1}|x_{1},\beta)\cdots p(y_{n}|x_{n},\beta)$
 the **goal** is to find $\beta$ such that it *maximize* $\mathcal{L}(y|x,\beta) \Leftrightarrow$ the prediction of the model will be close to the ground truth.
 
 
 for numerical stability we use *log*
-$\large \log {\mathcal{L}(y|x,\beta)}=\displaystyle \sum_{i=1}^{n} p(y_{i}|x_{i},\beta)=\displaystyle \sum_{i=1}^{n}\log e^{y_{i}\cdot\beta^{T}\cdot x_{i}}-\displaystyle \sum_{i=1}^{n}\log (1+e^{\beta^Tx_{i}})= \displaystyle \sum_{i=1}^{n}y_{i}\beta^{T}x_{i}-\displaystyle \sum_{i=1}^{n}\log (1+e^{\beta^Tx_{i}})$
+$\log {\mathcal{L}(y|x,\beta)}=$$\displaystyle \sum_{i=1}^{n} p(y_{i}|x_{i},\beta)=\displaystyle \sum_{i=1}^{n}\log e^{y_{i}\cdot\beta^{T}\cdot x_{i}}-\displaystyle \sum_{i=1}^{n}\log (1+e^{\beta^Tx_{i}})= \displaystyle \sum_{i=1}^{n}y_{i}\beta^{T}x_{i}-\displaystyle \sum_{i=1}^{n}\log (1+e^{\beta^Tx_{i}})$
 **and that's it basically!**
 ### to solve our private case model:
 in our case the model is relative simple thus we can analytically compute the $\beta$ by taking the derivatives.
 
-$\Large \frac{ \partial \log \mathcal{L} }{ \partial \beta^{T}}=\displaystyle \sum_{i=1}^{n}y_{i}x_{i}-\displaystyle \sum_{i=1}^{n}\sigma(x_{i},\beta)\cdot x_{i}=\underbrace{ \underbrace{x^{T}}_{p\times n}(\underbrace{y}_{n\times 1}-\underbrace{\sigma(x,\beta)}_{n\times 1})}_{n\times 1}$
+$\frac{ \partial \log \mathcal{L} }{ \partial \beta^{T}}=\displaystyle \sum_{i=1}^{n}y_{i}x_{i}-\displaystyle \sum_{i=1}^{n}\sigma(x_{i},\beta)\cdot x_{i}=\underbrace{ \underbrace{x^{T}}_{p\times n}(\underbrace{y}_{n\times 1}-\underbrace{\sigma(x,\beta)}_{n\times 1})}_{n\times 1}$
 S.T $\sigma(x_{i},\beta)=p(y_{i}=1|x_{i},\beta)$ 
 >why??
 

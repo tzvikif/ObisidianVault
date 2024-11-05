@@ -19,7 +19,7 @@ where $\left( \begin{array}{c} {n} \\ {k} \end{array} \right)=\frac{n!}{k!(n-k)!
 $p$ is the probability of success.
 $1-p$ is the probability of failure.
 
-$X$ is a [[random variable]]
+$X$ is a [[Random variable]]
 
 
 
