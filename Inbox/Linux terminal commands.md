@@ -14,7 +14,10 @@ mount drive *D* to folder */mnt/d*
 sudo mount -t drvfs D: /mnt/d
 ```
 
+## Directory Size
 
-
+``` shell
+du -sh <directory name>
+```
 ## References
 

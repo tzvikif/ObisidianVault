@@ -9,7 +9,7 @@ Tags: #video
 # Maximum Likelihood Estimation
 
 we want to estimate $P(\omega_{i}|x)$. e.g. given a sample data $x$ what is the probability that it belongs to class $\omega_{i}$
-we can  use [[bayes rule]].
+we can  use [[Bayes Rule]].
 first we need to learn the likelihood $\forall i, P(x|\omega_{i })$ 
 ## Salmon catfish example
 the fishes have 2 features. 
@@ -44,12 +44,12 @@ $\underset{\theta} {\mathrm{argmax}} ~p(D_{w_{k}}|\theta)=\hat{\theta_{k}}=\frac
 Which is the mean of the samples(makes sense...)
 $\hat{\theta}_{k}$ is called the *Maximum Likelihood Estimator*
 having $\hat{\theta}_{k}$ we can calculate $p(x|w_{k})$.
-to build the *classifier* based on [[bayes rule|bayes theory]] we go though this process of finding $\theta$ for each class: $p(x|\omega_{salmon}),p(x|\omega_{catfish})$
+to build the *classifier* based on [[Bayes Rule|bayes theory]] we go though this process of finding $\theta$ for each class: $p(x|\omega_{salmon}),p(x|\omega_{catfish})$
 in addition we assume we know the prior  $p(\omega_{salmon}),p(\omega_{catfish})$
 we find then : $\underset{j} {\mathrm{argmax}} ~\log[p(x|\omega_{j}]+\log[p(\omega_{j})]$
 predicting class $j$.
 
-
+a more common use for [[Maximum Likelihood Data Science Concepts(MLE)#^7c52d1|MLE]]
 ## References
 
 https://www.youtube.com/watch?v=sguol03tfWo&t=319s

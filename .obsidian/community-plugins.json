@@ -1,11 +1,11 @@
 [
   "obsidian-excalidraw-plugin",
-  "colored-text",
   "url-into-selection",
   "quick-latex",
   "obsidian-latex-suite",
   "obsidian-paste-image-rename",
   "remember-cursor-position",
   "settings-search",
-  "nldates-obsidian"
+  "nldates-obsidian",
+  "recent-files-obsidian"
 ]

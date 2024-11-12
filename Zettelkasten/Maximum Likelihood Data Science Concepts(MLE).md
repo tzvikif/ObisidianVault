@@ -8,6 +8,8 @@ Tags: #video
 
 # Maximum Likelihood Data Science Concepts(MLE)
 
+^7c52d1
+
 
 
 the problem we are going to solve is if a student will get excepted to a University he wants.

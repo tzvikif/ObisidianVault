@@ -8,6 +8,11 @@ Tags:
 
 # Git Commands
 
+- [[Git Commands#Branches|Branches]]
+- [[Git Commands#Fetch|Fetch]]
+- 
+
+
 ## Branches
 
 for local branches

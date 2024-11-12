@@ -11,7 +11,6 @@ Tags:
 [[Useful  markdown syntax in Obsidian]]
 [[How i write math in Obsidian]]
 [[Filtering in Obsidian]]
-[[My Neovim Zettelkasten Based on Obsidian]]
 
 
 ## References
