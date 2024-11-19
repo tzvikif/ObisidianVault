@@ -18,6 +18,7 @@ Tags: #moc
 
 - [[Learning over Content Consuming]]
 - [[Priming]]
+- [[Revision]]
 
 ## References
 

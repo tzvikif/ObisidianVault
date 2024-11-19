@@ -73,13 +73,24 @@ we'll show that the *entropy* is the shortest $L$
 
 Define *ideal length* $l^{*}_{i}=\log_{2} \frac{1}{p_{i}}=h_{i}$
 
-*41:00*
+someone picked a length $l_{i}$ (which can be the ideal length)
 
+that length $l_{i}$ implicitly define a  probabilty: $l_{i} \leftrightarrow q_{i}$. 
 
+$q_{i}=\frac{~2^{-l_{i}}}{z}, z=\sum_{i}~2^{-l_{i}}$ - normalization constant to summ to 1
 
+**Note**
+$z\le{1}$ for any uniquely decodable code
+$z=1$ for complete code
 
+$l_{i}=\log_{2} \frac{1}{q_{i}}-\log_{2} z$
+$L(C,X)=\displaystyle \sum_{i}p_{i}\left[ \log_{2} \frac{1}{q_{i}}-\log_{2}z \right]=$
+$\displaystyle \sum_{i}p_{i} \log_{2} \frac{1}{p_{i}}+\displaystyle \sum_{i} p_{i} \log \frac{p_{i}}{q_{i}}\underbrace{-\log_{2} z}_{\ge 0} =$
+$=H(X) + D_{KL}(p||q)$
 
+$\displaystyle \sum_{{i}}p_{i}\log \frac{p_{i}}{q_{i}}\ge 0$ - Gibbson's inequality. with equality only if $q=p$
 
+$\Rightarrow L(C,X)\ge H(X)$
 
 ## References
 
