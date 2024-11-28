@@ -4,7 +4,7 @@
 
 Status: #in_progress
 
-Tags: #video, #consume
+Tags: #video
 
 # Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes
 

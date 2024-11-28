@@ -9,6 +9,8 @@ Tags:
 
 # Entropy
 
+## Definition
+
 the *Entropy* of an *ensemble* is the average [[Shannon information content of an outcome|Shannon information content]]
 $H(X)=\displaystyle \sum_{x\in X}p(x)\cdot log_2\frac{1}{p(x)}$ bits
 

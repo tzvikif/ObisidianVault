@@ -56,8 +56,13 @@ TODO:
 send embedding omitting RSRP features
 
 **Ariel**
-rerun the model omitting RSRP
+return the model omitting RSRP
 and changed the second most important feature.
 
+### 26-11-2024
+
+handed over to   **BGU**
+- embedding for label RSRQ omitting the RSQP feature.
+- embedding for TTFB with 15, 25, 35 ,45 features.
 ## References
 

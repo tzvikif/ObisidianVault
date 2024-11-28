@@ -10,6 +10,10 @@ Tags: #consume, #video
 
 
 
+we want to use method *context-dependent adaptive probabilistic models*
+get rid of the symbol code gap L-H
+
+27:00
 ## My Questions
 
 

@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "newFileFolderPath": "Inbox",
   "attachmentFolderPath": "./attachments",
-  "vimMode": true
+  "vimMode": true,
+  "readableLineLength": true
 }

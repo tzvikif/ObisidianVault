@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"5b9d8aa99af6374e","type":"text","text":"Probability","x":-900,"y":-640,"width":250,"height":60},
-		{"id":"3c1eba4a1fda9c0c","type":"text","text":"Statistic","x":-300,"y":-670,"width":250,"height":60}
-	],
-	"edges":[]
-}
