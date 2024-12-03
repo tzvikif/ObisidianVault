@@ -6,12 +6,21 @@ Status: #in_progress
 
 Tags: #moc 
 
-# Statistics
+# Probability and Statistics
 
+## Probability
 [[EM algorithm]]
 [[Maximum Likelihood Estimation]]
 
+## Statistic
+[[spearman vs pearson]]
+[[pvalue]]
+[[multiple test problem]]
+
+
+
 ## My Questions
+
 
 
 ## References

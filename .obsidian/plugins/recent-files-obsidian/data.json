@@ -1,28 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "EM algorithm",
-      "path": "Inbox/EM algorithm.md"
-    },
-    {
-      "basename": "Statistics",
-      "path": "Inbox/Statistics.md"
-    },
-    {
-      "basename": "Learn to learn",
-      "path": "Inbox/Learn to learn.md"
-    },
-    {
-      "basename": "Graph & Geometric ML in 2024 Part I",
-      "path": "Inbox/Graph & Geometric ML in 2024 Part I.md"
+      "basename": "Lecture 5 Entropy and Data Compression",
+      "path": "Inbox/Lecture 5 Entropy and Data Compression.md"
     },
     {
       "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
       "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
     },
     {
+      "basename": "Drawing 2024-11-03 17.13.43.excalidraw",
+      "path": "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md"
+    },
+    {
+      "basename": "Temporal GNN(TGN)",
+      "path": "Inbox/Temporal GNN(TGN).md"
+    },
+    {
+      "basename": "deutsch unterricht",
+      "path": "Fleeting Notes/deutsch unterricht.md"
+    },
+    {
+      "basename": "Information theory",
+      "path": "Input/Videos/Information theory.md"
+    },
+    {
+      "basename": "02-12-2024",
+      "path": "Journal/02-12-2024.md"
+    },
+    {
+      "basename": "The ROC Curve",
+      "path": "Input/Videos/The ROC Curve.md"
+    },
+    {
+      "basename": "ROC.excalidraw",
+      "path": "Excalidraw/ROC.excalidraw.md"
+    },
+    {
+      "basename": "Useful  markdown syntax in Obsidian",
+      "path": "Inbox/Useful  markdown syntax in Obsidian.md"
+    },
+    {
+      "basename": "GNN explainability references",
+      "path": "Map Of Content/GNN explainability references.md"
+    },
+    {
+      "basename": "Daily Note",
+      "path": "Templates/Daily Note.md"
+    },
+    {
+      "basename": "30-11-2024",
+      "path": "Journal/11-2024/30-11-2024.md"
+    },
+    {
+      "basename": "24-11-2024",
+      "path": "Journal/11-2024/24-11-2024.md"
+    },
+    {
+      "basename": "03-11-2024",
+      "path": "Journal/11-2024/03-11-2024.md"
+    },
+    {
+      "basename": "05-11-2024",
+      "path": "Journal/11-2024/05-11-2024.md"
+    },
+    {
+      "basename": "Learn to learn",
+      "path": "Inbox/Learn to learn.md"
+    },
+    {
+      "basename": "28-11-2024",
+      "path": "Journal/11-2024/28-11-2024.md"
+    },
+    {
+      "basename": "Probability and Statistics",
+      "path": "Inbox/Probability and Statistics.md"
+    },
+    {
+      "basename": "27-11-2024",
+      "path": "Journal/11-2024/27-11-2024.md"
+    },
+    {
       "basename": "Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes",
       "path": "Inbox/Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes.md"
+    },
+    {
+      "basename": "EM algorithm",
+      "path": "Inbox/EM algorithm.md"
+    },
+    {
+      "basename": "Graph & Geometric ML in 2024 Part I",
+      "path": "Inbox/Graph & Geometric ML in 2024 Part I.md"
     },
     {
       "basename": "Lecture 8.2 - Training Graph Neural Networks",
@@ -49,28 +117,8 @@
       "path": "Inbox/Cross-Entropy.md"
     },
     {
-      "basename": "Useful  markdown syntax in Obsidian",
-      "path": "Inbox/Useful  markdown syntax in Obsidian.md"
-    },
-    {
       "basename": "Obsidian Cheat sheet",
       "path": "Inbox/Obsidian Cheat sheet.md"
-    },
-    {
-      "basename": "28-11-2024",
-      "path": "Journal/28-11-2024.md"
-    },
-    {
-      "basename": "Drawing 2024-11-03 17.13.43.excalidraw",
-      "path": "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md"
-    },
-    {
-      "basename": "27-11-2024",
-      "path": "Journal/27-11-2024.md"
-    },
-    {
-      "basename": "Lecture 5 Entropy and Data Compression",
-      "path": "Inbox/Lecture 5 Entropy and Data Compression.md"
     },
     {
       "basename": "rdcmTrustAI",
@@ -78,43 +126,31 @@
     },
     {
       "basename": "25-11-2024",
-      "path": "Journal/25-11-2024.md"
-    },
-    {
-      "basename": "Information theory",
-      "path": "Input/Videos/Information theory.md"
-    },
-    {
-      "basename": "24-11-2024",
-      "path": "Journal/24-11-2024.md"
+      "path": "Journal/11-2024/25-11-2024.md"
     },
     {
       "basename": "13-11-2024",
-      "path": "Journal/13-11-2024.md"
-    },
-    {
-      "basename": "05-11-2024",
-      "path": "Journal/05-11-2024.md"
+      "path": "Journal/11-2024/13-11-2024.md"
     },
     {
       "basename": "10-11-2024",
-      "path": "Journal/10-11-2024.md"
+      "path": "Journal/11-2024/10-11-2024.md"
     },
     {
       "basename": "20-11-2024",
-      "path": "Journal/20-11-2024.md"
+      "path": "Journal/11-2024/20-11-2024.md"
     },
     {
       "basename": "19-11-2024",
-      "path": "Journal/19-11-2024.md"
+      "path": "Journal/11-2024/19-11-2024.md"
     },
     {
       "basename": "17-11-2024",
-      "path": "Journal/17-11-2024.md"
+      "path": "Journal/11-2024/17-11-2024.md"
     },
     {
       "basename": "18-11-2024",
-      "path": "Journal/18-11-2024.md"
+      "path": "Journal/11-2024/18-11-2024.md"
     },
     {
       "basename": "Drawing 2024-11-18 23.00.08.excalidraw",
@@ -129,20 +165,12 @@
       "path": "Inbox/LaTex.md"
     },
     {
-      "basename": "Temporal GNN(TGN)",
-      "path": "Inbox/Temporal GNN(TGN).md"
-    },
-    {
       "basename": "Volta Solar",
       "path": "Inbox/Volta Solar.md"
     },
     {
       "basename": "Revision",
       "path": "Inbox/Revision.md"
-    },
-    {
-      "basename": "03-11-2024",
-      "path": "Journal/03-11-2024.md"
     },
     {
       "basename": "Pasted image 20240815140626",
@@ -171,22 +199,6 @@
     {
       "basename": "Pasted image 20240716173733",
       "path": "Pasted image 20240716173733.png"
-    },
-    {
-      "basename": "Pasted image 20240714123528",
-      "path": "Pasted image 20240714123528.png"
-    },
-    {
-      "basename": "Priming",
-      "path": "Inbox/Priming.md"
-    },
-    {
-      "basename": "Everything Starts with a Note-taking System",
-      "path": "Inbox/Everything Starts with a Note-taking System.md"
-    },
-    {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
     }
   ],
   "omittedPaths": [],
