@@ -11,6 +11,10 @@ Tags: #moc
 ## Probability
 [[EM algorithm]]
 [[Maximum Likelihood Estimation]]
+[[Monty Hall Problem]]
+
+### Common Distributions
+[[Normal Distribution]]
 
 ## Statistic
 [[spearman vs pearson]]

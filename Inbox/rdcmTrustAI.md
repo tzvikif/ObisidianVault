@@ -64,5 +64,54 @@ and changed the second most important feature.
 handed over to   **BGU**
 - embedding for label RSRQ omitting the RSQP feature.
 - embedding for TTFB with 15, 25, 35 ,45 features.
+
+### 05-12-2024
+
+TTFB classification *confusion matrix* from the TGN examples:
+predicting TTFB using using $features_{t_{i}}$  and $TTFB_{t_{i}}$ - **data leakage**
+[[414, 253], 
+[ 82, 275]]
+
+[[489, 240],
+[104, 191]]
+
+[[425, 270], 
+[ 74, 255]]
+
+[[414, 253], 
+[ 82, 275]]
+
+### 08-12-2024
+
+predicting $TTFB_{t_{i+1}}$ with $features_{t_{i}}$   
+
+[[209,  80],
+[ 30,  41]]
+
+[[227,  58],
+[ 30,  41]]
+
+[[212,  65],
+[ 26,  41]]
+
+[[215, 69], 
+[ 34, 41]]
+
+### Base Model vs. Classification with Embeddings
+
+**base model**
+Accuracy: 0.743  
+Preciton: 0.785  
+Recall: 0.688  
+Specificity: 0.801
+
+**embedding classifier**
+accuracy : 0.662
+precision: 0.772
+specificity: 0.772
+recall: 0.580
+
+
+
 ## References
 

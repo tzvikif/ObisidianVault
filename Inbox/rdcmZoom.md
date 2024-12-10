@@ -29,7 +29,7 @@ model *model_24102024_2118.ubj*
    2       0.91      0.92      0.92      1547
 
 ### Rakuten collected data
-
+	pred
 [[311   0   0]
  [ 96   0   0]
  [144   0   0]]

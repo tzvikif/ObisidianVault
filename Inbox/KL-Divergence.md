@@ -8,7 +8,7 @@ Tags:
 
 # KL-Divergence
 
-to quantify the difference from the observing distribution $P$ and from the believing distribution $Q$ , **omitting** the inherent surprise of the data observing $P$.
+to quantify the difference from the *observing* distribution $P$ and from the believing *distribution* $Q$ , **omitting** the inherent surprise of the data observing $P$.
 $D_{KL}=$ [[Cross-Entropy]] - [[Entropy]]
 ## Cross-Entropy
 ![[Cross-Entropy#Definition]]

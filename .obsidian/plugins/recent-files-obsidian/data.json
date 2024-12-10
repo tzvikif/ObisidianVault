@@ -1,32 +1,172 @@
 {
   "recentFiles": [
     {
-      "basename": "Lecture 5 Entropy and Data Compression",
-      "path": "Inbox/Lecture 5 Entropy and Data Compression.md"
+      "basename": "10-12-2024",
+      "path": "Journal/10-12-2024.md"
+    },
+    {
+      "basename": "Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel",
+      "path": "Inbox/Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "Drawing 2024-12-05 16.24.54.excalidraw",
+      "path": "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md"
     },
     {
       "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
       "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
     },
     {
-      "basename": "Drawing 2024-11-03 17.13.43.excalidraw",
-      "path": "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md"
+      "basename": "Probe",
+      "path": "Inbox/Probe.md"
     },
     {
-      "basename": "Temporal GNN(TGN)",
-      "path": "Inbox/Temporal GNN(TGN).md"
+      "basename": "rdcmTrustAI",
+      "path": "Inbox/rdcmTrustAI.md"
     },
     {
-      "basename": "deutsch unterricht",
-      "path": "Fleeting Notes/deutsch unterricht.md"
+      "basename": "Cross-Entropy",
+      "path": "Inbox/Cross-Entropy.md"
+    },
+    {
+      "basename": "09-12-2024",
+      "path": "Journal/09-12-2024.md"
+    },
+    {
+      "basename": "08-12-2024",
+      "path": "Journal/08-12-2024.md"
+    },
+    {
+      "basename": "Learn to learn",
+      "path": "Inbox/Learn to learn.md"
+    },
+    {
+      "basename": "mutual information",
+      "path": "Literature Notes/mutual information.md"
     },
     {
       "basename": "Information theory",
       "path": "Input/Videos/Information theory.md"
     },
     {
+      "basename": "Entropy",
+      "path": "Zettelkasten/Entropy.md"
+    },
+    {
+      "basename": "KL-Divergence",
+      "path": "Inbox/KL-Divergence.md"
+    },
+    {
+      "basename": "Lecture 1 Introduction to Information Theory",
+      "path": "Zettelkasten/Lecture 1 Introduction to Information Theory.md"
+    },
+    {
+      "basename": "Monty Hall Problem",
+      "path": "Inbox/Monty Hall Problem.md"
+    },
+    {
+      "basename": "Drawing 2024-12-08 10.27.04.excalidraw",
+      "path": "Excalidraw/Drawing 2024-12-08 10.27.04.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2024-11-13 17.27.56.excalidraw",
+      "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
+    },
+    {
+      "basename": "Probability and Statistics",
+      "path": "Inbox/Probability and Statistics.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
+    },
+    {
+      "basename": "Temporal GNN(TGN)",
+      "path": "Inbox/Temporal GNN(TGN).md"
+    },
+    {
+      "basename": "05-12-2024",
+      "path": "Journal/05-12-2024.md"
+    },
+    {
+      "basename": "Normal Distribution",
+      "path": "Inbox/Normal Distribution.md"
+    },
+    {
+      "basename": "Forecasting Principles and Practice",
+      "path": "Inbox/Forecasting Principles and Practice.md"
+    },
+    {
+      "basename": "Graph & Geometric ML in 2024 Part I",
+      "path": "Inbox/Graph & Geometric ML in 2024 Part I.md"
+    },
+    {
+      "basename": "GraphFramEx Towards Systematic Evaluation of Explainability Methods for Graph Neural Networks",
+      "path": "Inbox/GraphFramEx Towards Systematic Evaluation of Explainability Methods for Graph Neural Networks.md"
+    },
+    {
+      "basename": "Steve Butler - A short course in Spectral Graph Theory",
+      "path": "Inbox/Steve Butler - A short course in Spectral Graph Theory.md"
+    },
+    {
+      "basename": "The Ultimate Mind Map Tutorial (How To Take Notes)",
+      "path": "Inbox/The Ultimate Mind Map Tutorial (How To Take Notes).md"
+    },
+    {
+      "basename": "Theoretical Foundations of Graph Neural Networks",
+      "path": "Inbox/Theoretical Foundations of Graph Neural Networks.md"
+    },
+    {
+      "basename": "Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes",
+      "path": "Inbox/Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes.md"
+    },
+    {
+      "basename": "Maximum Likelihood Estimation",
+      "path": "Zettelkasten/Maximum Likelihood Estimation.md"
+    },
+    {
+      "basename": "Useful  markdown syntax in Obsidian",
+      "path": "Inbox/Useful  markdown syntax in Obsidian.md"
+    },
+    {
+      "basename": "Lecture 3 Entropy and Data Compression (II) Introduction to Compression, Inf Theory and Entropy",
+      "path": "Zettelkasten/Lecture 3 Entropy and Data Compression (II) Introduction to Compression, Inf Theory and Entropy.md"
+    },
+    {
+      "basename": "Random variable",
+      "path": "Inbox/Random variable.md"
+    },
+    {
+      "basename": "spectral graph convolution",
+      "path": "Inbox/spectral graph convolution.md"
+    },
+    {
+      "basename": "Spatio-temporal gnn",
+      "path": "Inbox/Spatio-temporal gnn.md"
+    },
+    {
+      "basename": "Graph Laplacian",
+      "path": "Inbox/Graph Laplacian.md"
+    },
+    {
+      "basename": "04-12-2024",
+      "path": "Journal/04-12-2024.md"
+    },
+    {
+      "basename": "rdcmZoom",
+      "path": "Inbox/rdcmZoom.md"
+    },
+    {
       "basename": "02-12-2024",
       "path": "Journal/02-12-2024.md"
+    },
+    {
+      "basename": "deutsch unterricht",
+      "path": "Fleeting Notes/deutsch unterricht.md"
     },
     {
       "basename": "The ROC Curve",
@@ -35,10 +175,6 @@
     {
       "basename": "ROC.excalidraw",
       "path": "Excalidraw/ROC.excalidraw.md"
-    },
-    {
-      "basename": "Useful  markdown syntax in Obsidian",
-      "path": "Inbox/Useful  markdown syntax in Obsidian.md"
     },
     {
       "basename": "GNN explainability references",
@@ -63,142 +199,6 @@
     {
       "basename": "05-11-2024",
       "path": "Journal/11-2024/05-11-2024.md"
-    },
-    {
-      "basename": "Learn to learn",
-      "path": "Inbox/Learn to learn.md"
-    },
-    {
-      "basename": "28-11-2024",
-      "path": "Journal/11-2024/28-11-2024.md"
-    },
-    {
-      "basename": "Probability and Statistics",
-      "path": "Inbox/Probability and Statistics.md"
-    },
-    {
-      "basename": "27-11-2024",
-      "path": "Journal/11-2024/27-11-2024.md"
-    },
-    {
-      "basename": "Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes",
-      "path": "Inbox/Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes.md"
-    },
-    {
-      "basename": "EM algorithm",
-      "path": "Inbox/EM algorithm.md"
-    },
-    {
-      "basename": "Graph & Geometric ML in 2024 Part I",
-      "path": "Inbox/Graph & Geometric ML in 2024 Part I.md"
-    },
-    {
-      "basename": "Lecture 8.2 - Training Graph Neural Networks",
-      "path": "Inbox/Lecture 8.2 - Training Graph Neural Networks.md"
-    },
-    {
-      "basename": "Theoretical Foundations of Graph Neural Networks",
-      "path": "Inbox/Theoretical Foundations of Graph Neural Networks.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "Zettelkasten/Entropy.md"
-    },
-    {
-      "basename": "Shannon information content of an outcome",
-      "path": "Zettelkasten/Shannon information content of an outcome.md"
-    },
-    {
-      "basename": "KL-Divergence",
-      "path": "Inbox/KL-Divergence.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Inbox/Cross-Entropy.md"
-    },
-    {
-      "basename": "Obsidian Cheat sheet",
-      "path": "Inbox/Obsidian Cheat sheet.md"
-    },
-    {
-      "basename": "rdcmTrustAI",
-      "path": "Inbox/rdcmTrustAI.md"
-    },
-    {
-      "basename": "25-11-2024",
-      "path": "Journal/11-2024/25-11-2024.md"
-    },
-    {
-      "basename": "13-11-2024",
-      "path": "Journal/11-2024/13-11-2024.md"
-    },
-    {
-      "basename": "10-11-2024",
-      "path": "Journal/11-2024/10-11-2024.md"
-    },
-    {
-      "basename": "20-11-2024",
-      "path": "Journal/11-2024/20-11-2024.md"
-    },
-    {
-      "basename": "19-11-2024",
-      "path": "Journal/11-2024/19-11-2024.md"
-    },
-    {
-      "basename": "17-11-2024",
-      "path": "Journal/11-2024/17-11-2024.md"
-    },
-    {
-      "basename": "18-11-2024",
-      "path": "Journal/11-2024/18-11-2024.md"
-    },
-    {
-      "basename": "Drawing 2024-11-18 23.00.08.excalidraw",
-      "path": "Excalidraw/Drawing 2024-11-18 23.00.08.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2024-11-13 17.27.56.excalidraw",
-      "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
-    },
-    {
-      "basename": "LaTex",
-      "path": "Inbox/LaTex.md"
-    },
-    {
-      "basename": "Volta Solar",
-      "path": "Inbox/Volta Solar.md"
-    },
-    {
-      "basename": "Revision",
-      "path": "Inbox/Revision.md"
-    },
-    {
-      "basename": "Pasted image 20240815140626",
-      "path": "Pasted image 20240815140626.png"
-    },
-    {
-      "basename": "Pasted image 20240815135155",
-      "path": "Pasted image 20240815135155.png"
-    },
-    {
-      "basename": "Pasted image 20240815134347",
-      "path": "Pasted image 20240815134347.png"
-    },
-    {
-      "basename": "Pasted image 20240730105917",
-      "path": "Pasted image 20240730105917.png"
-    },
-    {
-      "basename": "Pasted image 20240721170028",
-      "path": "Pasted image 20240721170028.png"
-    },
-    {
-      "basename": "Pasted image 20240721164806",
-      "path": "Pasted image 20240721164806.png"
-    },
-    {
-      "basename": "Pasted image 20240716173733",
-      "path": "Pasted image 20240716173733.png"
     }
   ],
   "omittedPaths": [],

@@ -18,6 +18,8 @@ sudo mount -t drvfs D: /mnt/d
 
 ``` shell
 du -sh <directory name>
+
+ncdu <directory>
 ```
 ## References
 

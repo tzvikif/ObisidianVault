@@ -16,6 +16,7 @@ Tags: #video
 
 [[Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes]]
 
+[[Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel]]
 
 
 ## References

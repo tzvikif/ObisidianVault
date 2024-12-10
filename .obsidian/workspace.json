@@ -13,27 +13,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Lecture 5 Entropy and Data Compression.md",
-                "mode": "preview",
+                "file": "Journal/09-12-2024.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 5 Entropy and Data Compression"
+              "title": "09-12-2024"
             }
           },
           {
-            "id": "1da9f84f955ef14c",
+            "id": "58c4b27d66a3530e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/rdcmTrustAI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rdcmTrustAI"
+            }
+          },
+          {
+            "id": "0bf6bfe25e4b9345",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2024-11-03 17.13.43.excalidraw"
+              "title": "Drawing 2024-12-05 16.24.54.excalidraw"
+            }
+          },
+          {
+            "id": "ff9c771550ad520d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/10-12-2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-12-2024"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -64,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#consu",
+                "query": "tag:#consume  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -116,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-11-18 23.00.08.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2024-11-03 17.13.43.excalidraw"
+              "title": "Backlinks for Drawing 2024-11-18 23.00.08.excalidraw"
             }
           },
           {
@@ -135,12 +164,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-11-18 23.00.08.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Drawing 2024-11-03 17.13.43.excalidraw"
+              "title": "Outgoing links from Drawing 2024-11-18 23.00.08.excalidraw"
             }
           },
           {
@@ -150,10 +179,47 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "103ce895379fa0e3",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.0000000000000002,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Drawing 2024-12-05 16.24.54.excalidraw"
             }
           },
           {
@@ -162,10 +228,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-11-18 23.00.08.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2024-11-03 17.13.43.excalidraw"
+              "title": "Outline of Drawing 2024-11-18 23.00.08.excalidraw"
             }
           }
         ],
@@ -173,7 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 663.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -188,47 +254,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1cd87b81bcc973e8",
+  "active": "ff9c771550ad520d",
   "lastOpenFiles": [
+    "Inbox/Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel.md",
+    "Journal/10-12-2024.md",
+    "Inbox/Linux terminal commands.md",
+    "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md",
     "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
-    "Excalidraw/Drawing 2024-11-03 17.13.43.excalidraw.md",
-    "Inbox/Temporal GNN(TGN).md",
-    "Fleeting Notes/deutsch unterricht.md",
-    "Input/Videos/Information theory.md",
-    "Journal/02-12-2024.md",
-    "Input/Videos/The ROC Curve.md",
-    "Excalidraw/ROC.excalidraw.md",
-    "Inbox/Useful  markdown syntax in Obsidian.md",
-    "Map Of Content/GNN explainability references.md",
-    "Templates/Daily Note.md",
-    "Journal/11-2024/30-11-2024.md",
-    "Journal/01-12-2024.md",
-    "Journal/11-2024/24-11-2024.md",
-    "Journal/11-2024/03-11-2024.md",
-    "Journal/11-2024/05-11-2024.md",
+    "Inbox/Probe.md",
+    "Inbox/rdcmTrustAI.md",
+    "Inbox/Cross-Entropy.md",
+    "Journal/09-12-2024.md",
+    "Journal/08-12-2024.md",
     "Inbox/Learn to learn.md",
-    "Journal/11-2024",
-    "Journal/11-2024/28-11-2024.md",
+    "Literature Notes/mutual information.md",
+    "Inbox/Lecture 6 Noisy Channel Coding (I) Inference and Information Measures for Noisy Channels.md",
+    "Input/Videos/Information theory.md",
+    "Literature Notes/attachments/mutual information.png",
+    "Zettelkasten/Entropy.md",
+    "Inbox/KL-Divergence.md",
+    "Zettelkasten/Lecture 1 Introduction to Information Theory.md",
+    "Inbox/Monty Hall Problem.md",
+    "Excalidraw/Drawing 2024-12-08 10.27.04.excalidraw.md",
+    "Excalidraw/attachments/Pasted Image 20241208102807_380.png",
+    "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md",
     "Inbox/Probability and Statistics.md",
-    "Inbox/Untitled.md",
-    "Journal/11-2024/27-11-2024.md",
-    "Inbox/Lecture 5 Entropy and Data Compression.md",
-    "Inbox/Lecture 4 Entropy and Data Compression (III) Shannon's Source Coding Theorem, Symbol Codes.md",
-    "Inbox/EM algorithm.md",
-    "Inbox/Graph & Geometric ML in 2024 Part I.md",
+    "Inbox/Git Commands.md",
+    "Excalidraw/ויצא.excalidraw.md",
+    "Inbox/Temporal GNN(TGN).md",
+    "Journal/05-12-2024.md",
+    "Excalidraw/A short course in Spectral Graph Theory.excalidraw.md",
+    "Excalidraw/attachments/Pasted Image 20241203134404_601.png",
+    "Excalidraw/attachments/Pasted Image 20241203134353_842.png",
+    "Excalidraw/attachments/Pasted Image 20241203134344_980.png",
+    "Excalidraw/attachments/Pasted Image 20241203134336_499.png",
+    "Excalidraw/attachments/Pasted Image 20241203133423_525.png",
+    "Excalidraw/attachments/Pasted Image 20241203133401_182.png",
+    "Excalidraw/attachments/Pasted Image 20241203133351_821.png",
+    "Excalidraw/attachments/Pasted Image 20241203133343_653.png",
+    "Journal/11-2024",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Inbox/Lecture 8.2 - Training Graph Neural Networks.md",
-    "Inbox/attachments/Cross-Entropy.png",
-    "Excalidraw/attachments/Pasted Image 20241125103104_952.png",
-    "Excalidraw/attachments/Pasted Image 20241124105444_146.png",
-    "Excalidraw/attachments/Pasted Image 20241124105259_118.png",
-    "Excalidraw/attachments/Pasted Image 20241123225204_682.png",
-    "Journal/attachments/18-11-2024-1.png",
-    "Journal/attachments/18-11-2024.png",
-    "Excalidraw/attachments/Pasted Image 20241113172811_699.png",
-    "Pasted image 20240815140626.png",
-    "Pasted image 20240815135155.png",
     "Journal/10-2024",
     "Input/Deutsch/Input/Unterrichten",
     "Input/Deutsch/Input/Untitled",
