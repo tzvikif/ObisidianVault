@@ -8,21 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1cd87b81bcc973e8",
+            "id": "58c4b27d66a3530e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/09-12-2024.md",
+                "file": "Journal/16-12-2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-12-2024"
+              "title": "16-12-2024"
             }
           },
           {
-            "id": "58c4b27d66a3530e",
+            "id": "92daf0aacb336ef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/17-12-2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "17-12-2024"
+            }
+          },
+          {
+            "id": "2a0f9e5772df368a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Learn to learn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Learn to learn"
+            }
+          },
+          {
+            "id": "2675b0060b2afede",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,33 +64,21 @@
             }
           },
           {
-            "id": "0bf6bfe25e4b9345",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-05 16.24.54.excalidraw"
-            }
-          },
-          {
-            "id": "ff9c771550ad520d",
+            "id": "b33ca50b9f95e343",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/10-12-2024.md",
+                "file": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10-12-2024"
+              "title": "Temporal Graph Networks for Deep Learning on Dynamic Graphs"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#consume  ",
+                "query": "inspi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,11 +141,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "0f70a3d4bbdff5f5",
@@ -191,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md",
+                "file": "Inbox/rdcmZoom.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,7 +236,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Drawing 2024-12-05 16.24.54.excalidraw"
+              "title": "Graph of rdcmZoom"
             }
           },
           {
@@ -228,18 +245,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-18 23.00.08.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2024-11-18 23.00.08.excalidraw"
+              "title": "Outline of Drawing 2024-12-10 16.04.08.excalidraw"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 663.5,
+    "width": 477.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -254,19 +271,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ff9c771550ad520d",
+  "active": "2a0f9e5772df368a",
   "lastOpenFiles": [
-    "Inbox/Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel.md",
-    "Journal/10-12-2024.md",
-    "Inbox/Linux terminal commands.md",
-    "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md",
+    "Journal/17-12-2024.md",
+    "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md",
     "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
-    "Inbox/Probe.md",
-    "Inbox/rdcmTrustAI.md",
-    "Inbox/Cross-Entropy.md",
-    "Journal/09-12-2024.md",
-    "Journal/08-12-2024.md",
     "Inbox/Learn to learn.md",
+    "Inbox/rdcmTrustAI.md",
+    "Journal/16-12-2024.md",
+    "Inbox/rdcmZoom.md",
+    "Inbox/Temporal GNN(TGN).md",
+    "Inbox/Linux terminal commands.md",
+    "Literature Notes/GraphLime.md",
+    "Journal/15-12-2024.md",
+    "Inbox/Probe.md",
+    "Journal/09-12-2024.md",
+    "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md",
+    "Journal/11-12-2024.md",
+    "Journal/10-12-2024.md",
+    "Inbox/Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel.md",
+    "Inbox/Cross-Entropy.md",
+    "Journal/08-12-2024.md",
     "Literature Notes/mutual information.md",
     "Inbox/Lecture 6 Noisy Channel Coding (I) Inference and Information Measures for Noisy Channels.md",
     "Input/Videos/Information theory.md",
@@ -275,15 +300,7 @@
     "Inbox/KL-Divergence.md",
     "Zettelkasten/Lecture 1 Introduction to Information Theory.md",
     "Inbox/Monty Hall Problem.md",
-    "Excalidraw/Drawing 2024-12-08 10.27.04.excalidraw.md",
     "Excalidraw/attachments/Pasted Image 20241208102807_380.png",
-    "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md",
-    "Inbox/Probability and Statistics.md",
-    "Inbox/Git Commands.md",
-    "Excalidraw/ויצא.excalidraw.md",
-    "Inbox/Temporal GNN(TGN).md",
-    "Journal/05-12-2024.md",
-    "Excalidraw/A short course in Spectral Graph Theory.excalidraw.md",
     "Excalidraw/attachments/Pasted Image 20241203134404_601.png",
     "Excalidraw/attachments/Pasted Image 20241203134353_842.png",
     "Excalidraw/attachments/Pasted Image 20241203134344_980.png",

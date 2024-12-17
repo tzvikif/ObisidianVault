@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "Learn to learn",
+      "path": "Inbox/Learn to learn.md"
+    },
+    {
+      "basename": "17-12-2024",
+      "path": "Journal/17-12-2024.md"
+    },
+    {
+      "basename": "Drawing 2024-12-10 16.04.08.excalidraw",
+      "path": "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md"
+    },
+    {
+      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
+      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
+    },
+    {
+      "basename": "rdcmTrustAI",
+      "path": "Inbox/rdcmTrustAI.md"
+    },
+    {
+      "basename": "16-12-2024",
+      "path": "Journal/16-12-2024.md"
+    },
+    {
+      "basename": "rdcmZoom",
+      "path": "Inbox/rdcmZoom.md"
+    },
+    {
+      "basename": "Temporal GNN(TGN)",
+      "path": "Inbox/Temporal GNN(TGN).md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "GraphLime",
+      "path": "Literature Notes/GraphLime.md"
+    },
+    {
+      "basename": "15-12-2024",
+      "path": "Journal/15-12-2024.md"
+    },
+    {
+      "basename": "Probe",
+      "path": "Inbox/Probe.md"
+    },
+    {
+      "basename": "09-12-2024",
+      "path": "Journal/09-12-2024.md"
+    },
+    {
+      "basename": "11-12-2024",
+      "path": "Journal/11-12-2024.md"
+    },
+    {
       "basename": "10-12-2024",
       "path": "Journal/10-12-2024.md"
     },
@@ -9,40 +65,12 @@
       "path": "Inbox/Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel.md"
     },
     {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
-      "basename": "Drawing 2024-12-05 16.24.54.excalidraw",
-      "path": "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md"
-    },
-    {
-      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
-      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
-    },
-    {
-      "basename": "Probe",
-      "path": "Inbox/Probe.md"
-    },
-    {
-      "basename": "rdcmTrustAI",
-      "path": "Inbox/rdcmTrustAI.md"
-    },
-    {
       "basename": "Cross-Entropy",
       "path": "Inbox/Cross-Entropy.md"
     },
     {
-      "basename": "09-12-2024",
-      "path": "Journal/09-12-2024.md"
-    },
-    {
       "basename": "08-12-2024",
       "path": "Journal/08-12-2024.md"
-    },
-    {
-      "basename": "Learn to learn",
-      "path": "Inbox/Learn to learn.md"
     },
     {
       "basename": "mutual information",
@@ -83,10 +111,6 @@
     {
       "basename": "Git Commands",
       "path": "Inbox/Git Commands.md"
-    },
-    {
-      "basename": "Temporal GNN(TGN)",
-      "path": "Inbox/Temporal GNN(TGN).md"
     },
     {
       "basename": "05-12-2024",
@@ -157,10 +181,6 @@
       "path": "Journal/04-12-2024.md"
     },
     {
-      "basename": "rdcmZoom",
-      "path": "Inbox/rdcmZoom.md"
-    },
-    {
       "basename": "02-12-2024",
       "path": "Journal/02-12-2024.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "GNN explainability references",
       "path": "Map Of Content/GNN explainability references.md"
-    },
-    {
-      "basename": "Daily Note",
-      "path": "Templates/Daily Note.md"
-    },
-    {
-      "basename": "30-11-2024",
-      "path": "Journal/11-2024/30-11-2024.md"
-    },
-    {
-      "basename": "24-11-2024",
-      "path": "Journal/11-2024/24-11-2024.md"
-    },
-    {
-      "basename": "03-11-2024",
-      "path": "Journal/11-2024/03-11-2024.md"
-    },
-    {
-      "basename": "05-11-2024",
-      "path": "Journal/11-2024/05-11-2024.md"
     }
   ],
   "omittedPaths": [],

@@ -97,11 +97,11 @@ predicting $TTFB_{t_{i+1}}$ with $features_{t_{i}}$
 [[215, 69], 
 [ 34, 41]]
 
-### Base Model vs. Classification with Embeddings
+### Base Model vs. Classification with Embeddings label $t_{i+1}$
 
 **base model**
 Accuracy: 0.743  
-Preciton: 0.785  
+Precision: 0.785  
 Recall: 0.688  
 Specificity: 0.801
 
@@ -110,7 +110,6 @@ accuracy : 0.662
 precision: 0.772
 specificity: 0.772
 recall: 0.580
-
 
 
 ## References

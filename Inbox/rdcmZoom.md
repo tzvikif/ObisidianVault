@@ -51,6 +51,29 @@ model *model_24102024_2118.ubj*
  [ 3 13  1]
  [69 73  0]]
 
+### 12-12-2024
+
+i got few pcaps, labels from Rakuten.
+a comparison between my code output and probe output.
+- how to handle *gtp* pcaps?
+
+
+### 15-12-2024
+
+- [x]  check ports that weren't detected  at temp\data_debug (Qosmos)
+- [x] compare # tuples
+- [ ] number of packets
+- [x] number of bytes upload / download
+- [ ] display graphs, probe and my code. number of packet and bytes in each tuple.
+
+#### Questions
+
+- why not start tuples on start of a second?
+- number of tuples in probe as the number in the code.
+
+
+
+
 
 ## References
 
