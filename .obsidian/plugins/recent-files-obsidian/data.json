@@ -1,32 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2024-12-17 16.02.06.excalidraw",
+      "path": "Excalidraw/Drawing 2024-12-17 16.02.06.excalidraw.md"
+    },
+    {
+      "basename": "Probe",
+      "path": "Inbox/Probe.md"
+    },
+    {
+      "basename": "25-12-2024",
+      "path": "Journal/25-12-2024.md"
+    },
+    {
+      "basename": "24-12-2024",
+      "path": "Journal/24-12-2024.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
+    },
+    {
       "basename": "Learn to learn",
       "path": "Inbox/Learn to learn.md"
-    },
-    {
-      "basename": "17-12-2024",
-      "path": "Journal/17-12-2024.md"
-    },
-    {
-      "basename": "Drawing 2024-12-10 16.04.08.excalidraw",
-      "path": "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md"
-    },
-    {
-      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
-      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
     },
     {
       "basename": "rdcmTrustAI",
       "path": "Inbox/rdcmTrustAI.md"
     },
     {
-      "basename": "16-12-2024",
-      "path": "Journal/16-12-2024.md"
+      "basename": "23-12-2024",
+      "path": "Journal/23-12-2024.md"
     },
     {
       "basename": "rdcmZoom",
       "path": "Inbox/rdcmZoom.md"
+    },
+    {
+      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
+      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
+    },
+    {
+      "basename": "Drawing 2024-11-13 17.27.56.excalidraw",
+      "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2024-12-10 16.04.08.excalidraw",
+      "path": "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md"
+    },
+    {
+      "basename": "Probability and Statistics",
+      "path": "Inbox/Probability and Statistics.md"
+    },
+    {
+      "basename": "19-12-2024",
+      "path": "Journal/19-12-2024.md"
+    },
+    {
+      "basename": "18-12-2024",
+      "path": "Journal/18-12-2024.md"
+    },
+    {
+      "basename": "17-12-2024",
+      "path": "Journal/17-12-2024.md"
     },
     {
       "basename": "Temporal GNN(TGN)",
@@ -43,10 +79,6 @@
     {
       "basename": "15-12-2024",
       "path": "Journal/15-12-2024.md"
-    },
-    {
-      "basename": "Probe",
-      "path": "Inbox/Probe.md"
     },
     {
       "basename": "09-12-2024",
@@ -95,22 +127,6 @@
     {
       "basename": "Monty Hall Problem",
       "path": "Inbox/Monty Hall Problem.md"
-    },
-    {
-      "basename": "Drawing 2024-12-08 10.27.04.excalidraw",
-      "path": "Excalidraw/Drawing 2024-12-08 10.27.04.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2024-11-13 17.27.56.excalidraw",
-      "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
-    },
-    {
-      "basename": "Probability and Statistics",
-      "path": "Inbox/Probability and Statistics.md"
-    },
-    {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
     },
     {
       "basename": "05-12-2024",
@@ -183,22 +199,6 @@
     {
       "basename": "02-12-2024",
       "path": "Journal/02-12-2024.md"
-    },
-    {
-      "basename": "deutsch unterricht",
-      "path": "Fleeting Notes/deutsch unterricht.md"
-    },
-    {
-      "basename": "The ROC Curve",
-      "path": "Input/Videos/The ROC Curve.md"
-    },
-    {
-      "basename": "ROC.excalidraw",
-      "path": "Excalidraw/ROC.excalidraw.md"
-    },
-    {
-      "basename": "GNN explainability references",
-      "path": "Map Of Content/GNN explainability references.md"
     }
   ],
   "omittedPaths": [],

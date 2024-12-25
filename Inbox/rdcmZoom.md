@@ -12,7 +12,8 @@ Tags: #radcom
 - where is the testset??
 	- i can split to train/test and retrain and evaluate.
 
-*24-10-2024* 
+
+## 24-10-2024
 ### lab collected data
 
 [[ 588  152   14]
@@ -35,7 +36,7 @@ model *model_24102024_2118.ubj*
  [144   0   0]]
 
 
-*27-10-2024*
+## 27-10-2024
 
 - trained *D:\zoom\nitin_22_10\train\pcaps\zoom_test2_filtered_gtp.pcapng* and tested it on *D:\zoom\nitin_22_10\test\pcaps\zoom_test3_filtered_gtp.pcapng*
 [[37  0  3]
@@ -51,14 +52,14 @@ model *model_24102024_2118.ubj*
  [ 3 13  1]
  [69 73  0]]
 
-### 12-12-2024
+## 12-12-2024
 
 i got few pcaps, labels from Rakuten.
 a comparison between my code output and probe output.
 - how to handle *gtp* pcaps?
 
 
-### 15-12-2024
+## 15-12-2024
 
 - [x]  check ports that weren't detected  at temp\data_debug (Qosmos)
 - [x] compare # tuples
@@ -66,12 +67,30 @@ a comparison between my code output and probe output.
 - [x] number of bytes upload / download
 - [ ] display graphs, probe and my code. number of packet and bytes in each tuple.
 
+
+## 17-12-2024
+
+- same raw data input to the *probe* and the *python code*. be able to explain tuple output, against the labels
+- build parser to extract features from the probe to *.csv.
+- have "same" features in the *probe* and *python code*
+- find points which illegibly Qosmos drops packets.
+- add timestamp for each feature
+- run probe on all pcaps extract features and train model.
+- check diversity of labels on Nitin output.
+
+Histogramm from the 12.12 csv files.
+i asked Nitin to try to divide the fps more evenly.
+![[rdcmZoom.png|400]]
+
 #### Questions
 
 - why not start tuples on start of a second?
 - number of tuples in probe as the number in the code.
+- figure out when Qosmos omit tuples
 
+## 24-12-2024
 
+the number of tuples and the number of features are not the same at the probe output. *Ran* is checking it.
 
 
 

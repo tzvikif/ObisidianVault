@@ -13,6 +13,7 @@ Tags: #moc
 [[Maximum Likelihood Estimation]]
 [[Monty Hall Problem]]
 
+
 ### Common Distributions
 [[Normal Distribution]]
 
@@ -25,6 +26,9 @@ Tags: #moc
 
 ## My Questions
 
+- posterior
+- latent variable
+- 
 
 
 ## References

@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "58c4b27d66a3530e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/16-12-2024.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "16-12-2024"
-            }
-          },
-          {
-            "id": "92daf0aacb336ef3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/17-12-2024.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "17-12-2024"
-            }
-          },
-          {
             "id": "2a0f9e5772df368a",
             "type": "leaf",
             "state": {
@@ -55,6 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Journal/25-12-2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "25-12-2024"
+            }
+          },
+          {
+            "id": "cf7b8a2d5adfcd82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Inbox/rdcmTrustAI.md",
                 "mode": "source",
                 "source": false
@@ -64,21 +50,33 @@
             }
           },
           {
-            "id": "b33ca50b9f95e343",
+            "id": "43065f87f747213f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-12-17 16.02.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-17 16.02.06.excalidraw"
+            }
+          },
+          {
+            "id": "47268a8c20fa9371",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
+                "file": "Inbox/Probe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Temporal Graph Networks for Deep Learning on Dynamic Graphs"
+              "title": "Probe"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inspi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +138,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "0f70a3d4bbdff5f5",
@@ -271,44 +267,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a0f9e5772df368a",
+  "active": "43065f87f747213f",
   "lastOpenFiles": [
-    "Journal/17-12-2024.md",
-    "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md",
-    "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
+    "Inbox/Probe.md",
+    "Excalidraw/Drawing 2024-12-17 16.02.06.excalidraw.md",
+    "Journal/25-12-2024.md",
+    "Journal/24-12-2024.md",
+    "Inbox/Git Commands.md",
+    "Inbox/attachments/Probe-2.png",
+    "Inbox/attachments/Probe-1.png",
     "Inbox/Learn to learn.md",
     "Inbox/rdcmTrustAI.md",
-    "Journal/16-12-2024.md",
+    "Excalidraw/attachments/Pasted Image 20241224163234_450.png",
+    "Inbox/attachments/Probe.png",
+    "Journal/23-12-2024.md",
     "Inbox/rdcmZoom.md",
+    "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
+    "Excalidraw/Drawing 2024-12-08 10.27.04.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md",
+    "Journal/21-12-2024.md",
+    "Inbox/Probability and Statistics.md",
+    "Journal/19-12-2024.md",
+    "Journal/18-12-2024.md",
+    "Excalidraw/Drawing 2024-12-17 09.39.25.excalidraw.md",
+    "Inbox/attachments/rdcmZoom.png",
+    "Journal/17-12-2024.md",
+    "Journal/16-12-2024.md",
     "Inbox/Temporal GNN(TGN).md",
     "Inbox/Linux terminal commands.md",
     "Literature Notes/GraphLime.md",
     "Journal/15-12-2024.md",
-    "Inbox/Probe.md",
     "Journal/09-12-2024.md",
     "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md",
-    "Journal/11-12-2024.md",
-    "Journal/10-12-2024.md",
-    "Inbox/Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel.md",
-    "Inbox/Cross-Entropy.md",
-    "Journal/08-12-2024.md",
-    "Literature Notes/mutual information.md",
-    "Inbox/Lecture 6 Noisy Channel Coding (I) Inference and Information Measures for Noisy Channels.md",
-    "Input/Videos/Information theory.md",
     "Literature Notes/attachments/mutual information.png",
-    "Zettelkasten/Entropy.md",
-    "Inbox/KL-Divergence.md",
-    "Zettelkasten/Lecture 1 Introduction to Information Theory.md",
-    "Inbox/Monty Hall Problem.md",
     "Excalidraw/attachments/Pasted Image 20241208102807_380.png",
     "Excalidraw/attachments/Pasted Image 20241203134404_601.png",
     "Excalidraw/attachments/Pasted Image 20241203134353_842.png",
     "Excalidraw/attachments/Pasted Image 20241203134344_980.png",
-    "Excalidraw/attachments/Pasted Image 20241203134336_499.png",
-    "Excalidraw/attachments/Pasted Image 20241203133423_525.png",
-    "Excalidraw/attachments/Pasted Image 20241203133401_182.png",
-    "Excalidraw/attachments/Pasted Image 20241203133351_821.png",
-    "Excalidraw/attachments/Pasted Image 20241203133343_653.png",
     "Journal/11-2024",
     "Untitled.canvas",
     "Untitled 1.canvas",

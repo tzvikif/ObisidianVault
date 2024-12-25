@@ -70,6 +70,17 @@ git log origin/main
 git merge origin/main
 ```
 
+## log
+
+display log locally
+``` bash
+git log --oneline --decorate --graph --pretty=format:"%h | %ad | %an: %s" --date=short
+```
+
+display log on remote *origin* and branch *master*
+``` bash
+git log origin/master --oneline
+```
 
 ## References
 
