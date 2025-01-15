@@ -111,8 +111,12 @@ precision: 0.772
 specificity: 0.772
 recall: 0.580
 
-### 23-12-2024
+### 01-01-2025
 
-- 
+- [ ] check more nodes and the influence and **consistency** and **trend** .
+- [ ] take other feature (that were not given by Ariel) and their influence on the prediction.
+- [ ] ask an expert about the features and their influence.
+- [ ] GNNExplainer - change Ariel features in the neighbors , did the node prediction change?
+- [ ] GNNExplainer - are the features the same as Ariels?
 ## References
 

@@ -17,11 +17,18 @@ sudo mount -t drvfs D: /mnt/d
 ## Directory Size
 
 ``` shell
-du -sh <directory name>
-
+du <options> <directory name>
+```
+options:
+- -a: all
+- -h: human-readable
+- -d: max-depth
+- -s: summarize
+- -time: show time of last modification of any file or directory
+- –exclude: Excludes specific directories or files from disk usage calculation based on patterns or names.
+``` bash
 ncdu <directory>
 ```
-
 ## Disks Size
 
 ``` bash

@@ -92,6 +92,39 @@ i asked Nitin to try to divide the fps more evenly.
 
 the number of tuples and the number of features are not the same at the probe output. *Ran* is checking it.
 
+## 26-12-2024
+
+i trained on:
+- Zoom_test1_11thDec_full_probe_ts_output.txt
+- Zoom_test2_11thDec_full_probe_ts_output.txt
+![[rdcmZoom-1.png]]
+
+### 29-12-2024
+
+ran probe on pcaps. and got the following output <size, name>:
+- 129K  Zoom_test1_11thDec.txt
+- 57K Zoom_test1_12thDec.txt
+- 210K Zoom_test2_11thDec.txt
+- 58K Zoom_test2_12thDec.txt
+- 0 Zoom_test3_11thDec.txt - video not detected
+- 29K Zoom_test3_12thDec.txt
+- 170K Zoom_test4_11thDec.txt
+- 22K Zoom_test4_12thDec.txt
+- 0 Zoom_test5_12thDec.txt - video not detected
+- 52K Zoom_test6_12thDec.txt
+- 0 Zoom_test7_12thDec.txt - video not detected
+- 0 Zoom_test8_12thDec.txt - video not detected
+
+
+### 30-12-2024
+- updated the already opened ticket with more pcaps.
+trained model with 11-12.12 
+
+![[rdcmZoom-2.png]]
+
+
+
+
 
 
 ## References

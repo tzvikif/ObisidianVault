@@ -4,79 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "0105cd4289ad4e60",
+        "id": "b39fa1fa5772237f",
         "type": "tabs",
         "children": [
           {
-            "id": "2a0f9e5772df368a",
+            "id": "65308984c906caba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Learn to learn.md",
+                "file": "Journal/14-01-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learn to learn"
+              "title": "14-01-2025"
             }
           },
           {
-            "id": "2675b0060b2afede",
+            "id": "c000f7651b40eb1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/25-12-2024.md",
+                "file": "Inbox/Git Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "25-12-2024"
+              "title": "Git Commands"
             }
           },
           {
-            "id": "cf7b8a2d5adfcd82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/rdcmTrustAI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "rdcmTrustAI"
-            }
-          },
-          {
-            "id": "43065f87f747213f",
+            "id": "82b65c774dc70523",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-12-17 16.02.06.excalidraw.md"
+                "file": "Excalidraw/TrustAI_demo_day.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-17 16.02.06.excalidraw"
-            }
-          },
-          {
-            "id": "47268a8c20fa9371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Probe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Probe"
+              "title": "TrustAI_demo_day.excalidraw"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#cons",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "0f70a3d4bbdff5f5",
@@ -267,44 +240,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "43065f87f747213f",
+  "active": "82b65c774dc70523",
   "lastOpenFiles": [
-    "Inbox/Probe.md",
-    "Excalidraw/Drawing 2024-12-17 16.02.06.excalidraw.md",
-    "Journal/25-12-2024.md",
-    "Journal/24-12-2024.md",
     "Inbox/Git Commands.md",
+    "Journal/14-01-2025.md",
+    "Journal/13-01-2025.md",
+    "Journal/12-2024/31-12-2024.md",
+    "Inbox/rdcmProbe.md",
+    "Excalidraw/TrustAI_demo_day.excalidraw.md",
+    "Inbox/Learn to learn.md",
+    "Journal/12-01-2025.md",
+    "Inbox/Probability and Statistics.md",
+    "Journal/12-2024/11-12-2024.md",
+    "Journal/08-01-2025.md",
+    "Journal/12-2024/23-12-2024.md",
+    "Journal/12-2024/30-12-2024.md",
+    "Journal/12-2024",
+    "Inbox/rdcmTrustAI.md",
+    "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md",
+    "Journal/12-2024/29-12-2024.md",
+    "Journal/02-01-2025.md",
+    "Excalidraw/attachments/Pasted Image 20250107104019_113.png",
+    "Journal/07-01-2025.md",
+    "Inbox/ML Planning.md",
+    "Journal/06-01-2025.md",
+    "Journal/05-01-2025.md",
+    "Inbox/Cross-Entropy.md",
+    "Inbox/Linux terminal commands.md",
+    "Inbox/rdcmZoom.md",
+    "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-17 16.02.06.excalidraw.md",
+    "Inbox/attachments/rdcmZoom-2.png",
+    "Inbox/attachments/rdcmZoom-1.png",
+    "sits",
     "Inbox/attachments/Probe-2.png",
     "Inbox/attachments/Probe-1.png",
-    "Inbox/Learn to learn.md",
-    "Inbox/rdcmTrustAI.md",
     "Excalidraw/attachments/Pasted Image 20241224163234_450.png",
     "Inbox/attachments/Probe.png",
-    "Journal/23-12-2024.md",
-    "Inbox/rdcmZoom.md",
-    "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
-    "Excalidraw/Drawing 2024-12-08 10.27.04.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md",
-    "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md",
-    "Journal/21-12-2024.md",
-    "Inbox/Probability and Statistics.md",
-    "Journal/19-12-2024.md",
-    "Journal/18-12-2024.md",
-    "Excalidraw/Drawing 2024-12-17 09.39.25.excalidraw.md",
     "Inbox/attachments/rdcmZoom.png",
-    "Journal/17-12-2024.md",
-    "Journal/16-12-2024.md",
-    "Inbox/Temporal GNN(TGN).md",
-    "Inbox/Linux terminal commands.md",
-    "Literature Notes/GraphLime.md",
-    "Journal/15-12-2024.md",
-    "Journal/09-12-2024.md",
-    "Excalidraw/Drawing 2024-12-05 16.24.54.excalidraw.md",
     "Literature Notes/attachments/mutual information.png",
     "Excalidraw/attachments/Pasted Image 20241208102807_380.png",
-    "Excalidraw/attachments/Pasted Image 20241203134404_601.png",
-    "Excalidraw/attachments/Pasted Image 20241203134353_842.png",
-    "Excalidraw/attachments/Pasted Image 20241203134344_980.png",
     "Journal/11-2024",
     "Untitled.canvas",
     "Untitled 1.canvas",
@@ -315,8 +290,6 @@
     "Input/Deutsch/Input/Videos",
     "Input/Deutsch/Input",
     "Input/Deutsch/Verben",
-    "Input/Deutsch/Untitled",
-    "Input/Radcom",
     "Untitled 2.canvas",
     "Untitled 3.canvas",
     "test canvas.canvas"

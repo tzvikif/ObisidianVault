@@ -16,14 +16,18 @@ Tags:
 ## Branches
 
 for local branches
-``` git
+``` bash
 git branch
 ```
 for remote branches
-``` git
+``` bash
 git branch -r
 ```
-
+creating remote branches
+``` bash
+$ git remote add new-remote-repo https://bitbucket.com/user/repo.git # Add remote repo to local repo config 
+$ git push <new-remote-repo> crazy-experiment~ # pushes the crazy-experiment branch to new-remote-repo
+```
 ## Fetch
 
 *git fetch* download the remote content but does not *merge* them as in *git pull*
