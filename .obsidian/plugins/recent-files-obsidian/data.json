@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "22-01-2025",
+      "path": "Journal/22-01-2025.md"
+    },
+    {
+      "basename": "21-01-2025",
+      "path": "Journal/21-01-2025.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Zettelkasten/Entropy.md"
+    },
+    {
+      "basename": "mutual information",
+      "path": "Literature Notes/mutual information.md"
+    },
+    {
       "basename": "TrustAI_demo_day.excalidraw",
       "path": "Excalidraw/TrustAI_demo_day.excalidraw.md"
     },
     {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
+      "basename": "Drawing 2024-11-13 17.27.56.excalidraw",
+      "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
     },
     {
-      "basename": "14-01-2025",
-      "path": "Journal/14-01-2025.md"
+      "basename": "18-01-2025",
+      "path": "Journal/18-01-2025.md"
+    },
+    {
+      "basename": "Drawing 2025-01-17 09.04.45.excalidraw",
+      "path": "Excalidraw/Drawing 2025-01-17 09.04.45.excalidraw.md"
+    },
+    {
+      "basename": "17-01-2025",
+      "path": "Journal/17-01-2025.md"
+    },
+    {
+      "basename": "16-01-2025",
+      "path": "Journal/16-01-2025.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
     },
     {
       "basename": "31-12-2024",
@@ -85,10 +117,6 @@
       "path": "Inbox/rdcmZoom.md"
     },
     {
-      "basename": "Drawing 2024-11-13 17.27.56.excalidraw",
-      "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
-    },
-    {
       "basename": "Drawing 2024-12-17 16.02.06.excalidraw",
       "path": "Excalidraw/Drawing 2024-12-17 16.02.06.excalidraw.md"
     },
@@ -145,16 +173,8 @@
       "path": "Journal/12-2024/08-12-2024.md"
     },
     {
-      "basename": "mutual information",
-      "path": "Literature Notes/mutual information.md"
-    },
-    {
       "basename": "Information theory",
       "path": "Input/Videos/Information theory.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "Zettelkasten/Entropy.md"
     },
     {
       "basename": "KL-Divergence",
@@ -179,22 +199,6 @@
     {
       "basename": "Forecasting Principles and Practice",
       "path": "Inbox/Forecasting Principles and Practice.md"
-    },
-    {
-      "basename": "Graph & Geometric ML in 2024 Part I",
-      "path": "Inbox/Graph & Geometric ML in 2024 Part I.md"
-    },
-    {
-      "basename": "GraphFramEx Towards Systematic Evaluation of Explainability Methods for Graph Neural Networks",
-      "path": "Inbox/GraphFramEx Towards Systematic Evaluation of Explainability Methods for Graph Neural Networks.md"
-    },
-    {
-      "basename": "Steve Butler - A short course in Spectral Graph Theory",
-      "path": "Inbox/Steve Butler - A short course in Spectral Graph Theory.md"
-    },
-    {
-      "basename": "The Ultimate Mind Map Tutorial (How To Take Notes)",
-      "path": "Inbox/The Ultimate Mind Map Tutorial (How To Take Notes).md"
     }
   ],
   "omittedPaths": [],
