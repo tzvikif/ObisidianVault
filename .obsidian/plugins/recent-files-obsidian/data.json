@@ -1,12 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "30-01-2025",
+      "path": "Journal/30-01-2025.md"
+    },
+    {
+      "basename": "rdcmZoom",
+      "path": "Inbox/rdcmZoom.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
+    },
+    {
+      "basename": "29-01-2025",
+      "path": "Journal/29-01-2025.md"
+    },
+    {
+      "basename": "Understanding Deep Learning",
+      "path": "Inbox/Understanding Deep Learning.md"
+    },
+    {
+      "basename": "Drawing 2025-01-23 17.04.56.excalidraw",
+      "path": "Excalidraw/Drawing 2025-01-23 17.04.56.excalidraw.md"
+    },
+    {
+      "basename": "LaTex",
+      "path": "Inbox/LaTex.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "23-01-2025",
+      "path": "Journal/23-01-2025.md"
+    },
+    {
+      "basename": "Pasted image 20240714123528",
+      "path": "Pasted image 20240714123528.png"
+    },
+    {
+      "basename": "Pasted image 20240716172032",
+      "path": "Pasted image 20240716172032.png"
+    },
+    {
+      "basename": "Pasted image 20240716172946",
+      "path": "Pasted image 20240716172946.png"
+    },
+    {
+      "basename": "Pasted image 20240716165411",
+      "path": "Pasted image 20240716165411.png"
+    },
+    {
       "basename": "22-01-2025",
       "path": "Journal/22-01-2025.md"
     },
     {
-      "basename": "21-01-2025",
-      "path": "Journal/21-01-2025.md"
+      "basename": "05-01-2025",
+      "path": "Journal/05-01-2025.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Inbox/Untitled.md"
+    },
+    {
+      "basename": "pcap1_conversation",
+      "path": "Journal/attachments/pcap1_conversation.png"
+    },
+    {
+      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
+      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
+    },
+    {
+      "basename": "TrustAI_demo_day.excalidraw",
+      "path": "Excalidraw/TrustAI_demo_day.excalidraw.md"
+    },
+    {
+      "basename": "Theoretical Foundations of Graph Neural Networks",
+      "path": "Inbox/Theoretical Foundations of Graph Neural Networks.md"
     },
     {
       "basename": "Entropy",
@@ -17,32 +89,12 @@
       "path": "Literature Notes/mutual information.md"
     },
     {
-      "basename": "TrustAI_demo_day.excalidraw",
-      "path": "Excalidraw/TrustAI_demo_day.excalidraw.md"
-    },
-    {
       "basename": "Drawing 2024-11-13 17.27.56.excalidraw",
       "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
     },
     {
-      "basename": "18-01-2025",
-      "path": "Journal/18-01-2025.md"
-    },
-    {
       "basename": "Drawing 2025-01-17 09.04.45.excalidraw",
       "path": "Excalidraw/Drawing 2025-01-17 09.04.45.excalidraw.md"
-    },
-    {
-      "basename": "17-01-2025",
-      "path": "Journal/17-01-2025.md"
-    },
-    {
-      "basename": "16-01-2025",
-      "path": "Journal/16-01-2025.md"
-    },
-    {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
     },
     {
       "basename": "31-12-2024",
@@ -85,36 +137,12 @@
       "path": "Journal/12-2024/29-12-2024.md"
     },
     {
-      "basename": "02-01-2025",
-      "path": "Journal/02-01-2025.md"
-    },
-    {
-      "basename": "07-01-2025",
-      "path": "Journal/07-01-2025.md"
-    },
-    {
       "basename": "ML Planning",
       "path": "Inbox/ML Planning.md"
     },
     {
-      "basename": "06-01-2025",
-      "path": "Journal/06-01-2025.md"
-    },
-    {
-      "basename": "05-01-2025",
-      "path": "Journal/05-01-2025.md"
-    },
-    {
       "basename": "Cross-Entropy",
       "path": "Inbox/Cross-Entropy.md"
-    },
-    {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
-      "basename": "rdcmZoom",
-      "path": "Inbox/rdcmZoom.md"
     },
     {
       "basename": "Drawing 2024-12-17 16.02.06.excalidraw",
@@ -123,10 +151,6 @@
     {
       "basename": "The ROC Curve",
       "path": "Input/Videos/The ROC Curve.md"
-    },
-    {
-      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
-      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
     },
     {
       "basename": "Temporal GNN(TGN)",
@@ -155,50 +179,6 @@
     {
       "basename": "15-12-2024",
       "path": "Journal/12-2024/15-12-2024.md"
-    },
-    {
-      "basename": "09-12-2024",
-      "path": "Journal/12-2024/09-12-2024.md"
-    },
-    {
-      "basename": "10-12-2024",
-      "path": "Journal/12-2024/10-12-2024.md"
-    },
-    {
-      "basename": "Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel",
-      "path": "Inbox/Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel.md"
-    },
-    {
-      "basename": "08-12-2024",
-      "path": "Journal/12-2024/08-12-2024.md"
-    },
-    {
-      "basename": "Information theory",
-      "path": "Input/Videos/Information theory.md"
-    },
-    {
-      "basename": "KL-Divergence",
-      "path": "Inbox/KL-Divergence.md"
-    },
-    {
-      "basename": "Lecture 1 Introduction to Information Theory",
-      "path": "Zettelkasten/Lecture 1 Introduction to Information Theory.md"
-    },
-    {
-      "basename": "Monty Hall Problem",
-      "path": "Inbox/Monty Hall Problem.md"
-    },
-    {
-      "basename": "05-12-2024",
-      "path": "Journal/12-2024/05-12-2024.md"
-    },
-    {
-      "basename": "Normal Distribution",
-      "path": "Inbox/Normal Distribution.md"
-    },
-    {
-      "basename": "Forecasting Principles and Practice",
-      "path": "Inbox/Forecasting Principles and Practice.md"
     }
   ],
   "omittedPaths": [],

@@ -123,6 +123,17 @@ trained model with 11-12.12
 ![[rdcmZoom-2.png]]
 
 
+### 29-01-2025
+zoom_test6_27thDec.pcap
+![[rdcmZoom-5.png]]
+ipv4 + ipv6 using 8801
+
+zoom_test5_27thDec.pcap
+![[rdcmZoom-6.png]]
+zoom bytes > tunneling ??
+same in zoom_test7_27thDec.pcap
+
+### 30-01-2025
 
 
 
