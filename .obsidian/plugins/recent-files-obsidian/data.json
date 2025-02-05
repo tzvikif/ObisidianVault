@@ -1,40 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "30-01-2025",
-      "path": "Journal/30-01-2025.md"
+      "basename": "05-02-2025",
+      "path": "Journal/05-02-2025.md"
     },
     {
-      "basename": "rdcmZoom",
-      "path": "Inbox/rdcmZoom.md"
+      "basename": "rdcmProbe",
+      "path": "Inbox/rdcmProbe.md"
     },
     {
       "basename": "Git Commands",
       "path": "Inbox/Git Commands.md"
     },
     {
-      "basename": "29-01-2025",
-      "path": "Journal/29-01-2025.md"
+      "basename": "04-02-2025",
+      "path": "Journal/04-02-2025.md"
     },
     {
-      "basename": "Understanding Deep Learning",
-      "path": "Inbox/Understanding Deep Learning.md"
+      "basename": "rdcmZoom",
+      "path": "Inbox/rdcmZoom.md"
+    },
+    {
+      "basename": "05-01-2025",
+      "path": "Journal/01-2025/05-01-2025.md"
+    },
+    {
+      "basename": "22-01-2025",
+      "path": "Journal/01-2025/22-01-2025.md"
     },
     {
       "basename": "Drawing 2025-01-23 17.04.56.excalidraw",
       "path": "Excalidraw/Drawing 2025-01-23 17.04.56.excalidraw.md"
     },
     {
+      "basename": "23-01-2025",
+      "path": "Journal/01-2025/23-01-2025.md"
+    },
+    {
+      "basename": "29-01-2025",
+      "path": "Journal/01-2025/29-01-2025.md"
+    },
+    {
+      "basename": "31-01-2025",
+      "path": "Journal/01-2025/31-01-2025.md"
+    },
+    {
+      "basename": "01-02-2025",
+      "path": "Journal/01-02-2025.md"
+    },
+    {
+      "basename": "30-01-2025",
+      "path": "Journal/01-2025/30-01-2025.md"
+    },
+    {
+      "basename": "02-02-2025",
+      "path": "Journal/02-02-2025.md"
+    },
+    {
+      "basename": "03-02-2025",
+      "path": "Journal/03-02-2025.md"
+    },
+    {
       "basename": "LaTex",
       "path": "Inbox/LaTex.md"
     },
     {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
+      "basename": "Learn to learn",
+      "path": "Inbox/Learn to learn.md"
     },
     {
-      "basename": "23-01-2025",
-      "path": "Journal/23-01-2025.md"
+      "basename": "Understanding Deep Learning",
+      "path": "Inbox/Understanding Deep Learning.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
     },
     {
       "basename": "Pasted image 20240714123528",
@@ -51,14 +91,6 @@
     {
       "basename": "Pasted image 20240716165411",
       "path": "Pasted image 20240716165411.png"
-    },
-    {
-      "basename": "22-01-2025",
-      "path": "Journal/22-01-2025.md"
-    },
-    {
-      "basename": "05-01-2025",
-      "path": "Journal/05-01-2025.md"
     },
     {
       "basename": "Untitled",
@@ -99,14 +131,6 @@
     {
       "basename": "31-12-2024",
       "path": "Journal/12-2024/31-12-2024.md"
-    },
-    {
-      "basename": "rdcmProbe",
-      "path": "Inbox/rdcmProbe.md"
-    },
-    {
-      "basename": "Learn to learn",
-      "path": "Inbox/Learn to learn.md"
     },
     {
       "basename": "Drawing 2025-01-13 09.07.18.excalidraw",
@@ -175,10 +199,6 @@
     {
       "basename": "GraphLime",
       "path": "Literature Notes/GraphLime.md"
-    },
-    {
-      "basename": "15-12-2024",
-      "path": "Journal/12-2024/15-12-2024.md"
     }
   ],
   "omittedPaths": [],
