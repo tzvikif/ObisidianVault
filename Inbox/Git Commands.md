@@ -10,9 +10,13 @@ Tags:
 
 - [[Git Commands#Branches|Branches]]
 - [[Git Commands#Fetch|Fetch]]
+- [[Git Commands#Log|Log]]
 - 
 
-
+## Under the hood
+*./.git/objects* directory stores all the commits (local and remote)
+*./.git/refs/heads/* stores **local** branches
+*./.git/refs/remotes/* stored **remote** branches
 ## Branches
 
 for local branches
@@ -32,49 +36,69 @@ $ git push <new-remote-repo> crazy-experiment~ # pushes the crazy-experim
 
 *git fetch* download the remote content but does not *merge* them as in *git pull*
 
-### Under the hood
-*./.git/objects* directory stores all the commits (local and remote)
-*./.git/refs/heads/* stores **local** branches
-*./.git/refs/remotes/* stored **remote** branches
-
 ```
 git fetch <remote> <branch>
 ```
 example
-```
+``` bash
 git fetch origin
-
-a1e8fb5..45e66a4 main -> origin/main
-a1e8fb5..9e8ab1c develop -> origin/develop 
-* [new branch] some-feature -> origin/some-feature
+# current commit a1e8fb5 
+a1e8fb5..45e66a4 main -> origin/main # fetching newest commit for branch origin/main 45e66a4
+a1e8fb5..9e8ab1c develop -> origin/develop # fetching newest commit for branch origin/develop 9e8ab1c
+* [new branch] some-feature -> origin/some-feature # new branch named origin/some-feature
 ```
-
 ### inspect what we have fetched
-first we *fetch*
+#### Commits
+display from my current commit(excluded) to recently fetched commit
+``` bash
+# currenly in branch zoom_offload_by_port
+git log --oneline HEAD..origin/zoom_offload_by_port
+# or more simply
+git log HEAD..FETCH_HEAD
+# to see the actual differences (the patches/changes) add -p
+git log -p HEAD..origin/zoom_offload_by_port
+# summary of changes
+git diff HEAD origin/zoom_offload_by_port
 ```
-git fetch coworkers_repo coworkers/feature_branch fetching coworkers/feature_branch
+
+``` bash
+git log -p HEAD..origin/zoom_offload_by_port
+```
+first we *fetch* 
+``` bash
+# fetch specific branch
+git fetch origin zoom_offload_by_port 
 ```
 then we inspect (detached HEAD)
-```
-git checkout coworkers/feature_branch
+``` bash
+git checkout origin/zoom_offload_by_port
 ```
 ### Synchronize origin with git fetch
 
-![[Git Commands fetch.png]]
-
-to view commit that were added to the *upstream main*
-```
-git log --oneline main..origin/main
-```
-
 to approve the changes
+``` bash
+# check out to zoom_offload_by_port if needed
+git checkout zoom_offload_by_port 
+git merge origin/zoom_offload_by_port
 ```
-git checkout main 
-git log origin/main
-git merge origin/main
+#### problems with merge
+``` bash
+error: Your local changes to the following files would be overwritten by merge:
+        source/processes/hpagidecoder/hpagidecoderimpl/CrLearningKpiMngr.cpp
+Please commit your changes or stash them before you merge.
+```
+To inspect the local changes in that file that would be overwritten
+``` bash
+git diff source/processes/hpagidecoder/hpagidecoderimpl/CrLearningKpiMngr.cpp
+# to see conflict in that file
+git diff HEAD..FETCH_HEAD source/processes/hpagidecoder/hpagidecoderimpl/CrLearningKpiMngr.cpp
 ```
 
-## log
+you can 
+- [[Git Commands#Commit|Commit]]
+- [[Git Commands#Stash|Stash]]
+- [[Git Commands#Checkout|Discard changes]]
+## Log
 
 display log locally
 ``` bash
@@ -85,6 +109,37 @@ display log on remote *origin* and branch *master*
 ``` bash
 git log origin/master --oneline
 ```
+
+## Tracking
+
+The most direct way - shows the current branch and its tracking info
+``` bash
+git branch -vv
+```
+
+For more detailed information about the current branch only
+``` bash
+git status -sb
+# or
+git rev-parse --abbrev-ref --symbolic-full-name @{u}
+```
+
+To see all tracking relationships for all branches
+``` bash
+git remote show origin
+```
+
+
+## Stash
+
+## Commit
+
+## Checkout
+
+``` bash
+git checkout -- source/processes/hpagidecoder/hpagidecoderimpl/CrLearningKpiMngr.cpp
+```
+
 
 ## References
 

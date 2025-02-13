@@ -8,6 +8,12 @@ Tags:
 
 # Linux terminal commands
 
+[[Linux terminal commands#Directory Size|Directory size]]
+[[Linux terminal commands#Disks Size|Disk size]]
+[[Linux terminal commands#awk|awk]]
+[[Linux terminal commands#find|find]]
+[[Linux terminal commands#keep running after logout|keep running after logout]]
+
 
 mount drive *D* to folder */mnt/d*
 ``` bash
@@ -99,6 +105,100 @@ tarun 15000
 deepak 23000  
 sunil 13000  
 satvik 80000
+
+## find
+
+find by file name
+``` bash
+# Find files with .txt extension 
+find . -name "*.txt"
+# Case insensitive search
+find . -iname "*.txt"
+# Using regex 
+# all the files zoom_test10_27thDec.txt - zoom_test99_27thDec.txt
+find . -regextype posix-extended -regex ".*/zoom_test[0-9]{2}_27thDec\.txt"
+```
+### Notes
+".*/" matches any directory path (including none)
+
+find by type
+``` bash
+# Find only files 
+find . -type f
+# Find only directories 
+find . -type d
+# Find symbolic links 
+find . -type l
+```
+
+find by size
+``` bash
+# Files larger than 100MB 
+find . -size +100M 
+# Files smaller than 100KB 
+find . -size -100k
+```
+Find with multiple conditions
+``` bash
+# Find .txt files OR .pdf files 
+find . \( -name "*.txt" -o -name "*.pdf" \) 
+# Find files AND directories 
+find . -name "*.txt" -type f -and -size +1M
+```
+Find and execute commands
+``` bash
+# Delete all .tmp files 
+find . -name "*.tmp" -exec rm {} \; 
+# Move all .pdf files to /documents 
+find . -name "*.pdf" -exec mv {} /documents \; 
+# Change permissions 
+find . -type f -exec chmod 644 {} \;
+```
+Count specific file types (e.g., .txt files)
+``` bash
+find . -type f -name "*.txt" | wc -l
+# Count files in current directory only (no subdirectories)
+find . -maxdepth 1 -type f | wc -l
+```
+Find and exclude directories
+``` bash
+# Exclude 'node_modules' directory 
+find . -not -path "./node_modules/*" 
+# Multiple exclusions 
+find . -not \( -path "./node_modules/*" -o -path "./dist/*" \)
+```
+Find empty files or directories
+``` bash
+# Empty files 
+find . -type f -empty 
+# Empty directories 
+find . -type d -empty
+```
+find with depth constraints
+``` bash
+# Only current directory 
+find . -maxdepth 1 
+# Up to 2 levels deep 
+find . -maxdepth 2 -name "*.txt"
+```
+## keep running after logout
+
+``` bash
+nohup ./script.sh &
+# Custom output file
+nohup ./script.sh > output.log 2>&1 &
+# Check if process is still running
+ps aux | grep script.sh
+```
+### Notes
+`> output.log`: Redirects standard output (stdout) to output.log
+`2>&1`:
+- `2` refers to stderr (standard error)
+- `>&1` means "redirect to where 1 (stdout) is pointing"
+- So stderr is redirected to the same place as stdout (output.log)
+`&` at the end: Runs the process in the background
+
+
 
 ## References
 

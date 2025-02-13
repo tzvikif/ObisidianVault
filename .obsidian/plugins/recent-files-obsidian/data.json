@@ -1,64 +1,144 @@
 {
   "recentFiles": [
     {
-      "basename": "05-02-2025",
-      "path": "Journal/05-02-2025.md"
+      "basename": "13-02-2025",
+      "path": "Journal/13-02-2025.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "Drawing 2025-02-09 13.50.38.excalidraw",
+      "path": "Excalidraw/Drawing 2025-02-09 13.50.38.excalidraw.md"
     },
     {
       "basename": "rdcmProbe",
       "path": "Inbox/rdcmProbe.md"
     },
     {
+      "basename": "11-02-2025",
+      "path": "Journal/11-02-2025.md"
+    },
+    {
       "basename": "Git Commands",
       "path": "Inbox/Git Commands.md"
-    },
-    {
-      "basename": "04-02-2025",
-      "path": "Journal/04-02-2025.md"
-    },
-    {
-      "basename": "rdcmZoom",
-      "path": "Inbox/rdcmZoom.md"
-    },
-    {
-      "basename": "05-01-2025",
-      "path": "Journal/01-2025/05-01-2025.md"
     },
     {
       "basename": "22-01-2025",
       "path": "Journal/01-2025/22-01-2025.md"
     },
     {
-      "basename": "Drawing 2025-01-23 17.04.56.excalidraw",
-      "path": "Excalidraw/Drawing 2025-01-23 17.04.56.excalidraw.md"
+      "basename": "Normal Distribution",
+      "path": "Inbox/Normal Distribution.md"
+    },
+    {
+      "basename": "Pasted image 20240730105440",
+      "path": "Pasted image 20240730105440.png"
+    },
+    {
+      "basename": "Pasted image 20240730105336",
+      "path": "Pasted image 20240730105336.png"
+    },
+    {
+      "basename": "Pasted image 20240721170028",
+      "path": "Pasted image 20240721170028.png"
+    },
+    {
+      "basename": "Pasted image 20240721165338",
+      "path": "Pasted image 20240721165338.png"
+    },
+    {
+      "basename": "Pasted image 20240721164806",
+      "path": "Pasted image 20240721164806.png"
+    },
+    {
+      "basename": "Pasted image 20240716181009",
+      "path": "Pasted image 20240716181009.png"
+    },
+    {
+      "basename": "Pasted image 20240716180914",
+      "path": "Pasted image 20240716180914.png"
+    },
+    {
+      "basename": "Pasted image 20240716172946",
+      "path": "Pasted image 20240716172946.png"
+    },
+    {
+      "basename": "Pasted image 20240716172032",
+      "path": "Pasted image 20240716172032.png"
+    },
+    {
+      "basename": "Pasted image 20240716171852",
+      "path": "Pasted image 20240716171852.png"
+    },
+    {
+      "basename": "Pasted image 20240716165411",
+      "path": "Pasted image 20240716165411.png"
+    },
+    {
+      "basename": "Pasted image 20240714123528",
+      "path": "Pasted image 20240714123528.png"
     },
     {
       "basename": "23-01-2025",
       "path": "Journal/01-2025/23-01-2025.md"
     },
     {
-      "basename": "29-01-2025",
-      "path": "Journal/01-2025/29-01-2025.md"
-    },
-    {
       "basename": "31-01-2025",
       "path": "Journal/01-2025/31-01-2025.md"
-    },
-    {
-      "basename": "01-02-2025",
-      "path": "Journal/01-02-2025.md"
     },
     {
       "basename": "30-01-2025",
       "path": "Journal/01-2025/30-01-2025.md"
     },
     {
-      "basename": "02-02-2025",
-      "path": "Journal/02-02-2025.md"
-    },
-    {
       "basename": "03-02-2025",
       "path": "Journal/03-02-2025.md"
+    },
+    {
+      "basename": "10-02-2025",
+      "path": "Journal/10-02-2025.md"
+    },
+    {
+      "basename": "rdcmZoom",
+      "path": "Inbox/rdcmZoom.md"
+    },
+    {
+      "basename": "09-02-2025",
+      "path": "Journal/09-02-2025.md"
+    },
+    {
+      "basename": "06-02-2025",
+      "path": "Journal/06-02-2025.md"
+    },
+    {
+      "basename": "05-02-2025",
+      "path": "Journal/05-02-2025.md"
+    },
+    {
+      "basename": "04-02-2025",
+      "path": "Journal/04-02-2025.md"
+    },
+    {
+      "basename": "05-01-2025",
+      "path": "Journal/01-2025/05-01-2025.md"
+    },
+    {
+      "basename": "Drawing 2025-01-23 17.04.56.excalidraw",
+      "path": "Excalidraw/Drawing 2025-01-23 17.04.56.excalidraw.md"
+    },
+    {
+      "basename": "29-01-2025",
+      "path": "Journal/01-2025/29-01-2025.md"
+    },
+    {
+      "basename": "01-02-2025",
+      "path": "Journal/01-02-2025.md"
+    },
+    {
+      "basename": "02-02-2025",
+      "path": "Journal/02-02-2025.md"
     },
     {
       "basename": "LaTex",
@@ -71,26 +151,6 @@
     {
       "basename": "Understanding Deep Learning",
       "path": "Inbox/Understanding Deep Learning.md"
-    },
-    {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
-      "basename": "Pasted image 20240714123528",
-      "path": "Pasted image 20240714123528.png"
-    },
-    {
-      "basename": "Pasted image 20240716172032",
-      "path": "Pasted image 20240716172032.png"
-    },
-    {
-      "basename": "Pasted image 20240716172946",
-      "path": "Pasted image 20240716172946.png"
-    },
-    {
-      "basename": "Pasted image 20240716165411",
-      "path": "Pasted image 20240716165411.png"
     },
     {
       "basename": "Untitled",
@@ -139,66 +199,6 @@
     {
       "basename": "Probability and Statistics",
       "path": "Inbox/Probability and Statistics.md"
-    },
-    {
-      "basename": "23-12-2024",
-      "path": "Journal/12-2024/23-12-2024.md"
-    },
-    {
-      "basename": "30-12-2024",
-      "path": "Journal/12-2024/30-12-2024.md"
-    },
-    {
-      "basename": "rdcmTrustAI",
-      "path": "Inbox/rdcmTrustAI.md"
-    },
-    {
-      "basename": "Drawing 2024-12-10 16.04.08.excalidraw",
-      "path": "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md"
-    },
-    {
-      "basename": "29-12-2024",
-      "path": "Journal/12-2024/29-12-2024.md"
-    },
-    {
-      "basename": "ML Planning",
-      "path": "Inbox/ML Planning.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Inbox/Cross-Entropy.md"
-    },
-    {
-      "basename": "Drawing 2024-12-17 16.02.06.excalidraw",
-      "path": "Excalidraw/Drawing 2024-12-17 16.02.06.excalidraw.md"
-    },
-    {
-      "basename": "The ROC Curve",
-      "path": "Input/Videos/The ROC Curve.md"
-    },
-    {
-      "basename": "Temporal GNN(TGN)",
-      "path": "Inbox/Temporal GNN(TGN).md"
-    },
-    {
-      "basename": "24-12-2024",
-      "path": "Journal/12-2024/24-12-2024.md"
-    },
-    {
-      "basename": "19-12-2024",
-      "path": "Journal/12-2024/19-12-2024.md"
-    },
-    {
-      "basename": "18-12-2024",
-      "path": "Journal/12-2024/18-12-2024.md"
-    },
-    {
-      "basename": "17-12-2024",
-      "path": "Journal/12-2024/17-12-2024.md"
-    },
-    {
-      "basename": "GraphLime",
-      "path": "Literature Notes/GraphLime.md"
     }
   ],
   "omittedPaths": [],

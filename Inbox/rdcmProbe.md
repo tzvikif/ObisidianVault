@@ -43,7 +43,10 @@ data_debug_enabled="yes"
 </dpi_flow_detection>
 ```
 
-
+resets xmls
+``` bash
+sh hostinstallhelper.sh swoffline
+```
 ## My Questions
 
 

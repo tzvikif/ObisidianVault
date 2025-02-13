@@ -133,9 +133,30 @@ zoom_test5_27thDec.pcap
 zoom bytes > tunneling ??
 same in zoom_test7_27thDec.pcap
 
-### 30-01-2025
+### 06-02-2025
 
+#### browsing on cell phone
+``` bash
+npm install -g local-ssl-proxy
 
+http-serve -p 3000 .
+local-ssl-proxy --source 3001 --target 3000
+
+local-ssl-proxy --source 8766 --target 8765
+python websocketSrv.py -folder <output_folder_name>
+```
+
+**Notes**
+use https and port 3001:
+``` javascript
+https://<CDN_machine_ip>:3001/meeting.html...
+```
+
+in meeting.js
+use wss:
+``` javascript
+const webSocketUrl = 'wss://<webSocket_ip>:8766';
+```
 
 
 ## References
