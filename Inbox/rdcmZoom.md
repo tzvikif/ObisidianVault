@@ -158,6 +158,21 @@ use wss:
 const webSocketUrl = 'wss://<webSocket_ip>:8766';
 ```
 
+### 16-02-2025
+
+I have probe output from 12th, 23th, 27th December.
+53 files. 41 of them are not empty.
+1. train 80/20 train/test. 
+2. make the test of separate pcaps. 37 for training and 4 for testing.
+
+#### 80/20
+![[rdcmZoom-7.png]]
+
+
+
+
+
+
 
 ## References
 

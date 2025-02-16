@@ -42,8 +42,17 @@ https://youtube.com/shorts/aPj7G2331PQ?si=RJaVujPTVTGDTU99
 	3. Write it out, by hand
 
 
+## Use AI 
+Prompts:
+- **Socratic Questioning**: "Act as a Socratic tutor and help me understand the concept of [topic]. Ask me questions to guide my understanding." 
+- **Multi-Level Explanations**: "Explain [concept] to me as if I’m a child, then a high schooler, and finally an academic." 
+- **Practice Questions**: "Create practice questions for me on [topic] at beginner, intermediate, and advanced levels." 
+- **Summarizing and Comparing**: "Summarize this paper and list the key concepts. Then compare it to my summary and identify any gaps." 
+- **Key Terms and Categories**: "Give me a list of 20 key terms in this paper and break them into five categories." 
+- **Bloom’s Taxonomy Challenges**: "Create a set of challenges for me to apply Bloom’s taxonomy (remember, understand, apply, analyze, evaluate, create) to [topic]." 
+- **Analogies and Real-Life Examples**: "Provide analogies and real-life examples to help me understand [concept]."
 
-
+Reference: https://www.youtube.com/watch?v=TPLPpz6dD3A&t=313s
 
 ## References
 

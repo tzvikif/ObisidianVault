@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "13-02-2025",
-      "path": "Journal/13-02-2025.md"
+      "basename": "Learn to learn",
+      "path": "Inbox/Learn to learn.md"
     },
     {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
+      "basename": "The ROC Curve",
+      "path": "Input/Videos/The ROC Curve.md"
+    },
+    {
+      "basename": "rdcmZoom",
+      "path": "Inbox/rdcmZoom.md"
+    },
+    {
+      "basename": "16-02-2025",
+      "path": "Journal/16-02-2025.md"
     },
     {
       "basename": "Drawing 2025-02-09 13.50.38.excalidraw",
       "path": "Excalidraw/Drawing 2025-02-09 13.50.38.excalidraw.md"
     },
     {
-      "basename": "rdcmProbe",
-      "path": "Inbox/rdcmProbe.md"
+      "basename": "15-02-2025",
+      "path": "Journal/15-02-2025.md"
     },
     {
-      "basename": "11-02-2025",
-      "path": "Journal/11-02-2025.md"
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
     },
     {
       "basename": "Git Commands",
@@ -27,6 +35,14 @@
     {
       "basename": "22-01-2025",
       "path": "Journal/01-2025/22-01-2025.md"
+    },
+    {
+      "basename": "rdcmProbe",
+      "path": "Inbox/rdcmProbe.md"
+    },
+    {
+      "basename": "11-02-2025",
+      "path": "Journal/11-02-2025.md"
     },
     {
       "basename": "Normal Distribution",
@@ -101,10 +117,6 @@
       "path": "Journal/10-02-2025.md"
     },
     {
-      "basename": "rdcmZoom",
-      "path": "Inbox/rdcmZoom.md"
-    },
-    {
       "basename": "09-02-2025",
       "path": "Journal/09-02-2025.md"
     },
@@ -143,10 +155,6 @@
     {
       "basename": "LaTex",
       "path": "Inbox/LaTex.md"
-    },
-    {
-      "basename": "Learn to learn",
-      "path": "Inbox/Learn to learn.md"
     },
     {
       "basename": "Understanding Deep Learning",
@@ -191,14 +199,6 @@
     {
       "basename": "31-12-2024",
       "path": "Journal/12-2024/31-12-2024.md"
-    },
-    {
-      "basename": "Drawing 2025-01-13 09.07.18.excalidraw",
-      "path": "Excalidraw/Drawing 2025-01-13 09.07.18.excalidraw.md"
-    },
-    {
-      "basename": "Probability and Statistics",
-      "path": "Inbox/Probability and Statistics.md"
     }
   ],
   "omittedPaths": [],

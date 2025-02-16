@@ -118,8 +118,8 @@ find . -iname "*.txt"
 # all the files zoom_test10_27thDec.txt - zoom_test99_27thDec.txt
 find . -regextype posix-extended -regex ".*/zoom_test[0-9]{2}_27thDec\.txt"
 ```
-### Notes
-".*/" matches any directory path (including none)
+**Notes**
+".\*/" matches any directory path (including none)
 
 find by type
 ``` bash
@@ -190,7 +190,7 @@ nohup ./script.sh > output.log 2>&1 &
 # Check if process is still running
 ps aux | grep script.sh
 ```
-### Notes
+**Notes**
 `> output.log`: Redirects standard output (stdout) to output.log
 `2>&1`:
 - `2` refers to stderr (standard error)
