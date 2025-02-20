@@ -13,6 +13,11 @@ Tags:
 [[Linux terminal commands#awk|awk]]
 [[Linux terminal commands#find|find]]
 [[Linux terminal commands#keep running after logout|keep running after logout]]
+[[Linux terminal commands#vi|vi cheat sheet]]
+[[Linux terminal commands#kill|kill]]
+[[Linux terminal commands#copy|move and copy]]
+
+
 
 
 mount drive *D* to folder */mnt/d*
@@ -198,6 +203,52 @@ ps aux | grep script.sh
 - So stderr is redirected to the same place as stdout (output.log)
 `&` at the end: Runs the process in the background
 
+## vi
+display line numbers
+``` bash
+:set number
+```
+
+## kill
+``` bash
+# Find Firefox PID
+ps aux | grep firefox 
+# Kill it gracefully 
+kill PID 
+# If it doesn't respond, force kill: 
+kill -9 PID
+#kill by name
+pkill process_name 
+# or forcefully: 
+pkill -9 process_name
+```
+
+
+## copy
+
+``` bash
+# copy with differenct name
+cp <source_path> <dest_path>
+# copy with same name
+cp <source_path> <dest_folder>
+# example:
+cp report.pdf backup/report_2024.pdf
+# options:
+# -i to prompt before overwriting
+# -v for verbose output showing what's being copied
+# -p to preserve file permissions and timestamps
+```
+
+## move
+``` bash
+mv source_file.txt destination/new_filename.txt
+
+# options
+# -i to prompt before overwriting
+# -v to show what's being moved
+# -n to not overwrite existing files
+# -f to force overwrite without prompting
+```
 
 
 ## References

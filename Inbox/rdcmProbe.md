@@ -43,10 +43,49 @@ data_debug_enabled="yes"
 </dpi_flow_detection>
 ```
 
+for zoom
+``` xml
+  <video_ml enabled="yes" debug_log_enabled="yes" ignore_rejected_frames_enabled="no" record_video_frames="no" zoom_offload_by_ports="yes" zoom_ports="8801,8802" zoom_offload_min_pps="0" zoom_offload_timeout_msec="3000" zoom_offload_min_packets="300" zoom_offload_min_bpp="250"/>
+```
+
+
 resets xmls
 ``` bash
 sh hostinstallhelper.sh swoffline
 ```
+
+*/hpadir/arch/video_ml/files/config/constants_mobile_line.ini*
+``` 
+EGIN_SECTION mobile:zoom  
+average_trhoughput_threshold=100  
+traffic_consistency_trheshold=0.1  
+consistent_traffic_min_duration=2  
+max_gap_allowed=4  
+prebuffering_ahead_time=0  
+tuple_min_bpp=1  
+high_traffic_window_size=5  
+silence_min_duration=57  
+threshold=100  
+END_SECTION
+```
+
+**use original timestamp**
+*hpaofflinegen.xml*
+``` xml
+use_original_timestamps="yes"
+```
+
+
+capture -> protocols 
+decoder distribution לבדוק שהכל מגיע לאותו decoder
+
+kpi 
+
+
+
+
+
+
 ## My Questions
 
 
