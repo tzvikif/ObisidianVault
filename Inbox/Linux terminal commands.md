@@ -18,8 +18,6 @@ Tags:
 [[Linux terminal commands#copy|move and copy]]
 
 
-
-
 mount drive *D* to folder */mnt/d*
 ``` bash
 sudo mount -t drvfs D: /mnt/d
@@ -252,4 +250,6 @@ mv source_file.txt destination/new_filename.txt
 
 
 ## References
+
+[Panes in Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/panes?WT.mc_id=-blog-scottha#creating-a-new-pane)
 

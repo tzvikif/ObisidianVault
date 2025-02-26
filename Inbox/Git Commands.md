@@ -11,6 +11,7 @@ Tags:
 - [[Git Commands#Branches|Branches]]
 - [[Git Commands#Fetch|Fetch]]
 - [[Git Commands#Log|Log]]
+- [[Git Commands#rebase|Rebase]]
 - 
 
 ## Under the hood
@@ -109,7 +110,10 @@ display log on remote *origin* and branch *master*
 ``` bash
 git log origin/master --oneline
 ```
-
+display commits that are missing in remote
+``` bash
+git log origin/master..HEAD
+```
 ## Tracking
 
 The most direct way - shows the current branch and its tracking info
@@ -130,15 +134,27 @@ git remote show origin
 ```
 
 
+## Rebase
+
+![[Git Commands.png]]
+``` shell
+git rebase master
+```
+![[Git Commands-1.png]]
+
+rebase after fetch
+``` shell
+# checkout to you local branch
+git checkout zoom_offload_by_port
+# rebase
+git rebase origin/zoom_offload_by_port
+```
+Note: **don't rebase commits that have been pushed to a shared repository**
 ## Stash
 
 ## Commit
 
 ## Checkout
-
-``` bash
-git checkout -- source/processes/hpagidecoder/hpagidecoderimpl/CrLearningKpiMngr.cpp
-```
 
 
 ## References

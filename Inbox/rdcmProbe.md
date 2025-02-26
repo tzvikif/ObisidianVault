@@ -8,6 +8,8 @@ Tags:
 
 # Probe
 
+
+
 ## Update 
 
  ``` bash
@@ -69,19 +71,18 @@ threshold=100
 END_SECTION
 ```
 
+## Offlinegenerator
 **use original timestamp**
 *hpaofflinegen.xml*
 ``` xml
-use_original_timestamps="yes"
+use_original_timestamps="file_time_stamp"
 ```
 
-
-capture -> protocols 
-decoder distribution לבדוק שהכל מגיע לאותו decoder
-
-kpi 
-
-
+## Models
+located in:
+``` bash
+arch/video_ml/files/xgmodels
+```
 
 
 
