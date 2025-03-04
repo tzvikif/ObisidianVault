@@ -1,4 +1,4 @@
-
+	
 
 09-12-2024 10:05
 
@@ -79,13 +79,17 @@ use_original_timestamps="file_time_stamp"
 ```
 
 ## Models
-located in:
+which models are being used:
 ``` bash
 arch/video_ml/files/xgmodels
 ```
+Note: the models are copied to archive . if you want to change model go to [[rdcmProbe#update model|update model]]
 
 
-
+### update model
+``` bash
+# update model
+```
 
 ## My Questions
 

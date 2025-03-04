@@ -1,52 +1,116 @@
 {
   "recentFiles": [
     {
-      "basename": "xgboost",
-      "path": "Inbox/xgboost.md"
+      "basename": "04-03-2025",
+      "path": "Journal/04-03-2025.md"
     },
     {
-      "basename": "Drawing 2025-01-23 17.04.56.excalidraw",
-      "path": "Excalidraw/Drawing 2025-01-23 17.04.56.excalidraw.md"
+      "basename": "Split Gain",
+      "path": "Inbox/Split Gain.md"
     },
     {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
+      "basename": "XGBoost",
+      "path": "Inbox/XGBoost.md"
     },
     {
-      "basename": "Drawing 2025-02-09 13.50.38.excalidraw",
-      "path": "Excalidraw/Drawing 2025-02-09 13.50.38.excalidraw.md"
+      "basename": "EM algorithm",
+      "path": "Inbox/EM algorithm.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Inbox/Cross-Entropy.md"
+    },
+    {
+      "basename": "Forecasting Principles and Practice",
+      "path": "Inbox/Forecasting Principles and Practice.md"
+    },
+    {
+      "basename": "Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel",
+      "path": "Inbox/Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel.md"
+    },
+    {
+      "basename": "Lecture 8.2 - Training Graph Neural Networks",
+      "path": "Inbox/Lecture 8.2 - Training Graph Neural Networks.md"
+    },
+    {
+      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
+      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
+    },
+    {
+      "basename": "The Ultimate Mind Map Tutorial (How To Take Notes)",
+      "path": "Inbox/The Ultimate Mind Map Tutorial (How To Take Notes).md"
+    },
+    {
+      "basename": "Gradient Boosting",
+      "path": "Inbox/Gradient Boosting.md"
     },
     {
       "basename": "rdcmProbe",
       "path": "Inbox/rdcmProbe.md"
     },
     {
+      "basename": "Weak Learner",
+      "path": "Inbox/Weak Learner.md"
+    },
+    {
+      "basename": "LaTex",
+      "path": "Inbox/LaTex.md"
+    },
+    {
       "basename": "Git Commands",
       "path": "Inbox/Git Commands.md"
     },
     {
+      "basename": "Drawing 2025-01-23 17.04.56.excalidraw",
+      "path": "Excalidraw/Drawing 2025-01-23 17.04.56.excalidraw.md"
+    },
+    {
+      "basename": "03-02-2025",
+      "path": "Journal/02-2025/03-02-2025.md"
+    },
+    {
+      "basename": "05-02-2025",
+      "path": "Journal/02-2025/05-02-2025.md"
+    },
+    {
+      "basename": "16-02-2025",
+      "path": "Journal/02-2025/16-02-2025.md"
+    },
+    {
+      "basename": "17-02-2025",
+      "path": "Journal/02-2025/17-02-2025.md"
+    },
+    {
       "basename": "24-02-2025",
-      "path": "Journal/24-02-2025.md"
+      "path": "Journal/02-2025/24-02-2025.md"
     },
     {
-      "basename": "25-02-2025",
-      "path": "Journal/25-02-2025.md"
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
     },
     {
-      "basename": "Tabular Features",
-      "path": "Inbox/Tabular Features.md"
+      "basename": "Untitled 1",
+      "path": "Inbox/Untitled 1.md"
+    },
+    {
+      "basename": "Model Ensembling",
+      "path": "Inbox/Model Ensembling.md"
+    },
+    {
+      "basename": "Obsidian Cheat sheet",
+      "path": "Inbox/Obsidian Cheat sheet.md"
+    },
+    {
+      "basename": "Tabular Features time series",
+      "path": "Inbox/Tabular Features time series.md"
+    },
+    {
+      "basename": "Drawing 2025-02-09 13.50.38.excalidraw",
+      "path": "Excalidraw/Drawing 2025-02-09 13.50.38.excalidraw.md"
     },
     {
       "basename": "Untitled",
       "path": "Inbox/Untitled.md"
-    },
-    {
-      "basename": "17-02-2025",
-      "path": "Journal/17-02-2025.md"
-    },
-    {
-      "basename": "16-02-2025",
-      "path": "Journal/16-02-2025.md"
     },
     {
       "basename": "The ROC Curve",
@@ -61,16 +125,12 @@
       "path": "Inbox/rdcmZoom.md"
     },
     {
-      "basename": "15-02-2025",
-      "path": "Journal/15-02-2025.md"
-    },
-    {
       "basename": "22-01-2025",
       "path": "Journal/01-2025/22-01-2025.md"
     },
     {
       "basename": "11-02-2025",
-      "path": "Journal/11-02-2025.md"
+      "path": "Journal/02-2025/11-02-2025.md"
     },
     {
       "basename": "Normal Distribution",
@@ -137,68 +197,8 @@
       "path": "Journal/01-2025/30-01-2025.md"
     },
     {
-      "basename": "03-02-2025",
-      "path": "Journal/03-02-2025.md"
-    },
-    {
-      "basename": "10-02-2025",
-      "path": "Journal/10-02-2025.md"
-    },
-    {
-      "basename": "09-02-2025",
-      "path": "Journal/09-02-2025.md"
-    },
-    {
       "basename": "06-02-2025",
-      "path": "Journal/06-02-2025.md"
-    },
-    {
-      "basename": "05-02-2025",
-      "path": "Journal/05-02-2025.md"
-    },
-    {
-      "basename": "04-02-2025",
-      "path": "Journal/04-02-2025.md"
-    },
-    {
-      "basename": "05-01-2025",
-      "path": "Journal/01-2025/05-01-2025.md"
-    },
-    {
-      "basename": "29-01-2025",
-      "path": "Journal/01-2025/29-01-2025.md"
-    },
-    {
-      "basename": "01-02-2025",
-      "path": "Journal/01-02-2025.md"
-    },
-    {
-      "basename": "02-02-2025",
-      "path": "Journal/02-02-2025.md"
-    },
-    {
-      "basename": "LaTex",
-      "path": "Inbox/LaTex.md"
-    },
-    {
-      "basename": "Understanding Deep Learning",
-      "path": "Inbox/Understanding Deep Learning.md"
-    },
-    {
-      "basename": "pcap1_conversation",
-      "path": "Journal/attachments/pcap1_conversation.png"
-    },
-    {
-      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
-      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
-    },
-    {
-      "basename": "TrustAI_demo_day.excalidraw",
-      "path": "Excalidraw/TrustAI_demo_day.excalidraw.md"
-    },
-    {
-      "basename": "Theoretical Foundations of Graph Neural Networks",
-      "path": "Inbox/Theoretical Foundations of Graph Neural Networks.md"
+      "path": "Journal/02-2025/06-02-2025.md"
     }
   ],
   "omittedPaths": [],

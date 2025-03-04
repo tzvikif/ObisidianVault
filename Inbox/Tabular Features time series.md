@@ -6,7 +6,7 @@ Status: #in_progress
 
 Tags:
 
-# Tabular Features
+# Tabular Features time series
 
 - Rolling Statistics
 	- Rolling means/std/max over windows
