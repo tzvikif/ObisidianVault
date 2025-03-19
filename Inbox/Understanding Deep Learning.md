@@ -4,9 +4,13 @@
 
 Status: #in_progress
 
-Tags: #book
+Tags: #book, #consume 
 
 # Understanding Deep Learning
+
+
+## Chapter 4
+
 
 ## Chapter 5
 

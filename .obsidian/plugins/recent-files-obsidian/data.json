@@ -1,20 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "04-03-2025",
-      "path": "Journal/04-03-2025.md"
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
     },
     {
-      "basename": "Split Gain",
-      "path": "Inbox/Split Gain.md"
+      "basename": "rdcmProbe",
+      "path": "Inbox/rdcmProbe.md"
+    },
+    {
+      "basename": "17-03-2025",
+      "path": "Journal/17-03-2025.md"
+    },
+    {
+      "basename": "09-03-2025",
+      "path": "Journal/09-03-2025.md"
+    },
+    {
+      "basename": "19-03-2025",
+      "path": "Journal/19-03-2025.md"
+    },
+    {
+      "basename": "rdcmZoom",
+      "path": "Inbox/rdcmZoom.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "Understanding Deep Learning",
+      "path": "Inbox/Understanding Deep Learning.md"
+    },
+    {
+      "basename": "Drawing 2025-03-13 11.34.35.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-13 11.34.35.excalidraw.md"
+    },
+    {
+      "basename": "16-03-2025",
+      "path": "Journal/16-03-2025.md"
+    },
+    {
+      "basename": "Drawing 2025-03-13 11.34.28.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-13 11.34.28.excalidraw.md"
+    },
+    {
+      "basename": "12-03-2025",
+      "path": "Journal/12-03-2025.md"
+    },
+    {
+      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
+      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
+    },
+    {
+      "basename": "EM algorithm",
+      "path": "Inbox/EM algorithm.md"
+    },
+    {
+      "basename": "Drawing 2024-11-13 17.27.56.excalidraw",
+      "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
+    },
+    {
+      "basename": "06-03-2025",
+      "path": "Journal/06-03-2025.md"
     },
     {
       "basename": "XGBoost",
       "path": "Inbox/XGBoost.md"
     },
     {
-      "basename": "EM algorithm",
-      "path": "Inbox/EM algorithm.md"
+      "basename": "Drawing 2025-03-11 08.45.24.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-11 08.45.24.excalidraw.md"
+    },
+    {
+      "basename": "10-03-2025",
+      "path": "Journal/10-03-2025.md"
+    },
+    {
+      "basename": "LaTex",
+      "path": "Inbox/LaTex.md"
+    },
+    {
+      "basename": "TrustAI_demo_day.excalidraw",
+      "path": "Excalidraw/TrustAI_demo_day.excalidraw.md"
+    },
+    {
+      "basename": "physic_eyal1.excalidraw",
+      "path": "Excalidraw/physic_eyal1.excalidraw.md"
+    },
+    {
+      "basename": "Weak Learner",
+      "path": "Inbox/Weak Learner.md"
+    },
+    {
+      "basename": "05-03-2025",
+      "path": "Journal/05-03-2025.md"
+    },
+    {
+      "basename": "04-03-2025",
+      "path": "Journal/04-03-2025.md"
+    },
+    {
+      "basename": "Split Gain",
+      "path": "Inbox/Split Gain.md"
     },
     {
       "basename": "Cross-Entropy",
@@ -33,36 +121,12 @@
       "path": "Inbox/Lecture 8.2 - Training Graph Neural Networks.md"
     },
     {
-      "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
-      "path": "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md"
-    },
-    {
       "basename": "The Ultimate Mind Map Tutorial (How To Take Notes)",
       "path": "Inbox/The Ultimate Mind Map Tutorial (How To Take Notes).md"
     },
     {
       "basename": "Gradient Boosting",
       "path": "Inbox/Gradient Boosting.md"
-    },
-    {
-      "basename": "rdcmProbe",
-      "path": "Inbox/rdcmProbe.md"
-    },
-    {
-      "basename": "Weak Learner",
-      "path": "Inbox/Weak Learner.md"
-    },
-    {
-      "basename": "LaTex",
-      "path": "Inbox/LaTex.md"
-    },
-    {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
-    },
-    {
-      "basename": "Drawing 2025-01-23 17.04.56.excalidraw",
-      "path": "Excalidraw/Drawing 2025-01-23 17.04.56.excalidraw.md"
     },
     {
       "basename": "03-02-2025",
@@ -85,10 +149,6 @@
       "path": "Journal/02-2025/24-02-2025.md"
     },
     {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
       "basename": "Untitled 1",
       "path": "Inbox/Untitled 1.md"
     },
@@ -105,10 +165,6 @@
       "path": "Inbox/Tabular Features time series.md"
     },
     {
-      "basename": "Drawing 2025-02-09 13.50.38.excalidraw",
-      "path": "Excalidraw/Drawing 2025-02-09 13.50.38.excalidraw.md"
-    },
-    {
       "basename": "Untitled",
       "path": "Inbox/Untitled.md"
     },
@@ -119,10 +175,6 @@
     {
       "basename": "Learn to study",
       "path": "Inbox/Learn to study.md"
-    },
-    {
-      "basename": "rdcmZoom",
-      "path": "Inbox/rdcmZoom.md"
     },
     {
       "basename": "22-01-2025",
@@ -143,62 +195,6 @@
     {
       "basename": "Pasted image 20240730105336",
       "path": "Pasted image 20240730105336.png"
-    },
-    {
-      "basename": "Pasted image 20240721170028",
-      "path": "Pasted image 20240721170028.png"
-    },
-    {
-      "basename": "Pasted image 20240721165338",
-      "path": "Pasted image 20240721165338.png"
-    },
-    {
-      "basename": "Pasted image 20240721164806",
-      "path": "Pasted image 20240721164806.png"
-    },
-    {
-      "basename": "Pasted image 20240716181009",
-      "path": "Pasted image 20240716181009.png"
-    },
-    {
-      "basename": "Pasted image 20240716180914",
-      "path": "Pasted image 20240716180914.png"
-    },
-    {
-      "basename": "Pasted image 20240716172946",
-      "path": "Pasted image 20240716172946.png"
-    },
-    {
-      "basename": "Pasted image 20240716172032",
-      "path": "Pasted image 20240716172032.png"
-    },
-    {
-      "basename": "Pasted image 20240716171852",
-      "path": "Pasted image 20240716171852.png"
-    },
-    {
-      "basename": "Pasted image 20240716165411",
-      "path": "Pasted image 20240716165411.png"
-    },
-    {
-      "basename": "Pasted image 20240714123528",
-      "path": "Pasted image 20240714123528.png"
-    },
-    {
-      "basename": "23-01-2025",
-      "path": "Journal/01-2025/23-01-2025.md"
-    },
-    {
-      "basename": "31-01-2025",
-      "path": "Journal/01-2025/31-01-2025.md"
-    },
-    {
-      "basename": "30-01-2025",
-      "path": "Journal/01-2025/30-01-2025.md"
-    },
-    {
-      "basename": "06-02-2025",
-      "path": "Journal/02-2025/06-02-2025.md"
     }
   ],
   "omittedPaths": [],

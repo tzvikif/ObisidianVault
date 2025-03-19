@@ -176,7 +176,83 @@ zoom_test14_27thDec.pcap
 
 
 
+## 13-03-2025
+test bad results video_detection:
+- ml_kpi_debug_decoder_1_scenario_12_3.txt
+- ml_kpi_debug_decoder_1_scenario_13_4.txt
+
+
+**ml_kpi_debug_decoder_1_scenario_12_1**
+std_ul_bytes              0.514883
+mean_total_dl_bytes       0.394299
+mean_total_ul_bytes       0.021788
+
+**ml_kpi_debug_decoder_1_scenario_12_2**
+prev3_upload_std          0.627283
+mean_total_ul_bytes       0.233785
+mean_total_dl_bytes       0.066917
+
+**ml_kpi_debug_decoder_1_scenario_12_1**
+**ml_kpi_debug_decoder_1_scenario_12_2**
+mean_total_dl_bytes       0.868490
+mean_total_ul_bytes       0.013440
+prev3_total_ul_packets    0.011890
+
+**ml_kpi_debug_decoder_1_scenario_12_3**
+prev3_upload_std          0.558734
+prev2_upload_std          0.369018
+prev2_download_std        0.014094
+
+**ml_kpi_debug_decoder_1_scenario_12_1**
+**ml_kpi_debug_decoder_1_scenario_12_2**
+**ml_kpi_debug_decoder_1_scenario_12_3**
+prev3_upload_std          0.451615
+mean_total_dl_bytes       0.322295
+prev1_mean_download       0.079456
+
+**ml_kpi_debug_decoder_1_scenario_12_4**
+prev2_upload_std          0.711926
+prev3_upload_std          0.225920
+mean_total_dl_bytes       0.040735
+
+**ml_kpi_debug_decoder_1_scenario_12_1**
+**ml_kpi_debug_decoder_1_scenario_12_4**
+mean_total_dl_bytes       0.733622
+prev1_total_dl_packets    0.162258
+total_dl_packets          0.032986
+
+**ml_kpi_debug_decoder_1_scenario_12_2**
+**ml_kpi_debug_decoder_1_scenario_12_4**
+prev2_total_dl_packets    0.264131
+mean_total_dl_bytes       0.253767
+prev1_total_dl_packets    0.253266
+
+**ml_kpi_debug_decoder_1_scenario_12_3**
+**ml_kpi_debug_decoder_1_scenario_12_4**
+prev3_total_ul_packets    0.429938
+prev3_upload_std          0.272658
+prev1_mean_download       0.127759
+
+**ml_kpi_debug_decoder_1_scenario_12_1**
+**ml_kpi_debug_decoder_1_scenario_12_2**
+**ml_kpi_debug_decoder_1_scenario_12_4**
+mean_total_dl_bytes       0.340314
+prev3_total_dl_packets    0.317139
+prev1_total_dl_packets    0.197154
+
+**ml_kpi_debug_decoder_1_scenario_12_5**
+std_ul_bytes              0.492736
+prev3_upload_std          0.410360
+total_dl_packets          0.083939
+
+**ml_kpi_debug_decoder_1_scenario_12_3**
+**ml_kpi_debug_decoder_1_scenario_12_5**
+prev3_upload_std          0.537731
+prev2_download_std        0.189800
+total_ul_packets          0.054397
+
 
 
 ## References
 
+https://jira-prod.radcom.co.il:8443/browse/ACE-24253

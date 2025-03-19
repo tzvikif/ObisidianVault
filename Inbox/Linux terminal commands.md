@@ -110,6 +110,7 @@ sunil 13000
 satvik 80000
 
 ## find
+### file names
 
 find by file name
 ``` bash
@@ -184,6 +185,21 @@ find . -maxdepth 1
 # Up to 2 levels deep 
 find . -maxdepth 2 -name "*.txt"
 ```
+### finding test in files
+``` bash
+grep "search_term" filename
+grep -r "search_term" /path/to/directory
+# Combine `find` and `grep` for more control 
+find /path/to/search -type f -name "*.txt" -exec grep "search_term" {} \;
+ack "search_term" /path/to/directory
+ag "search_term" /path/to/directory
+```
+grep options
+- `-i`: Case-insensitive search
+- `-l`: Show only filenames with matches
+- `-n`: Show line numbers
+- `-v`: Show lines that don't match
+- `-w`: Match whole words only
 ## keep running after logout
 
 ``` bash
@@ -248,7 +264,13 @@ mv source_file.txt destination/new_filename.txt
 # -f to force overwrite without prompting
 ```
 
+## grep
 
+``` bash
+grep -E 'a{2,4}' file.txt # "aa", "aaa", or "aaaa"
+# Search recursively for a pattern in all text files
+grep -r "TODO" --include="*.txt" /path/to/search
+```
 ## References
 
 [Panes in Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/panes?WT.mc_id=-blog-scottha#creating-a-new-pane)

@@ -52,6 +52,10 @@ $\tilde{\mathrm{Obj}}(f_t)=\displaystyle \sum_{j=1}^T\left[w_j\sum_{i\in I_j}g_i
 ### Classification
 - [[Logistic loss (binary)]]: $\mathcal{L}(y,\hat{y})=y\cdot \ln(1+e^{-\hat{y}})+(1-y)\cdot \ln(1+e^{\hat{y}})$
 - [[Cross-Entropy|Cross-entropy (multi-class)]] : $\mathcal{L}(y,\hat{y})=-\displaystyle \sum_{j=1}^{k}y_{j}\ln p_{j}$
+
+$L(y, \hat{y}^{(t-1)} + f_t) ≈ L(y,\hat{y}^{(t-1)}) + g_i·f_t(x_i) + (1/2)·h_i·f_t²(x_i)$
+$\frac{\partial\mathcal{L}(y_i, \hat{y}^{(t-1)})}{\partial \hat{y}^{(t-1)}}$
+
 ### Ranking
 - lambdaRank
 - LambdaMART

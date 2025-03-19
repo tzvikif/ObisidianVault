@@ -150,6 +150,35 @@ git checkout zoom_offload_by_port
 git rebase origin/zoom_offload_by_port
 ```
 Note: **don't rebase commits that have been pushed to a shared repository**
+
+## Reset
+
+### moving HEAD pointer (--soft)
+``` bash
+git reset --soft HEAD~1
+git reset --soft B
+```
+lets say those are my commits: A → B → C
+- *git reset --soft B* will move HEAD to point at B, but your working directory will still have all the changes from commit C, and those changes will be staged.
+- *git checkout B* will move HEAD to B and update your working directory to match B, discarding the changes from commit C (unless there are uncommitted changes that would be overwritten, in which case Git will prevent the checkout).
+*git reset --soft* i mainly used for reorganizing commits:
+- **Squashing multiple commits into one**: If you made several small commits that logically belong together, you might want to combine them into a single, more meaningful commit before sharing your code.
+- **Reordering commits**: Sometimes you might want to change the order of your commits to make the history more logical.
+- **Editing commit messages**: If you made a typo or want to provide a more descriptive commit message.
+- **Adding changes to a previous commit**: If you forgot to include some changes in your last commit, rather than making a new "oops, forgot this" commit.
+
+
+### removing files from staging area(--mixed)
+``` bash
+# This will remove all files from the staging area but keep your changes in the working directory
+git reset --mixed # default
+# unstage certain file
+git reset --mixed <file-path> # default
+```
+### unstage files AND discards all changes(--hard)
+``` bash
+git reset --hard
+```
 ## Stash
 
 ## Commit

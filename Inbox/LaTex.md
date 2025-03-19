@@ -34,7 +34,7 @@ $\hat{a}$, $\vec{b}$, $\underline{c}$, $\bar{d}$
 $\left( \begin{array}{c} {N} \\ {k} \end{array} \right)$
 
 $\left[ \begin{array}{c} {N} \\ {k} \end{array} \right]$
-
+partial $\frac{\partial \mathcal{L}}{\partial \hat{y}}$
 $\underset{\theta} {\mathrm{argmax}} ~p(D|\theta)$
 nabla $\nabla$
 

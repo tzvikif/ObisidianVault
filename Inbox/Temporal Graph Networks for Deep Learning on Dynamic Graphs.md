@@ -2,9 +2,9 @@
 
 27-10-2024 15:26
 
-Status: #in_progress
+Status: 
 
-Tags: #video, #consume, #paper
+Tags: #video, #paper
 
 # Temporal Graph Networks for Deep Learning on Dynamic Graphs
 
