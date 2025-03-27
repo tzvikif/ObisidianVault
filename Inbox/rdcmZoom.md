@@ -251,8 +251,13 @@ prev3_upload_std          0.537731
 prev2_download_std        0.189800
 total_ul_packets          0.054397
 
-
+## 23-03-2025
+working on scenario 1, 2, 3
+collect 5 pcaps -> test the model.
+if poor results add to the model.
 
 ## References
 
 https://jira-prod.radcom.co.il:8443/browse/ACE-24253
+
+[[Tabular Features time series]]

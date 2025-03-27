@@ -16,6 +16,9 @@ Tags:
 [[Linux terminal commands#vi|vi cheat sheet]]
 [[Linux terminal commands#kill|kill]]
 [[Linux terminal commands#copy|move and copy]]
+[[Linux terminal commands#add string to file name|change file names to all files in a folder]]
+
+
 
 
 mount drive *D* to folder */mnt/d*
@@ -271,6 +274,15 @@ grep -E 'a{2,4}' file.txt # "aa", "aaa", or "aaaa"
 # Search recursively for a pattern in all text files
 grep -r "TODO" --include="*.txt" /path/to/search
 ```
+
+## add string to file name
+``` bash
+for file in *.pcapng; do mv "$file" "ml_kpi_debug_decoder_$file"; done
+# caustios way. dry run first
+for file in *.pcap; do echo "Would rename $file to ml_kpi_debug_decoder_$file"; done
+```
+
+
 ## References
 
 [Panes in Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/panes?WT.mc_id=-blog-scottha#creating-a-new-pane)

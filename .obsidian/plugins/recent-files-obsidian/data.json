@@ -1,52 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
+      "basename": "27-03-2025",
+      "path": "Journal/27-03-2025.md"
     },
     {
-      "basename": "rdcmProbe",
-      "path": "Inbox/rdcmProbe.md"
-    },
-    {
-      "basename": "17-03-2025",
-      "path": "Journal/17-03-2025.md"
-    },
-    {
-      "basename": "09-03-2025",
-      "path": "Journal/09-03-2025.md"
-    },
-    {
-      "basename": "19-03-2025",
-      "path": "Journal/19-03-2025.md"
+      "basename": "XGBoost",
+      "path": "Inbox/XGBoost.md"
     },
     {
       "basename": "rdcmZoom",
       "path": "Inbox/rdcmZoom.md"
     },
     {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
+      "basename": "26-03-2025",
+      "path": "Journal/26-03-2025.md"
+    },
+    {
+      "basename": "rdcmProbe",
+      "path": "Inbox/rdcmProbe.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
     },
     {
       "basename": "Understanding Deep Learning",
       "path": "Inbox/Understanding Deep Learning.md"
     },
     {
-      "basename": "Drawing 2025-03-13 11.34.35.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-13 11.34.35.excalidraw.md"
+      "basename": "Python",
+      "path": "Inbox/Python.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "Tabular Features time series",
+      "path": "Inbox/Tabular Features time series.md"
+    },
+    {
+      "basename": "23-03-2025",
+      "path": "Journal/23-03-2025.md"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "Inbox/Untitled 2.md"
+    },
+    {
+      "basename": "09-03-2025",
+      "path": "Journal/09-03-2025.md"
+    },
+    {
+      "basename": "06-03-2025",
+      "path": "Journal/06-03-2025.md"
+    },
+    {
+      "basename": "10-03-2025",
+      "path": "Journal/10-03-2025.md"
+    },
+    {
+      "basename": "12-03-2025",
+      "path": "Journal/12-03-2025.md"
     },
     {
       "basename": "16-03-2025",
       "path": "Journal/16-03-2025.md"
     },
     {
-      "basename": "Drawing 2025-03-13 11.34.28.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-13 11.34.28.excalidraw.md"
+      "basename": "17-03-2025",
+      "path": "Journal/17-03-2025.md"
     },
     {
-      "basename": "12-03-2025",
-      "path": "Journal/12-03-2025.md"
+      "basename": "Drawing 2025-03-13 11.34.35.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-13 11.34.35.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-03-13 11.34.28.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-13 11.34.28.excalidraw.md"
     },
     {
       "basename": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
@@ -61,20 +93,8 @@
       "path": "Excalidraw/Drawing 2024-11-13 17.27.56.excalidraw.md"
     },
     {
-      "basename": "06-03-2025",
-      "path": "Journal/06-03-2025.md"
-    },
-    {
-      "basename": "XGBoost",
-      "path": "Inbox/XGBoost.md"
-    },
-    {
       "basename": "Drawing 2025-03-11 08.45.24.excalidraw",
       "path": "Excalidraw/Drawing 2025-03-11 08.45.24.excalidraw.md"
-    },
-    {
-      "basename": "10-03-2025",
-      "path": "Journal/10-03-2025.md"
     },
     {
       "basename": "LaTex",
@@ -161,10 +181,6 @@
       "path": "Inbox/Obsidian Cheat sheet.md"
     },
     {
-      "basename": "Tabular Features time series",
-      "path": "Inbox/Tabular Features time series.md"
-    },
-    {
       "basename": "Untitled",
       "path": "Inbox/Untitled.md"
     },
@@ -183,18 +199,6 @@
     {
       "basename": "11-02-2025",
       "path": "Journal/02-2025/11-02-2025.md"
-    },
-    {
-      "basename": "Normal Distribution",
-      "path": "Inbox/Normal Distribution.md"
-    },
-    {
-      "basename": "Pasted image 20240730105440",
-      "path": "Pasted image 20240730105440.png"
-    },
-    {
-      "basename": "Pasted image 20240730105336",
-      "path": "Pasted image 20240730105336.png"
     }
   ],
   "omittedPaths": [],

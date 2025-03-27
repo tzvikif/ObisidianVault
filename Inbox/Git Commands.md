@@ -19,7 +19,7 @@ Tags:
 *./.git/refs/heads/* stores **local** branches
 *./.git/refs/remotes/* stored **remote** branches
 ## Branches
-
+### Inspect
 for local branches
 ``` bash
 git branch
@@ -28,10 +28,19 @@ for remote branches
 ``` bash
 git branch -r
 ```
-creating remote branches
+### Create
+create local
 ``` bash
-$ git remote add new-remote-repo https://bitbucket.com/user/repo.git # Add remote repo to local repo config 
-$ git push <new-remote-repo> crazy-experiment~ # pushes the crazy-experiment branch to new-remote-repo
+git checkout -b new-branch-name
+# newer Git versions
+git switch -c new-branch-name
+# push remote to a new remote branch
+git push -u origin new-branch-name
+# The `-u` (or `--set-upstream`) flag sets up tracking, so your local branch knows which remote branch to sync with for future pulls and pushes.
+```
+add repo
+``` bash
+$ git remote add new-remote-repo https://bitbucket.com/user/repo.git 
 ```
 ## Fetch
 
@@ -40,6 +49,7 @@ $ git push <new-remote-repo> crazy-experiment~ # pushes the crazy-experim
 ```
 git fetch <remote> <branch>
 ```
+format: *old-hash..new-hash branch-name -> remote-tracking-branch*
 example
 ``` bash
 git fetch origin
@@ -75,7 +85,7 @@ then we inspect (detached HEAD)
 git checkout origin/zoom_offload_by_port
 ```
 ### Synchronize origin with git fetch
-
+using [[Git Commands#Merge|Mege]] of [[Git Commands#Rebase|Rebase]]
 to approve the changes
 ``` bash
 # check out to zoom_offload_by_port if needed
@@ -151,6 +161,10 @@ git rebase origin/zoom_offload_by_port
 ```
 Note: **don't rebase commits that have been pushed to a shared repository**
 
+## Merge
+``` bash
+# merge
+```
 ## Reset
 
 ### moving HEAD pointer (--soft)
