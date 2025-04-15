@@ -17,6 +17,10 @@ Tags:
 [[Linux terminal commands#kill|kill]]
 [[Linux terminal commands#copy|move and copy]]
 [[Linux terminal commands#add string to file name|change file names to all files in a folder]]
+[[Linux terminal commands#grep|grep]]
+[[Linux terminal commands#symlink|symlink]]
+
+
 
 
 
@@ -281,6 +285,20 @@ for file in *.pcapng; do mv "$file" "ml_kpi_debug_decoder_$file"; done
 # caustios way. dry run first
 for file in *.pcap; do echo "Would rename $file to ml_kpi_debug_decoder_$file"; done
 ```
+
+## symlink
+``` bash
+# make symlic your_new_name to /path/to/your/python/executable
+ln -s /path/to/your/python/executable your_new_name
+# -f force if the symlink exists you overwrite it
+```
+find the path for which the link points to
+``` bash
+readlink -f <symlink name>
+# example
+readlink -f python
+```
+
 
 
 ## References

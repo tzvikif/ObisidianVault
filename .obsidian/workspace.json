@@ -13,54 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Understanding Deep Learning.md",
-                "mode": "source",
+                "file": "Journal/03-2025/14-04-2025.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Understanding Deep Learning"
-            }
-          },
-          {
-            "id": "9d8ce0577a1d1f19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/27-03-2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "27-03-2025"
-            }
-          },
-          {
-            "id": "d4ee3fcb656b8955",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python"
-            }
-          },
-          {
-            "id": "b97bfb6f0b9aca0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/rdcmZoom.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "rdcmZoom"
+              "title": "14-04-2025"
             }
           },
           {
@@ -69,40 +27,80 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Linux terminal commands.md",
+                "file": "Journal/15-04-2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15-04-2025"
+            }
+          },
+          {
+            "id": "f8866ad9534a8e62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/rdcmProbe.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux terminal commands"
+              "title": "rdcmProbe"
             }
           },
           {
-            "id": "be9b214e7b96eea9",
+            "id": "dff85f622395496f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Tabular Features time series.md",
+                "file": "Journal/03-2025/14-04-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tabular Features time series"
+              "title": "14-04-2025"
             }
           },
           {
-            "id": "4cd76a3c4aff46a3",
+            "id": "faf0961b33759417",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-14 11.38.42.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-14 11.38.42.excalidraw"
+            }
+          },
+          {
+            "id": "664c56362109df29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/26-03-2025.md",
-                "mode": "source",
+                "file": "Inbox/Conda.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26-03-2025"
+              "title": "Conda"
+            }
+          },
+          {
+            "id": "270e61be7d30f3d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Python.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python"
             }
           }
         ],
@@ -299,34 +297,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9d8ce0577a1d1f19",
+  "active": "e58958db74997e83",
   "lastOpenFiles": [
-    "Inbox/XGBoost.md",
-    "Journal/27-03-2025.md",
-    "Inbox/rdcmZoom.md",
-    "Journal/26-03-2025.md",
-    "Inbox/rdcmProbe.md",
-    "Inbox/Git Commands.md",
-    "Inbox/Understanding Deep Learning.md",
-    "Inbox/Python.md",
-    "Journal/20-03-2025.md",
     "Inbox/Linux terminal commands.md",
+    "Journal/15-04-2025.md",
+    "Journal/03-2025/14-04-2025.md",
+    "Inbox/Python.md",
+    "Inbox/Conda.md",
+    "Inbox/Package Manager.md",
+    "Inbox/pip.md",
+    "Journal/03-2025/05-03-2025.md",
+    "Journal/03-2025/06-03-2025.md",
+    "Journal/03-2025/04-03-2025.md",
+    "Excalidraw/Drawing 2025-04-14 11.38.42.excalidraw.md",
+    "Excalidraw/attachments/Pasted Image 20250414121155_677.png",
+    "Journal/03-2025",
+    "Inbox/XGBoost.md",
+    "03-2025",
+    "03-2025",
+    "Journal/07-04-2025.md",
     "Inbox/Tabular Features time series.md",
-    "Journal/23-03-2025.md",
-    "Journal/09-03-2025.md",
-    "Journal/06-03-2025.md",
-    "Journal/10-03-2025.md",
-    "Journal/12-03-2025.md",
-    "Journal/16-03-2025.md",
-    "Journal/17-03-2025.md",
-    "Journal/19-03-2025.md",
-    "Journal/18-03-2025.md",
-    "Journal/13-03-2025.md",
-    "Excalidraw/Drawing 2025-03-13 11.34.35.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-13 11.34.28.excalidraw.md",
-    "Inbox/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
-    "Inbox/EM algorithm.md",
-    "Inbox/Unterstanding Deep Learning.md",
+    "Inbox/rdcmProbe.md",
+    "Journal/02-04-2025.md",
+    "Journal/06-04-2025.md",
+    "Journal/03-04-2025.md",
+    "Inbox/Git Commands.md",
+    "Journal/03-2025/08-04-2025.md",
+    "Excalidraw/Drawing 2025-03-31 11.58.38.excalidraw.md",
+    "Inbox/Understanding Deep Learning.md",
+    "Inbox/rdcmZoom.md",
+    "Inbox/attachments/rdcmZoom-8.png",
+    "Journal/03-2025/27-03-2025.md",
+    "Journal/03-2025/31-03-2025.md",
+    "Journal/03-2025/30-03-2025.md",
     "Inbox/attachments/Pasted image 20250305135137.png",
     "Inbox/attachments/rdcmProbe-1.png",
     "Inbox/attachments/rdcmProbe.png",
@@ -337,8 +340,6 @@
     "Inbox/attachments/Git Commands.png",
     "Inbox/attachments/rdcmZoom-7.png",
     "Pasted image 20240730105440.png",
-    "Pasted image 20240730105336.png",
-    "Pasted image 20240721170028.png",
     "Journal/01-2025",
     "Journal/attachments/zoom1.pdf",
     "Journal/12-2024",
@@ -346,9 +347,6 @@
     "Journal/11-2024",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Journal/10-2024",
-    "Input/Deutsch/Input/Unterrichten",
-    "Input/Deutsch/Input/Untitled",
     "Untitled 2.canvas",
     "Untitled 3.canvas",
     "test canvas.canvas"

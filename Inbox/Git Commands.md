@@ -59,7 +59,7 @@ a1e8fb5..9e8ab1c develop -> origin/develop # fetching newest commit for branc
 * [new branch] some-feature -> origin/some-feature # new branch named origin/some-feature
 ```
 ### inspect what we have fetched
-#### Commits
+
 display from my current commit(excluded) to recently fetched commit
 ``` bash
 # currenly in branch zoom_offload_by_port

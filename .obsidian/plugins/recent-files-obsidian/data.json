@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "27-03-2025",
-      "path": "Journal/27-03-2025.md"
+      "basename": "15-04-2025",
+      "path": "Journal/15-04-2025.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "14-04-2025",
+      "path": "Journal/03-2025/14-04-2025.md"
+    },
+    {
+      "basename": "Python",
+      "path": "Inbox/Python.md"
+    },
+    {
+      "basename": "Conda",
+      "path": "Inbox/Conda.md"
+    },
+    {
+      "basename": "Package Manager",
+      "path": "Inbox/Package Manager.md"
+    },
+    {
+      "basename": "pip",
+      "path": "Inbox/pip.md"
+    },
+    {
+      "basename": "Drawing 2025-04-14 11.38.42.excalidraw",
+      "path": "Excalidraw/Drawing 2025-04-14 11.38.42.excalidraw.md"
     },
     {
       "basename": "XGBoost",
       "path": "Inbox/XGBoost.md"
     },
     {
-      "basename": "rdcmZoom",
-      "path": "Inbox/rdcmZoom.md"
-    },
-    {
-      "basename": "26-03-2025",
-      "path": "Journal/26-03-2025.md"
+      "basename": "Tabular Features time series",
+      "path": "Inbox/Tabular Features time series.md"
     },
     {
       "basename": "rdcmProbe",
@@ -25,52 +49,56 @@
       "path": "Inbox/Git Commands.md"
     },
     {
+      "basename": "08-04-2025",
+      "path": "Journal/03-2025/08-04-2025.md"
+    },
+    {
+      "basename": "Drawing 2025-03-31 11.58.38.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-31 11.58.38.excalidraw.md"
+    },
+    {
       "basename": "Understanding Deep Learning",
       "path": "Inbox/Understanding Deep Learning.md"
     },
     {
-      "basename": "Python",
-      "path": "Inbox/Python.md"
+      "basename": "rdcmZoom",
+      "path": "Inbox/rdcmZoom.md"
     },
     {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
+      "basename": "27-03-2025",
+      "path": "Journal/03-2025/27-03-2025.md"
     },
     {
-      "basename": "Tabular Features time series",
-      "path": "Inbox/Tabular Features time series.md"
+      "basename": "31-03-2025",
+      "path": "Journal/03-2025/31-03-2025.md"
+    },
+    {
+      "basename": "30-03-2025",
+      "path": "Journal/03-2025/30-03-2025.md"
     },
     {
       "basename": "23-03-2025",
-      "path": "Journal/23-03-2025.md"
-    },
-    {
-      "basename": "Untitled 2",
-      "path": "Inbox/Untitled 2.md"
+      "path": "Journal/03-2025/23-03-2025.md"
     },
     {
       "basename": "09-03-2025",
-      "path": "Journal/09-03-2025.md"
-    },
-    {
-      "basename": "06-03-2025",
-      "path": "Journal/06-03-2025.md"
+      "path": "Journal/03-2025/09-03-2025.md"
     },
     {
       "basename": "10-03-2025",
-      "path": "Journal/10-03-2025.md"
+      "path": "Journal/03-2025/10-03-2025.md"
     },
     {
       "basename": "12-03-2025",
-      "path": "Journal/12-03-2025.md"
+      "path": "Journal/03-2025/12-03-2025.md"
     },
     {
       "basename": "16-03-2025",
-      "path": "Journal/16-03-2025.md"
+      "path": "Journal/03-2025/16-03-2025.md"
     },
     {
       "basename": "17-03-2025",
-      "path": "Journal/17-03-2025.md"
+      "path": "Journal/03-2025/17-03-2025.md"
     },
     {
       "basename": "Drawing 2025-03-13 11.34.35.excalidraw",
@@ -111,14 +139,6 @@
     {
       "basename": "Weak Learner",
       "path": "Inbox/Weak Learner.md"
-    },
-    {
-      "basename": "05-03-2025",
-      "path": "Journal/05-03-2025.md"
-    },
-    {
-      "basename": "04-03-2025",
-      "path": "Journal/04-03-2025.md"
     },
     {
       "basename": "Split Gain",
@@ -167,38 +187,6 @@
     {
       "basename": "24-02-2025",
       "path": "Journal/02-2025/24-02-2025.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Inbox/Untitled 1.md"
-    },
-    {
-      "basename": "Model Ensembling",
-      "path": "Inbox/Model Ensembling.md"
-    },
-    {
-      "basename": "Obsidian Cheat sheet",
-      "path": "Inbox/Obsidian Cheat sheet.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Inbox/Untitled.md"
-    },
-    {
-      "basename": "The ROC Curve",
-      "path": "Input/Videos/The ROC Curve.md"
-    },
-    {
-      "basename": "Learn to study",
-      "path": "Inbox/Learn to study.md"
-    },
-    {
-      "basename": "22-01-2025",
-      "path": "Journal/01-2025/22-01-2025.md"
-    },
-    {
-      "basename": "11-02-2025",
-      "path": "Journal/02-2025/11-02-2025.md"
     }
   ],
   "omittedPaths": [],

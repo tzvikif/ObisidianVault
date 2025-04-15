@@ -256,6 +256,30 @@ working on scenario 1, 2, 3
 collect 5 pcaps -> test the model.
 if poor results add to the model.
 
+## 27-03-2025
+B
+- sv
+- sv
+- s
+- s
+A
+- v+
+- v-
+- v+
+- v-
+1, 3
+3, 1
+2, 4
+4, 2
+### 02-04-2025
+problem with video off  in uplink
+- build dataset from tirans pcap
+	- manual labeling
+- drop scenario share screen -> check results 
+- add more video off 
+
+### 06-04-2025
+![[rdcmZoom-8.png]]
 ## References
 
 https://jira-prod.radcom.co.il:8443/browse/ACE-24253
