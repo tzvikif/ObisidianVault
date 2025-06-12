@@ -18,6 +18,8 @@ $\lim_{n\to \infty}\left(\frac{n}{n+1}\right)^{n}=e$
 $\displaystyle\sum\limits_{n=1}^{\infty}\frac{a_n}{\displaystyle\sum\limits_{n=1}^{10}{a_{n+1}}}$
 $1,2,3,\ldots$
 $1+2+3+\cdots$
+$\displaystyle \hat{\phi} = \underset{\phi} {argmin} \left[ \prod_{i=1}^{I} Pr(y_{i}|x_{i},\phi) \cdot Pr(\phi)\right]$
+
 
 ## Combinatorics
 ${n\choose k}$

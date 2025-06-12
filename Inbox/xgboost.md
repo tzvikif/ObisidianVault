@@ -35,32 +35,35 @@ see [[Weak Learner#Why Weak Learners Work Better|Why Weak Learners Work Better]]
 XGBoost builds trees sequentially, where each new tree tries to correct the errors made by the combination of all previous trees.
 
 
+## Loss function
+$\mathcal{L}(\phi)=\sum_il(\hat{y}_i,y_i)+\sum_k\Omega(f_k)$
+where $\Omega(f)=\gamma T+\frac{1}{2}\lambda\|w\|^2$
+at the $t^{th}$ iteration  
+$l({\hat{y}}_i,y_i)$=$l(y_i,\hat{y_i}^{(t-1)}+f_t(\mathbf{x}_i))$
+
+second order Taylor approximation
+$\approx l(y_i,\hat{y}^{(t-1)})+g_if_t(\mathbf{x}_i)+\frac{1}{2}h_if_t^2(\mathbf{x}_i)$
+$g_i=\frac{\partial\mathcal{L}(y_i,\hat{y}_i^{(t-1)})}{\partial\hat{y}_i^{(t-1)}}$
+$h_i=\frac{\partial^2\mathcal{L}(y_i,\hat{y}_i^{(t-1)})}{\partial\hat{y}_i^{(t-1)}}$
+### leaf value
+$\tilde{\mathrm{Obj}}(f_t)=\displaystyle \sum_{i=1}^n[g_if_t(x_i)+\frac{1}{2}h_if_t^2(x_i)]+\Omega(f_t)$
+$\tilde{\mathrm{Obj}}(f_t)=\displaystyle \sum_{j=1}^T\sum_{i\in I_j}[g_iw_j+\frac{1}{2}h_iw_j^2]+\gamma T+\frac{1}{2}\lambda\sum_{j=1}^Tw_j^2$
+$\tilde{\mathrm{Obj}}(f_t)=\displaystyle \sum_{j=1}^T\left[w_j\sum_{i\in I_j}g_i+\frac{1}{2}w_j^2\sum_{i\in I_j}h_i\right]+\gamma T+\frac{1}{2}\lambda\sum_{j=1}^Tw_j^2$
+for a  fixed tree structure the optimal weight $w^{*}_{i}$ for each leaf $j$
+$\frac{\partial Obj}{\partial w_j} = \sum_{i \in I_j} g_i + \left(\sum_{i \in I_j} h_i + \lambda\right) w_j = 0$
+$w_j^* = -\frac{\sum_{i \in I_j} g_i}{\sum_{i \in I_j} h_i + \lambda}$
+we plug $w^{*}_{i}$ back in the loss function
+$\tilde{L}^{(t)}(q) = -\frac{1}{2} \displaystyle \sum_{j=1}^{T} \frac{\left(\sum_{i \in I_j} g_i\right)^2}{\sum_{i \in I_j} h_i + \lambda} + \gamma T$
 ## Split Evaluation Metric
 [[Split Gain]]
 $\mathrm{Split~Gain}=\frac{(\sum_\mathrm{left}g_i)^2}{\sum_\mathrm{left}h_i+\lambda}+\frac{(\sum_\mathrm{right}g_i)^2}{\sum_\mathrm{right}h_i+\lambda}-\frac{(\sum_\mathrm{all}g_i)^2}{\sum_\mathrm{all}h_i+\lambda}-\gamma$
 where $\lambda$ is the [[L2 regularization]] term and $\gamma$ is a complexity penalty for each leaf.
 
-$\tilde{\mathrm{Obj}}(f_t)=\displaystyle \sum_{i=1}^n[g_if_t(x_i)+\frac{1}{2}h_if_t^2(x_i)]+\Omega(f_t)$
-$\tilde{\mathrm{Obj}}(f_t)=\displaystyle \sum_{j=1}^T\sum_{i\in I_j}[g_iw_j+\frac{1}{2}h_iw_j^2]+\gamma T+\frac{1}{2}\lambda\sum_{j=1}^Tw_j^2$
-$\tilde{\mathrm{Obj}}(f_t)=\displaystyle \sum_{j=1}^T\left[w_j\sum_{i\in I_j}g_i+\frac{1}{2}w_j^2\sum_{i\in I_j}h_i\right]+\gamma T+\frac{1}{2}\lambda\sum_{j=1}^Tw_j^2$
 
 ## Loss Functions in XGBoost
 ### Regression
-- [[Mean Squared Error (MSE)]]: $\mathcal{L}(y,\hat{y})=(y-\hat{y})^2$
-- [[Mean Absolute Error (MAE)]]:  $\mathcal{L}(y,\hat{y})=|y-\hat{y}|$
-- [[Quantile loss]]: $\mathcal{L}(y,\hat{y})=\alpha \cdot max(y-\hat{y},0)+(1-\alpha)\cdot max(\hat{y}-y,0)$
+
 ### Classification
-- [[Logistic loss (binary)]]: $\mathcal{L}(y,\hat{y})=y\cdot \ln(1+e^{-\hat{y}})+(1-y)\cdot \ln(1+e^{\hat{y}})$
-- [[Cross-Entropy|Cross-entropy (multi-class)]] : $\mathcal{L}(y,\hat{y})=-\displaystyle \sum_{j=1}^{k}y_{j}\ln p_{j}$
-
-$L(y, \hat{y}^{(t-1)} + f_t) ≈ L(y,\hat{y}^{(t-1)}) + g_i·f_t(x_i) + (1/2)·h_i·f_t²(x_i)$
-$\frac{\partial\mathcal{L}(y_i, \hat{y}^{(t-1)})}{\partial \hat{y}^{(t-1)}}$
-
-### Ranking
-- lambdaRank
-- LambdaMART
-### Custom Loss Functions
-- Users can define their own loss functions as long as they can provide gradient and Hessian calculations
 
 ## Key Terms and Categories Related to XGBoost
 
@@ -100,6 +103,5 @@ $\frac{\partial\mathcal{L}(y_i, \hat{y}^{(t-1)})}{\partial \hat{y}^{(t-1)}}$
 
 ## References
 
-https://claude.ai/share/99f775b1-ff3a-4fff-96d6-0b51cd6480e9
-https://claude.ai/chat/fe1e8b04-a37c-4bce-b4a9-d8a15076cfbc
 [https://arxiv.org/abs/1603.02754](<XGBoost: A Scalable Tree Boosting System>)
+https://www.youtube.com/watch?v=WzRc9aNfNZ8&t=1291s

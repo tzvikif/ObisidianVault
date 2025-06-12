@@ -8,6 +8,9 @@ Tags: #radcom
 
 # Zoom
 
+[[rdcmZoom#References|References]]
+
+
 - Run sanity check on the model. 
 - where is the testset??
 	- i can split to train/test and retrain and evaluate.
@@ -280,8 +283,17 @@ problem with video off  in uplink
 
 ### 06-04-2025
 ![[rdcmZoom-8.png]]
+
+### 20-04-2025
+![[rdcmZoom-9.png]]
+הדאטה של טירן.
+לבדוק מתי צודק טועה בעזרת הקלאסטר. להוסיף לדאטהסט fps pred , fps expected
+
+ a
+ ### 07-05-2025
+ tiran - the host is recording
 ## References
 
 https://jira-prod.radcom.co.il:8443/browse/ACE-24253
-
+[Nexus](http://nexus3-prod.radcom.co.il:8081/#browse/browse:automation_files)
 [[Tabular Features time series]]

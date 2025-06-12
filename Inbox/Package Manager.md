@@ -8,6 +8,7 @@ Tags:
 
 # Package Manager
 
+common *package managers* in [[Python]]:
 [[pip]]
 [[Conda]]
 

@@ -33,6 +33,7 @@ filter by that connection
 find the *client hello* and use the *destination IP*
 ### *config/ggsnlist.xml*
 ![[Probe-2.png]]
+
 ### *config/hpagidecoder* 
 ``` xml
 data_debug_enabled="yes"
@@ -46,6 +47,8 @@ data_debug_enabled="yes"
 <flow_detection dpi_id="88928" />  
 </dpi_flow_detection>
 ```
+set *pure_gi_enabled* to *yes*
+
 ### for zoom
 ``` xml
   <video_ml debug_log_enabled="yes" enabled="yes" ignore_rejected_frames_enabled="no" record_video_frames="no" zoom_offload_by_ports="yes" zoom_offload_min_bpp="0" zoom_offload_min_packets="1" zoom_offload_min_pps="0" zoom_offload_timeout_msec="0" zoom_ports="8801,8802,8803,8804,8805,8806,8807,8809,8810"/>
@@ -55,12 +58,13 @@ config/capture.xml:
 <auto_detector name="radius" enable="no" number_of_frames_to_detect="100000"/>
 ```
 
-resets xmls
+config/packetrouter.xml
 ``` bash
-sh hostinstallhelper.sh swoffline
+# remove RADIUS ???
 ```
 
-### */arch/video_ml/files/config/constants_mobile_line.ini*
+
+### *arch/video_ml/files/config/constants_mobile_line.ini*
 ``` 
 EGIN_SECTION mobile:zoom  
 average_trhoughput_threshold=100  
@@ -77,15 +81,19 @@ END_SECTION
 ## run pcap with pure gi
 ### *config/hpagidecoder* 
 ![[rdcmProbe.png]]
-set to *yes*
+set *pure_gi_enabled* to *yes*
 ### *config/elements.xml*
 ![[rdcmProbe-1.png]] 
 insert ip under *<element_class type="ipv4_pure_gi">*
 ## Offlinegenerator
-**use original timestamp**
 ### *hpaofflinegen.xml*
 ``` xml
 use_original_timestamps="file_time_stamp"
+```
+
+## Resets xmls
+``` bash
+sh hostinstallhelper.sh swoffline
 ```
 
 ## Models

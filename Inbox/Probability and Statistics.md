@@ -16,18 +16,15 @@ Tags: #moc
 
 ### Common Distributions
 [[Normal Distribution]]
+[[Poisson Distribution]]
 
 ## Statistic
-[[spearman vs pearson]]
-[[pvalue]]
-[[multiple test problem]]
 
+[[Central limit theorem]]
 
 
 ## My Questions
 
-- posterior
-- latent variable
 - 
 
 

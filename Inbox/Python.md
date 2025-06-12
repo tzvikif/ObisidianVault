@@ -27,6 +27,7 @@ where python  # On Windows
 ```
 
 ## Conda
+using [[Conda]]
 ``` bash
 conda create --name myenv python=3.11
 conda activate myenv

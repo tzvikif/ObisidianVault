@@ -19,6 +19,8 @@ Tags:
 [[Linux terminal commands#add string to file name|change file names to all files in a folder]]
 [[Linux terminal commands#grep|grep]]
 [[Linux terminal commands#symlink|symlink]]
+[[Linux terminal commands#system|system]]
+
 
 
 
@@ -300,6 +302,14 @@ readlink -f python
 ```
 
 
+## system
+linux version
+``` bash
+# one of the following:
+cat /etc/os-release
+lsb_release -a
+uname -r
+```
 
 ## References
 

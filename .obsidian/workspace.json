@@ -8,103 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "769ba2b51f8abfa9",
+            "id": "68a5b9460a565734",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/03-2025/14-04-2025.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "14-04-2025"
-            }
-          },
-          {
-            "id": "e58958db74997e83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/15-04-2025.md",
+                "file": "Journal/12-06-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15-04-2025"
+              "title": "12-06-2025"
             }
           },
           {
-            "id": "f8866ad9534a8e62",
+            "id": "32ecb1e966f03f41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/rdcmProbe.md",
+                "file": "Inbox/LaTex.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rdcmProbe"
+              "title": "LaTex"
             }
           },
           {
-            "id": "dff85f622395496f",
+            "id": "151232ae13ccb46e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/03-2025/14-04-2025.md",
+                "file": "Journal/10-06-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14-04-2025"
-            }
-          },
-          {
-            "id": "faf0961b33759417",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-04-14 11.38.42.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-14 11.38.42.excalidraw"
-            }
-          },
-          {
-            "id": "664c56362109df29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Conda.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Conda"
-            }
-          },
-          {
-            "id": "270e61be7d30f3d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Python.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python"
+              "title": "10-06-2025"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +69,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -136,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#cons",
+                "query": "tag:#consume  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "0f70a3d4bbdff5f5",
@@ -188,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-18 23.00.08.excalidraw.md",
+                "file": "Excalidraw/Drawing 2025-05-13 10.29.27.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2024-11-18 23.00.08.excalidraw"
+              "title": "Backlinks for Drawing 2025-05-13 10.29.27.excalidraw"
             }
           },
           {
@@ -207,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-18 23.00.08.excalidraw.md",
+                "file": "Excalidraw/Drawing 2025-04-20 20.48.28.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Drawing 2024-11-18 23.00.08.excalidraw"
+              "title": "Outgoing links from Drawing 2025-04-20 20.48.28.excalidraw"
             }
           },
           {
@@ -222,7 +166,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -234,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/rdcmZoom.md",
+                "file": "Excalidraw/Drawing 2025-05-13 10.29.27.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -262,7 +208,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of rdcmZoom"
+              "title": "Graph of Drawing 2025-05-13 10.29.27.excalidraw"
             }
           },
           {
@@ -271,18 +217,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-12-10 16.04.08.excalidraw.md"
+                "file": "Excalidraw/Drawing 2025-04-20 20.48.28.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2024-12-10 16.04.08.excalidraw"
+              "title": "Outline of Drawing 2025-04-20 20.48.28.excalidraw"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 477.5,
+    "width": 398.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -297,49 +246,49 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e58958db74997e83",
+  "active": "68a5b9460a565734",
   "lastOpenFiles": [
-    "Inbox/Linux terminal commands.md",
-    "Journal/15-04-2025.md",
-    "Journal/03-2025/14-04-2025.md",
-    "Inbox/Python.md",
-    "Inbox/Conda.md",
-    "Inbox/Package Manager.md",
-    "Inbox/pip.md",
-    "Journal/03-2025/05-03-2025.md",
-    "Journal/03-2025/06-03-2025.md",
-    "Journal/03-2025/04-03-2025.md",
-    "Excalidraw/Drawing 2025-04-14 11.38.42.excalidraw.md",
-    "Excalidraw/attachments/Pasted Image 20250414121155_677.png",
-    "Journal/03-2025",
-    "Inbox/XGBoost.md",
-    "03-2025",
-    "03-2025",
-    "Journal/07-04-2025.md",
-    "Inbox/Tabular Features time series.md",
-    "Inbox/rdcmProbe.md",
-    "Journal/02-04-2025.md",
-    "Journal/06-04-2025.md",
-    "Journal/03-04-2025.md",
-    "Inbox/Git Commands.md",
-    "Journal/03-2025/08-04-2025.md",
-    "Excalidraw/Drawing 2025-03-31 11.58.38.excalidraw.md",
+    "Journal/11-06-2025.md",
+    "Journal/12-06-2025.md",
+    "Excalidraw/xgboost_with_tomer.excalidraw.md",
+    "Excalidraw/XGBoost.excalidraw.md",
+    "Excalidraw/xgboost2.excalidraw.md",
+    "Excalidraw/tomer_LLM.excalidraw.md",
+    "Excalidraw/udl_ch_8_1.excalidraw.md",
+    "Excalidraw/udl_chapter_10.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-10 12.28.07.excalidraw.md",
     "Inbox/Understanding Deep Learning.md",
-    "Inbox/rdcmZoom.md",
-    "Inbox/attachments/rdcmZoom-8.png",
-    "Journal/03-2025/27-03-2025.md",
-    "Journal/03-2025/31-03-2025.md",
-    "Journal/03-2025/30-03-2025.md",
-    "Inbox/attachments/Pasted image 20250305135137.png",
-    "Inbox/attachments/rdcmProbe-1.png",
-    "Inbox/attachments/rdcmProbe.png",
-    "Inbox/attachments/Gradient Boosting.png",
+    "Journal/04-06-2025.md",
+    "Journal/10-06-2025.md",
+    "Inbox/LaTex.md",
+    "Excalidraw/Drawing 2025-05-13 10.29.27.excalidraw.md",
+    "Journal/08-06-2025.md",
+    "Excalidraw/udl_chapter_8.excalidraw.md",
+    "Inbox/Probability and Statistics.md",
+    "Inbox/Central limit theorem.md",
+    "Excalidraw/attachments/Pasted Image 20250608205427_254.png",
+    "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-18 11.15.37.excalidraw.md",
+    "Inbox/Interview.md",
+    "Excalidraw/Drawing 2025-04-28 09.49.46.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md",
+    "Journal/03-06-2025.md",
+    "Journal/02-06-2025.md",
+    "Excalidraw/attachments/Pasted Image 20250529085551_441.png",
+    "Excalidraw/attachments/Pasted Image 20250528134259_797.png",
+    "Excalidraw/attachments/Pasted Image 20250527113310_823.png",
+    "Excalidraw/attachments/Pasted Image 20250527112931_219.png",
+    "Excalidraw/attachments/Pasted Image 20250522150147_731.png",
+    "Excalidraw/attachments/Pasted Image 20250519102554_951.png",
+    "Excalidraw/attachments/Pasted Image 20250515132112_437.png",
+    "Excalidraw/attachments/Pasted Image 20250515101803_460.png",
+    "Excalidraw/attachments/Pasted Image 20250513141043_768.png",
+    "Journal/03-2025",
+    "03-2025",
+    "03-2025",
     "Journal/02-2025",
     "02-2025",
-    "Inbox/attachments/Git Commands-1.png",
-    "Inbox/attachments/Git Commands.png",
-    "Inbox/attachments/rdcmZoom-7.png",
-    "Pasted image 20240730105440.png",
     "Journal/01-2025",
     "Journal/attachments/zoom1.pdf",
     "Journal/12-2024",

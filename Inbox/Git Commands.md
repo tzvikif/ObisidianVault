@@ -9,9 +9,14 @@ Tags:
 # Git Commands
 
 - [[Git Commands#Branches|Branches]]
+	- [[Git Commands#Inspect|inspect]]
+	- [[Git Commands#rename|rename]]
+	- [[Git Commands#Create branch|create]]
+	- [[Git Commands#delete|delete]]
 - [[Git Commands#Fetch|Fetch]]
 - [[Git Commands#Log|Log]]
 - [[Git Commands#rebase|Rebase]]
+- [[Git Commands#Stash|Stash]]
 - 
 
 ## Under the hood
@@ -28,20 +33,46 @@ for remote branches
 ``` bash
 git branch -r
 ```
-### Create
+
+### rename
+ 
+if you are on the branch you want to change
+``` bash
+git branch -m <current branch name> <new branch name>
+```
+if your are on branch different branch
+``` bash
+git branch -m <current branch name> <new branch name>
+```
+
+### Create branch
 create local
 ``` bash
 git checkout -b new-branch-name
 # newer Git versions
 git switch -c new-branch-name
 # push remote to a new remote branch
+
+```
+
+create remote
+``` bash 
 git push -u origin new-branch-name
 # The `-u` (or `--set-upstream`) flag sets up tracking, so your local branch knows which remote branch to sync with for future pulls and pushes.
+# example
+git push -u origin zoom/tiran
 ```
+
 add repo
 ``` bash
 $ git remote add new-remote-repo https://bitbucket.com/user/repo.git 
 ```
+### delete
+``` bash
+git push -d <remote_name> <branchname>   # Delete remote
+git branch -d <branchname>               # Delete local
+```
+
 ## Fetch
 
 *git fetch* download the remote content but does not *merge* them as in *git pull*
@@ -125,6 +156,7 @@ display commits that are missing in remote
 git log origin/master..HEAD
 ```
 ## Tracking
+### inspect tracking
 
 The most direct way - shows the current branch and its tracking info
 ``` bash
@@ -194,7 +226,13 @@ git reset --mixed <file-path> # default
 git reset --hard
 ```
 ## Stash
+if you can't merge/rebase because uncommitted changes:
+``` bash
+git stash
+git rebase origin/zoom_offload_by_port
+git stash pop
 
+```
 ## Commit
 
 ## Checkout

@@ -4,7 +4,7 @@
 
 Status: #in_progress
 
-Tags: #video, #consume
+Tags: #video, 
 
 ## Lecture 8.2 - Training Graph Neural Networks
 

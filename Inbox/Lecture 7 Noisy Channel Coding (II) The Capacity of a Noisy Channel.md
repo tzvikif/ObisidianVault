@@ -4,7 +4,7 @@
 
 Status: #in_progress
 
-Tags: #consume
+Tags: 
 
 # Lecture 7 Noisy Channel Coding (II) The Capacity of a Noisy Channel
 
