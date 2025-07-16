@@ -19,10 +19,16 @@ $\displaystyle\sum\limits_{n=1}^{\infty}\frac{a_n}{\displaystyle\sum\limits_{n=1
 $1,2,3,\ldots$
 $1+2+3+\cdots$
 $\displaystyle \hat{\phi} = \underset{\phi} {argmin} \left[ \prod_{i=1}^{I} Pr(y_{i}|x_{i},\phi) \cdot Pr(\phi)\right]$
-
-
+${TF-IDF}(t, d) = \text{TF}(t, d) \times \underbrace{\log\left( \frac{N}{DF(t)} \right)}_{IDF}$
+$\lvert X \rvert$
+$\|X\|$
+## Space
+1. `\;` - a thick space
+2. `\:` - a medium space
+3. `\,` - a thin space
+4. `\!` - a negative thin space
 ## Combinatorics
-${n\choose k}$
+$\displaystyle { n\choose k }$
 ## logic
 $\sim$, $\lor$, $\land$, $\to$, $\Rightarrow$ ,$\Leftrightarrow$, $\exists$, $\forall$
 ## linear algebra
@@ -42,6 +48,11 @@ nabla $\nabla$
 
 "LL" $\mathcal{L}$
 $\mathscr{L}$
+
+## shortcuts
+
+ch - ()
+
 
 ```
 [

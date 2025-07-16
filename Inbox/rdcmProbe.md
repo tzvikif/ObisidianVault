@@ -14,6 +14,10 @@ Tags:
 
 
 
+
+## Web Monitor
+http://172.16.10.140:8080/monserver/AjaxClient/JSP/Login/Login.jsp
+
 ## Update 
 
  ``` bash
@@ -86,6 +90,16 @@ set *pure_gi_enabled* to *yes*
 ![[rdcmProbe-1.png]] 
 insert ip under *<element_class type="ipv4_pure_gi">*
 ## Offlinegenerator
+
+#### proc_config.xml
+search for  offlinegen.xml switch enabled="yes"
+
+``` xml
+<process>
+      <proc_attr accumulated_packets_size="50" async_proxy="no" config_file_path="/hpadir/config/hpaofflinegen.xml" enabled="yes" hmop_port_lower_bound="9060" hmop_port_upper_bound="9069" instance_id="1" ip_address="127.0.0.1" machine_name="1234" proc_name="hpaofflinegen" uds_lower_bound="9050" uds_source_lower_bound="8960" uds_source_upper_bound="9049" uds_upper_bound="9059" wait_for_signal="0"/>
+    </process>
+    <process>
+```
 ### *hpaofflinegen.xml*
 ``` xml
 use_original_timestamps="file_time_stamp"
@@ -104,9 +118,28 @@ arch/video_ml/files/xgmodels
 Note: the models are copied to archive . if you want to change model go to [[rdcmProbe#update model|update model]]
 
 ### update model
+in the file arch/video_ml/files/xgmodelsml_api_xgboost.ini
+update the name of the model if needed.
 ``` bash
 # update model
+
 ```
+
+## Build
+``` bash
+cd /hpadir
+git clean -f -d
+git checkout .
+make BLD=rebuild
+
+# after build is done run this to reset config to fit current version scheme:
+sh /hpadir/hostinstallhelper.sh swoffline
+```
+
+check */hpadir/log* for compilation issues
+
+## SNI filter
+*/hpadir/source/processes/hpagidecoder/hpagidecoderimpl/CrVideoKpiMngr.h*
 
 ## My Questions
 

@@ -20,6 +20,12 @@ Tags:
 [[Linux terminal commands#grep|grep]]
 [[Linux terminal commands#symlink|symlink]]
 [[Linux terminal commands#system|system]]
+[[Linux terminal commands]]
+[[Linux terminal commands#network|network]]
+- [[Linux terminal commands#ports|ports]]
+[[Linux terminal commands#Compress|compress]]
+
+
 
 
 
@@ -55,7 +61,7 @@ df -h
 
 ## awk
 
->ajay manager account 45000  
+ajay manager account 45000  
 sunil clerk account 25000  
 varun manager sales 50000  
 amit manager account 47000  
@@ -68,7 +74,7 @@ satvik director purchase 80000
 awk '/manager/ {print}' employee.txt
 ```
 
->ajay manager account 45000  
+ajay manager account 45000  
 varun manager sales 50000  
 amit manager account 47000
 
@@ -76,7 +82,7 @@ amit manager account 47000
 awk '{print $1,$4}' employee.txt
 ```
 
-> ajay 45000  
+ajay 45000  
 sunil 25000  
 varun 50000  
 amit 47000  
@@ -87,14 +93,14 @@ satvik 80000
 
 build in variables
 
-- ****NR**** number of records
-- ****NF**** number of fields
-
+- **NR** number of records
+- **NF** number of fields
+	
 ``` bash
 awk '{print NR,$0}' employee.txt
 ```
 
->1 ajay manager account 45000  
+1 ajay manager account 45000  
 2 sunil clerk account 25000  
 3 varun manager sales 50000  
 4 amit manager account 47000  
@@ -109,7 +115,7 @@ awk '{print $1,$NF}' employee.txt
 
 $NF represents last field (salary)
 
->ajay 45000  
+ajay 45000  
 sunil 25000  
 varun 50000  
 amit 47000  
@@ -280,7 +286,7 @@ grep -E 'a{2,4}' file.txt # "aa", "aaa", or "aaaa"
 # Search recursively for a pattern in all text files
 grep -r "TODO" --include="*.txt" /path/to/search
 ```
-
+	
 ## add string to file name
 ``` bash
 for file in *.pcapng; do mv "$file" "ml_kpi_debug_decoder_$file"; done
@@ -310,6 +316,33 @@ cat /etc/os-release
 lsb_release -a
 uname -r
 ```
+
+## network
+### ports
+``` bash
+sudo ss -tuln | grep :8080 # is it used?
+sudo lsof -i :8080 # who is using that port
+ps -p <PID> -o pid,cmd # details about that process
+```
+
+
+## Compress 
+
+### tar
+``` bash
+tar -czvf archive.tar.gz myfolder/
+```
+### untar
+``` bash
+tar -xvzf raw.tar.gz
+```
+- `x` – extract
+- `v` – verbose (shows progress)
+- `z` – decompress (gzip)
+- `f` – filename to operate on
+- `c` – create archive
+
+
 
 ## References
 

@@ -72,6 +72,10 @@ $f_{2}(x+f_{1}(x))$
 $f_{3}(f_{1}(x)+f_{2}(x+f_{1}(x)))$
 
 
-
+## Chapter 12: Transformers
+- scaled dot-product self-attention
+- Query , Key , Value.
+- Multi-head self-attention
+- 
 ## References
 

@@ -8,48 +8,101 @@
         "type": "tabs",
         "children": [
           {
-            "id": "68a5b9460a565734",
+            "id": "0af8b55c88b5baa9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/12-06-2025.md",
+                "file": "Inbox/Understanding Deep Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-06-2025"
+              "title": "Understanding Deep Learning"
             }
           },
           {
-            "id": "32ecb1e966f03f41",
+            "id": "07abbe0acb97bfd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/LaTex.md",
+                "file": "Inbox/Git Commands.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LaTex"
+              "title": "Git Commands"
             }
           },
           {
-            "id": "151232ae13ccb46e",
+            "id": "247179d7c4987ee3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/10-06-2025.md",
+                "file": "Inbox/Python.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python"
+            }
+          },
+          {
+            "id": "c4393b4bcea8aa18",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-07-14 16.01.42.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-07-14 16.01.42.excalidraw"
+            }
+          },
+          {
+            "id": "5c7cd73a67640760",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-07-15 12.32.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-07-15 12.32.09.excalidraw"
+            }
+          },
+          {
+            "id": "3b72fee2c9fee9c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/15-07-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10-06-2025"
+              "title": "15-07-2025"
+            }
+          },
+          {
+            "id": "5e6d3c2882b93c4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Linux terminal commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux terminal commands"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +165,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -246,35 +300,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "68a5b9460a565734",
+  "active": "c4393b4bcea8aa18",
   "lastOpenFiles": [
-    "Journal/11-06-2025.md",
-    "Journal/12-06-2025.md",
-    "Excalidraw/xgboost_with_tomer.excalidraw.md",
-    "Excalidraw/XGBoost.excalidraw.md",
-    "Excalidraw/xgboost2.excalidraw.md",
-    "Excalidraw/tomer_LLM.excalidraw.md",
-    "Excalidraw/udl_ch_8_1.excalidraw.md",
-    "Excalidraw/udl_chapter_10.excalidraw.md",
+    "Journal/15-07-2025.md",
+    "Inbox/Python.md",
+    "Journal/13-07-2025.md",
+    "Excalidraw/Drawing 2025-07-15 12.32.09.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-14 16.01.42.excalidraw.md",
+    "Inbox/Linux terminal commands.md",
+    "Excalidraw/Drawing 2025-07-06 17.31.05.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-12 09.45.29.excalidraw.md",
     "Excalidraw/Drawing 2025-06-10 12.28.07.excalidraw.md",
-    "Inbox/Understanding Deep Learning.md",
-    "Journal/04-06-2025.md",
-    "Journal/10-06-2025.md",
-    "Inbox/LaTex.md",
-    "Excalidraw/Drawing 2025-05-13 10.29.27.excalidraw.md",
-    "Journal/08-06-2025.md",
-    "Excalidraw/udl_chapter_8.excalidraw.md",
-    "Inbox/Probability and Statistics.md",
-    "Inbox/Central limit theorem.md",
-    "Excalidraw/attachments/Pasted Image 20250608205427_254.png",
+    "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-29 15.34.37.excalidraw.md",
     "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md",
     "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md",
     "Excalidraw/Drawing 2025-05-18 11.15.37.excalidraw.md",
-    "Inbox/Interview.md",
-    "Excalidraw/Drawing 2025-04-28 09.49.46.excalidraw.md",
-    "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md",
-    "Journal/03-06-2025.md",
-    "Journal/02-06-2025.md",
+    "Excalidraw/credit.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-15 12.47.27.excalidraw.md",
+    "Inbox/rdcmProbe.md",
+    "Inbox/Git Commands.md",
+    "Excalidraw/Drawing 2025-07-03 13.34.20.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-02 14.28.08.excalidraw.md",
+    "Excalidraw/eyal_internet_proj.excalidraw.md",
+    "Journal/14-07-2025.md",
+    "Inbox/Docker.md",
+    "Journal/09-07-2025.md",
+    "Journal/06-07-2025.md",
+    "Journal/10-07-2025.md",
+    "Excalidraw/attachments/Pasted Image 20250710133347_777.png",
+    "Excalidraw/attachments/Pasted Image 20250608205427_254.png",
     "Excalidraw/attachments/Pasted Image 20250529085551_441.png",
     "Excalidraw/attachments/Pasted Image 20250528134259_797.png",
     "Excalidraw/attachments/Pasted Image 20250527113310_823.png",
@@ -283,7 +338,6 @@
     "Excalidraw/attachments/Pasted Image 20250519102554_951.png",
     "Excalidraw/attachments/Pasted Image 20250515132112_437.png",
     "Excalidraw/attachments/Pasted Image 20250515101803_460.png",
-    "Excalidraw/attachments/Pasted Image 20250513141043_768.png",
     "Journal/03-2025",
     "03-2025",
     "03-2025",

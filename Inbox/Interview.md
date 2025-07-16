@@ -29,10 +29,13 @@ Frequentist Probabilities vs. softmax (https://claude.ai/chat/f1d8de3e-3c86-4933
 - SVM
 - dimension reduction
 
-
+### Text
+- TF-IDF
 
 ## My Questions
 - reinforcement learning algorithm
+- how to handle unbalanced data , and which metric to use
+- 
 
 ## References
 

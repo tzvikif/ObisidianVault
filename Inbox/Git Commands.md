@@ -17,7 +17,8 @@ Tags:
 - [[Git Commands#Log|Log]]
 - [[Git Commands#rebase|Rebase]]
 - [[Git Commands#Stash|Stash]]
-- 
+- [[Git Commands#Reset|Reset]]
+- [[Git Commands#Config|Config]]
 
 ## Under the hood
 *./.git/objects* directory stores all the commits (local and remote)
@@ -34,6 +35,11 @@ for remote branches
 git branch -r
 ```
 
+### change branch
+``` bash
+git checkout <branch name>
+git checkout -f <branch name> # 
+```
 ### rename
  
 if you are on the branch you want to change
@@ -51,7 +57,9 @@ create local
 git checkout -b new-branch-name
 # newer Git versions
 git switch -c new-branch-name
-# push remote to a new remote branch
+# create local branch from remote branch
+git checkout -b my-local-branch origin/feature/xyz
+
 
 ```
 
@@ -234,6 +242,12 @@ git stash pop
 
 ```
 ## Commit
+
+## Config
+``` bash
+git config --global user.name "tzviki"
+git config --global user.email "tzviki.fisher@radcom.com"
+```
 
 ## Checkout
 
