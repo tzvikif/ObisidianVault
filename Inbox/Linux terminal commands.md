@@ -14,16 +14,18 @@ Tags:
 [[Linux terminal commands#find|find]]
 [[Linux terminal commands#keep running after logout|keep running after logout]]
 [[Linux terminal commands#vi|vi cheat sheet]]
-[[Linux terminal commands#kill|kill]]
+
 [[Linux terminal commands#copy|move and copy]]
 [[Linux terminal commands#add string to file name|change file names to all files in a folder]]
 [[Linux terminal commands#grep|grep]]
 [[Linux terminal commands#symlink|symlink]]
+[[Linux terminal commands#shell alias|shell alias]]
 [[Linux terminal commands#system|system]]
-[[Linux terminal commands]]
+- [[Linux terminal commands#kill|kill]]
 [[Linux terminal commands#network|network]]
 - [[Linux terminal commands#ports|ports]]
 [[Linux terminal commands#Compress|compress]]
+[[Linux terminal commands#customization|customization]]
 
 
 
@@ -307,13 +309,20 @@ readlink -f <symlink name>
 readlink -f python
 ```
 
+## shell alias
+add to ~/.bashrc
+``` bash
+alias dpsa='sudo docker ps -a --format "table {{.ID}}\t{{.Names}}\t{{.Status}}\t{{.Image}}"'
+# reload if needed
+source ~/.bashrc
+```
 
 ## system
 linux version
 ``` bash
 # one of the following:
 cat /etc/os-release
-lsb_release -a
+	lsb_release -a
 uname -r
 ```
 
@@ -341,6 +350,11 @@ tar -xvzf raw.tar.gz
 - `z` – decompress (gzip)
 - `f` – filename to operate on
 - `c` – create archive
+
+## customization
+https://www.windowscentral.com/software-apps/3-easy-ways-to-turn-windows-terminal-shells-from-drab-to-drip
+### starship
+https://starship.rs/
 
 
 

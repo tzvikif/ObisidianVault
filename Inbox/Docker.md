@@ -8,6 +8,12 @@ Tags:
 
 # Docker
 
+[[Docker#Dockerfile|dockerfile]]
+- [[Docker#build|build]]
+
+[[Docker#docker-compose|docker-compose]]
+- [[Docker#up|commands using docker-compose]]
+- 
 
 
 
@@ -75,6 +81,7 @@ Think of it as a party planner deciding how many cakes to bake and where to put 
 
 ### up
 ``` bash
+# runs docker-compose.yml file
 docker compose up -d # runs the containers in the background
 ```
 
@@ -129,9 +136,18 @@ docker exec -it <container_name> /bin/bash
 ```
 
 ### stop container
+Stop just the  service
 ``` bash
+# if didn't use docker-compose.yml
+# docker compose <container id | container name>
+docker compose stop web
+# used docker-compose.yml (multiple containers)
 docker compose stop # stops containers
 ```
+
+### docker compose start
+Start stopped containers again
+
 ### stop and remove containers
 ``` bash
 docker compose down
@@ -139,7 +155,13 @@ docker compose down --volumes # This will delete named volumes!
 ```
 All containers started by the current `docker-compose.yml` are **stopped** and then **removed**. *Network* is also deleted.
 
+### Check container labels (they store Compose info)
+``` bash
+docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Labels}}"
+# To inspect one container in detail
+docker inspect <container_name_or_id> | jq '.[0].Config.Labels'
 
+```
 ## example
 docker-compose.yml
 ``` yaml

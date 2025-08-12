@@ -1,28 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2025-07-14 16.01.42.excalidraw",
-      "path": "Excalidraw/Drawing 2025-07-14 16.01.42.excalidraw.md"
-    },
-    {
-      "basename": "15-07-2025",
-      "path": "Journal/15-07-2025.md"
-    },
-    {
-      "basename": "Python",
-      "path": "Inbox/Python.md"
-    },
-    {
-      "basename": "Drawing 2025-07-15 12.32.09.excalidraw",
-      "path": "Excalidraw/Drawing 2025-07-15 12.32.09.excalidraw.md"
+      "basename": "12-08-2025",
+      "path": "Journal/12-08-2025.md"
     },
     {
       "basename": "Linux terminal commands",
       "path": "Inbox/Linux terminal commands.md"
     },
     {
-      "basename": "Drawing 2025-07-06 17.31.05.excalidraw",
-      "path": "Excalidraw/Drawing 2025-07-06 17.31.05.excalidraw.md"
+      "basename": "Python",
+      "path": "Inbox/Python.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
+    },
+    {
+      "basename": "Drawing 2025-08-04 15.22.38.excalidraw",
+      "path": "Excalidraw/Drawing 2025-08-04 15.22.38.excalidraw.md"
+    },
+    {
+      "basename": "11-08-2025",
+      "path": "Journal/11-08-2025.md"
+    },
+    {
+      "basename": "Drawing 2025-07-15 12.32.09.excalidraw",
+      "path": "Excalidraw/Drawing 2025-07-15 12.32.09.excalidraw.md"
+    },
+    {
+      "basename": "10-08-2025",
+      "path": "Journal/10-08-2025.md"
+    },
+    {
+      "basename": "Useful  markdown syntax in Obsidian",
+      "path": "Inbox/Useful  markdown syntax in Obsidian.md"
+    },
+    {
+      "basename": "Obsidian Cheat sheet",
+      "path": "Inbox/Obsidian Cheat sheet.md"
+    },
+    {
+      "basename": "06-08-2025",
+      "path": "Journal/06-08-2025.md"
+    },
+    {
+      "basename": "Understanding Deep Learning",
+      "path": "Inbox/Understanding Deep Learning.md"
+    },
+    {
+      "basename": "Drawing 2025-07-29 14.59.13.excalidraw",
+      "path": "Excalidraw/Drawing 2025-07-29 14.59.13.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-07-27 15.37.19.excalidraw",
+      "path": "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-07-02 14.28.08.excalidraw",
+      "path": "Excalidraw/Drawing 2025-07-02 14.28.08.excalidraw.md"
     },
     {
       "basename": "Drawing 2025-06-12 09.45.29.excalidraw",
@@ -53,32 +89,72 @@
       "path": "Excalidraw/Drawing 2025-05-18 11.15.37.excalidraw.md"
     },
     {
-      "basename": "credit.excalidraw",
-      "path": "Excalidraw/credit.excalidraw.md"
+      "basename": "Docker",
+      "path": "Inbox/Docker.md"
     },
     {
-      "basename": "rdcmProbe",
-      "path": "Inbox/rdcmProbe.md"
+      "basename": "transformer.excalidraw",
+      "path": "Excalidraw/transformer.excalidraw.md"
     },
     {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
+      "basename": "31-07-2025",
+      "path": "Journal/31-07-2025.md"
     },
     {
-      "basename": "Drawing 2025-07-02 14.28.08.excalidraw",
-      "path": "Excalidraw/Drawing 2025-07-02 14.28.08.excalidraw.md"
+      "basename": "Key_Terms_and_Categories.excalidraw",
+      "path": "Excalidraw/Key_Terms_and_Categories.excalidraw.md"
+    },
+    {
+      "basename": "28-07-2025",
+      "path": "Journal/28-07-2025.md"
+    },
+    {
+      "basename": "AUC",
+      "path": "Zettelkasten/AUC.md"
+    },
+    {
+      "basename": "Gradient Boosting",
+      "path": "Inbox/Gradient Boosting.md"
+    },
+    {
+      "basename": "xgboost_with_tomer.excalidraw",
+      "path": "Excalidraw/xgboost_with_tomer.excalidraw.md"
+    },
+    {
+      "basename": "24-07-2025",
+      "path": "Journal/24-07-2025.md"
+    },
+    {
+      "basename": "KL_CE.excalidraw",
+      "path": "Excalidraw/KL_CE.excalidraw.md"
+    },
+    {
+      "basename": "23-07-2025",
+      "path": "Journal/23-07-2025.md"
     },
     {
       "basename": "eyal_internet_proj.excalidraw",
       "path": "Excalidraw/eyal_internet_proj.excalidraw.md"
     },
     {
-      "basename": "14-07-2025",
-      "path": "Journal/14-07-2025.md"
+      "basename": "21-07-2025",
+      "path": "Journal/21-07-2025.md"
     },
     {
-      "basename": "Docker",
-      "path": "Inbox/Docker.md"
+      "basename": "20-07-2025",
+      "path": "Journal/20-07-2025.md"
+    },
+    {
+      "basename": "rdcmProbe",
+      "path": "Inbox/rdcmProbe.md"
+    },
+    {
+      "basename": "credit.excalidraw",
+      "path": "Excalidraw/credit.excalidraw.md"
+    },
+    {
+      "basename": "14-07-2025",
+      "path": "Journal/14-07-2025.md"
     },
     {
       "basename": "10-07-2025",
@@ -123,74 +199,6 @@
     {
       "basename": "Interview",
       "path": "Inbox/Interview.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Inbox/Untitled.md"
-    },
-    {
-      "basename": "Understanding Deep Learning",
-      "path": "Inbox/Understanding Deep Learning.md"
-    },
-    {
-      "basename": "15-06-2025",
-      "path": "Journal/15-06-2025.md"
-    },
-    {
-      "basename": "11-06-2025",
-      "path": "Journal/11-06-2025.md"
-    },
-    {
-      "basename": "xgboost_with_tomer.excalidraw",
-      "path": "Excalidraw/xgboost_with_tomer.excalidraw.md"
-    },
-    {
-      "basename": "XGBoost.excalidraw",
-      "path": "Excalidraw/XGBoost.excalidraw.md"
-    },
-    {
-      "basename": "xgboost2.excalidraw",
-      "path": "Excalidraw/xgboost2.excalidraw.md"
-    },
-    {
-      "basename": "udl_ch_8_1.excalidraw",
-      "path": "Excalidraw/udl_ch_8_1.excalidraw.md"
-    },
-    {
-      "basename": "udl_chapter_10.excalidraw",
-      "path": "Excalidraw/udl_chapter_10.excalidraw.md"
-    },
-    {
-      "basename": "udl_chapter_8.excalidraw",
-      "path": "Excalidraw/udl_chapter_8.excalidraw.md"
-    },
-    {
-      "basename": "Probability and Statistics",
-      "path": "Inbox/Probability and Statistics.md"
-    },
-    {
-      "basename": "Central limit theorem",
-      "path": "Inbox/Central limit theorem.md"
-    },
-    {
-      "basename": "03-06-2025",
-      "path": "Journal/03-06-2025.md"
-    },
-    {
-      "basename": "02-06-2025",
-      "path": "Journal/02-06-2025.md"
-    },
-    {
-      "basename": "31-05-2025",
-      "path": "Journal/31-05-2025.md"
-    },
-    {
-      "basename": "IntroductionToInformationTheory3.excalidraw",
-      "path": "Excalidraw/IntroductionToInformationTheory3.excalidraw.md"
-    },
-    {
-      "basename": "Lecture 3 Entropy and Data Compression (II) Introduction to Compression, Inf Theory and Entropy",
-      "path": "Zettelkasten/Lecture 3 Entropy and Data Compression (II) Introduction to Compression, Inf Theory and Entropy.md"
     }
   ],
   "omittedPaths": [],
