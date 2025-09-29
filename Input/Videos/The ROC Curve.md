@@ -40,6 +40,8 @@ calculate the confusion matrix the TPR and the FPR. and draw a point.
 
 we use a metric which is called **A**rea **U**nder **C**urve [[AUC]] to evaluate the ROC.
 
+## related topics
+[[precision recall curve]]
 
 ## References
 

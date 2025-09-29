@@ -4,65 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "ef1840835ca10b82",
+        "id": "b39fa1fa5772237f",
         "type": "tabs",
         "children": [
           {
-            "id": "7305f5fab9db7c04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Mahalanobis distance.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mahalanobis distance"
-            }
-          },
-          {
-            "id": "0171746de6a0fa6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Input/Videos/The ROC Curve.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The ROC Curve"
-            }
-          },
-          {
-            "id": "c9b9c7ad09f48507",
+            "id": "1c396e3d81cb377b",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-09-25 16.26.02.excalidraw.md"
+                "file": "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-25 16.26.02.excalidraw"
+              "title": "Drawing 2025-08-19 16.48.32.excalidraw"
             }
           },
           {
-            "id": "0b9b8156fb60b925",
+            "id": "7f2445641cb2b7c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/29-09-2025.md",
+                "file": "Journal/20-08-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "29-09-2025"
+              "title": "20-08-2025"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#consume  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -261,34 +232,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c9b9c7ad09f48507",
+  "active": "a5fe38b218bdf6a1",
   "lastOpenFiles": [
-    "Inbox/LaTex.md",
-    "Excalidraw/Drawing 2025-09-25 16.26.02.excalidraw.md",
+    "Journal/23-08-2025.md",
     "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md",
+    "Journal/20-08-2025.md",
+    "Excalidraw/Drawing 2025-06-12 09.45.29.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-02 14.28.08.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-15 12.32.09.excalidraw.md",
     "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md",
-    "Inbox/rdcmProbe.md",
-    "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md",
-    "Journal/29-09-2025.md",
-    "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md",
-    "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md",
-    "Excalidraw/VAE2.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-29 14.59.13.excalidraw.md",
+    "Journal/19-08-2025.md",
+    "Journal/18-08-2025.md",
     "Inbox/Linux terminal commands.md",
-    "Inbox/Mahalanobis distance.md",
-    "Excalidraw/loss_func_CE_5_2.excalidraw.md",
-    "Inbox/Docker.md",
-    "Journal/28-09-2025.md",
-    "Excalidraw/udl_ch_8_1.excalidraw.md",
-    "Journal/20-09-2025.md",
-    "Journal/25-09-2025.md",
-    "Excalidraw/direvative_sigmoid.excalidraw.md",
-    "Excalidraw/ELBO_Multivariate_Gaussian.excalidraw.md",
-    "Journal/21-09-2025.md",
-    "Excalidraw/Drawing 2025-09-18 21.36.51.excalidraw.md",
-    "Excalidraw/Drawing 2025-06-10 12.28.07.excalidraw.md",
-    "Excalidraw/attachments/Pasted Image 20250918161343_935.png",
-    "Journal/18-09-2025.md",
-    "Excalidraw/צחי.excalidraw.md",
+    "Journal/12-08-2025.md",
+    "Excalidraw/VAE.excalidraw.md",
+    "Excalidraw/credit.excalidraw.md",
+    "Journal/17-08-2025.md",
+    "Journal/16-08-2025.md",
+    "Inbox/Python.md",
     "Inbox/Git Commands.md",
     "Excalidraw/attachments/Pasted Image 20250811141748_648.png",
     "Excalidraw/attachments/Pasted Image 20250811141648_066.png",
@@ -299,6 +261,15 @@
     "Excalidraw/attachments/Pasted Image 20250811135113_664.png",
     "Excalidraw/attachments/Pasted Image 20250811135101_264.png",
     "Excalidraw/attachments/Pasted Image 20250811134917_123.png",
+    "Excalidraw/attachments/Pasted Image 20250811134830_996.png",
+    "Journal/11-08-2025.md",
+    "Journal/10-08-2025.md",
+    "Inbox/Useful  markdown syntax in Obsidian.md",
+    "Inbox/Obsidian Cheat sheet.md",
+    "Journal/06-08-2025.md",
+    "Inbox/Understanding Deep Learning.md",
+    "Journal/29-07-2025.md",
+    "Journal/05-08-2025.md",
     "Journal/03-2025",
     "03-2025",
     "03-2025",

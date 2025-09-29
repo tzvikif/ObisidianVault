@@ -14,7 +14,6 @@ Tags:
 [[Linux terminal commands#find|find]]
 [[Linux terminal commands#keep running after logout|keep running after logout]]
 [[Linux terminal commands#vi|vi cheat sheet]]
-
 [[Linux terminal commands#copy|move and copy]]
 [[Linux terminal commands#add string to file name|change file names to all files in a folder]]
 [[Linux terminal commands#grep|grep]]
@@ -26,6 +25,8 @@ Tags:
 - [[Linux terminal commands#ports|ports]]
 [[Linux terminal commands#Compress|compress]]
 [[Linux terminal commands#customization|customization]]
+[[Linux terminal commands#scp|scp]]
+
 
 
 
@@ -217,6 +218,7 @@ grep options
 - `-n`: Show line numbers
 - `-v`: Show lines that don't match
 - `-w`: Match whole words only
+- -E : regular expression
 ## keep running after logout
 
 ``` bash
@@ -343,20 +345,29 @@ tar -czvf archive.tar.gz myfolder/
 ```
 ### untar
 ``` bash
-tar -xvzf raw.tar.gz
+tar -xvzf raw.tar.gz [-C /my_destination_folder]
 ```
 - `x` – extract
 - `v` – verbose (shows progress)
 - `z` – decompress (gzip)
 - `f` – filename to operate on
-- `c` – create archive
+- `C` – destination folder
 
 ## customization
 https://www.windowscentral.com/software-apps/3-easy-ways-to-turn-windows-terminal-shells-from-drab-to-drip
 ### starship
 https://starship.rs/
 
-
+## scp
+the easiest way is to open terminal in wsl / Windows and then copy from / to.
+``` bash
+# from wsl/Windows to linux
+# scp [options] local_file user@remote_host:/remote/path/
+# from linux to wsl/Windows
+# scp [options] user@remote_host:/remote/path/ local_file
+# example: from wsl to linux
+scp /mnt/c/Users/Alice/Documents/file.txt username@remote_host:/home/username/
+```
 
 ## References
 

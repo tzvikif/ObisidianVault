@@ -18,6 +18,18 @@ Tags:
 ## Web Monitor
 http://172.16.10.140:8080/monserver/AjaxClient/JSP/Login/Login.jsp
 
+
+### solving problems
+``` bash
+[root@swprobe-rand ~]# systemctl stop wildfly_27  
+ראיתי שגם אחרי שהסרוויס נעצר עדיין הוובמון מראה שגיאה  
+[root@swprobe-rand ~]# pkill -9 java
+
+אחרי זה שעשיתי רענון לא הייתה תגובה  
+[root@swprobe-rand ~]# systemctl start wildfly_27
+```
+
+
 ## Update 
 
  ``` bash
@@ -118,7 +130,7 @@ arch/video_ml/files/xgmodels
 Note: the models are copied to archive . if you want to change model go to [[rdcmProbe#update model|update model]]
 
 ### update model
-in the file arch/video_ml/files/xgmodelsml_api_xgboost.ini
+in the file arch/video_ml/files/config/ml_api_xgboost.ini
 update the name of the model if needed.
 ``` bash
 # update model

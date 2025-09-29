@@ -1,32 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2025-09-25 16.26.02.excalidraw",
-      "path": "Excalidraw/Drawing 2025-09-25 16.26.02.excalidraw.md"
+      "basename": "24-09-2025",
+      "path": "Journal/24-09-2025.md"
     },
     {
-      "basename": "LaTex",
-      "path": "Inbox/LaTex.md"
+      "basename": "20-09-2025",
+      "path": "Journal/20-09-2025.md"
     },
     {
-      "basename": "Drawing 2025-08-19 16.48.32.excalidraw",
-      "path": "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md"
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
     },
     {
       "basename": "Drawing 2025-07-27 15.37.19.excalidraw",
       "path": "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md"
     },
     {
+      "basename": "Drawing 2025-07-29 14.59.13.excalidraw",
+      "path": "Excalidraw/Drawing 2025-07-29 14.59.13.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-08-19 16.48.32.excalidraw",
+      "path": "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md"
+    },
+    {
+      "basename": "18-09-2025",
+      "path": "Journal/18-09-2025.md"
+    },
+    {
+      "basename": "loss_func_CE_5_2.excalidraw",
+      "path": "Excalidraw/loss_func_CE_5_2.excalidraw.md"
+    },
+    {
+      "basename": "צחי.excalidraw",
+      "path": "Excalidraw/צחי.excalidraw.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
+    },
+    {
       "basename": "rdcmProbe",
       "path": "Inbox/rdcmProbe.md"
     },
     {
-      "basename": "Drawing 2025-05-20 14.16.45.excalidraw",
-      "path": "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md"
-    },
-    {
-      "basename": "29-09-2025",
-      "path": "Journal/29-09-2025.md"
+      "basename": "ELBO_Multivariate_Gaussian.excalidraw",
+      "path": "Excalidraw/ELBO_Multivariate_Gaussian.excalidraw.md"
     },
     {
       "basename": "Drawing 2025-05-20 16.55.12.excalidraw",
@@ -37,52 +57,20 @@
       "path": "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md"
     },
     {
-      "basename": "VAE2.excalidraw",
-      "path": "Excalidraw/VAE2.excalidraw.md"
+      "basename": "Drawing 2025-05-20 14.16.45.excalidraw",
+      "path": "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md"
     },
     {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
-      "basename": "Mahalanobis distance",
-      "path": "Inbox/Mahalanobis distance.md"
-    },
-    {
-      "basename": "loss_func_CE_5_2.excalidraw",
-      "path": "Excalidraw/loss_func_CE_5_2.excalidraw.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Inbox/Docker.md"
-    },
-    {
-      "basename": "28-09-2025",
-      "path": "Journal/28-09-2025.md"
-    },
-    {
-      "basename": "udl_ch_8_1.excalidraw",
-      "path": "Excalidraw/udl_ch_8_1.excalidraw.md"
-    },
-    {
-      "basename": "direvative_sigmoid.excalidraw",
-      "path": "Excalidraw/direvative_sigmoid.excalidraw.md"
-    },
-    {
-      "basename": "ELBO_Multivariate_Gaussian.excalidraw",
-      "path": "Excalidraw/ELBO_Multivariate_Gaussian.excalidraw.md"
-    },
-    {
-      "basename": "18-09-2025",
-      "path": "Journal/18-09-2025.md"
-    },
-    {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
+      "basename": "LaTex",
+      "path": "Inbox/LaTex.md"
     },
     {
       "basename": "The ROC Curve",
       "path": "Input/Videos/The ROC Curve.md"
+    },
+    {
+      "basename": "Mahalanobis distance",
+      "path": "Inbox/Mahalanobis distance.md"
     },
     {
       "basename": "chi2_MI.excalidraw",
@@ -91,6 +79,10 @@
     {
       "basename": "bayes_rule.excalidraw",
       "path": "Excalidraw/bayes_rule.excalidraw.md"
+    },
+    {
+      "basename": "direvative_sigmoid.excalidraw",
+      "path": "Excalidraw/direvative_sigmoid.excalidraw.md"
     },
     {
       "basename": "building_insurance.exalidraw",
@@ -181,6 +173,10 @@
       "path": "Inbox/Understanding Deep Learning.md"
     },
     {
+      "basename": "Docker",
+      "path": "Inbox/Docker.md"
+    },
+    {
       "basename": "transformer.excalidraw",
       "path": "Excalidraw/transformer.excalidraw.md"
     },
@@ -199,6 +195,10 @@
     {
       "basename": "AUC",
       "path": "Zettelkasten/AUC.md"
+    },
+    {
+      "basename": "Gradient Boosting",
+      "path": "Inbox/Gradient Boosting.md"
     }
   ],
   "omittedPaths": [],
