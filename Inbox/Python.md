@@ -18,6 +18,8 @@ myenv\Scripts\activate
 
 # Activating on Unix/MacOS
 source myenv/bin/activate
+# check environment
+echo $VIRTUAL_ENV
 ```
 
 Verify which Python is being used by running

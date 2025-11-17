@@ -1,0 +1,357 @@
+{
+  "main": {
+    "id": "af07321db613dd2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef1840835ca10b82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7305f5fab9db7c04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Mahalanobis distance.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mahalanobis distance"
+            }
+          },
+          {
+            "id": "0171746de6a0fa6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Input/Videos/The ROC Curve.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The ROC Curve"
+            }
+          },
+          {
+            "id": "c9b9c7ad09f48507",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/LaTex.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LaTex"
+            }
+          },
+          {
+            "id": "893a45b80d406833",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/rdcmProbe.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rdcmProbe"
+            }
+          },
+          {
+            "id": "18ad1665d7f3c67d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-20 14.16.45.excalidraw"
+            }
+          },
+          {
+            "id": "1d644e8f237438c3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/loss_func_CE_5_2.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "loss_func_CE_5_2.excalidraw"
+            }
+          },
+          {
+            "id": "0b9b8156fb60b925",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/30-09-2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "30-09-2025"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b440cda26bff7d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cf9e499c8269329",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cf12745c5a7e8a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ed9a8cc58234e01c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1f764541f8a113ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "7ac87310245833f0",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 322.5
+  },
+  "right": {
+    "id": "0f70a3d4bbdff5f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fa3395952d9361e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d376c9e88db8228",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-13 10.29.27.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Drawing 2025-05-13 10.29.27.excalidraw"
+            }
+          },
+          {
+            "id": "8be849749dfe693b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-20 20.48.28.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Drawing 2025-04-20 20.48.28.excalidraw"
+            }
+          },
+          {
+            "id": "bb53e8a17f31c665",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "103ce895379fa0e3",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-13 10.29.27.excalidraw.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.0000000000000002,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Drawing 2025-05-13 10.29.27.excalidraw"
+            }
+          },
+          {
+            "id": "a1f51328845fcaf2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-20 20.48.28.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Drawing 2025-04-20 20.48.28.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 398.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "0b9b8156fb60b925",
+  "lastOpenFiles": [
+    "Inbox/Linux terminal commands.md",
+    "Journal/30-09-2025.md",
+    "Inbox/Mahalanobis distance.md",
+    "Excalidraw/loss_func_CE_5_2.excalidraw.md",
+    "Inbox/Docker.md",
+    "Journal/28-09-2025.md",
+    "Excalidraw/udl_ch_8_1.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-25 16.26.02.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-29 14.59.13.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md",
+    "Inbox/rdcmProbe.md",
+    "Journal/20-09-2025.md",
+    "Journal/25-09-2025.md",
+    "Excalidraw/direvative_sigmoid.excalidraw.md",
+    "Excalidraw/ELBO_Multivariate_Gaussian.excalidraw.md",
+    "Journal/21-09-2025.md",
+    "Excalidraw/Drawing 2025-09-18 21.36.51.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-10 12.28.07.excalidraw.md",
+    "Excalidraw/attachments/Pasted Image 20250918161343_935.png",
+    "Journal/18-09-2025.md",
+    "Excalidraw/צחי.excalidraw.md",
+    "Inbox/Git Commands.md",
+    "Journal/16-09-2025.md",
+    "Excalidraw/attachments/Pasted Image 20250811141748_648.png",
+    "Excalidraw/attachments/Pasted Image 20250811141648_066.png",
+    "Excalidraw/attachments/Pasted Image 20250811140659_912.png",
+    "Excalidraw/attachments/Pasted Image 20250811140106_039.png",
+    "Excalidraw/attachments/Pasted Image 20250811135232_651.png",
+    "Excalidraw/attachments/Pasted Image 20250811135130_655.png",
+    "Excalidraw/attachments/Pasted Image 20250811135113_664.png",
+    "Excalidraw/attachments/Pasted Image 20250811135101_264.png",
+    "Excalidraw/attachments/Pasted Image 20250811134917_123.png",
+    "Journal/03-2025",
+    "03-2025",
+    "03-2025",
+    "Journal/02-2025",
+    "02-2025",
+    "Journal/01-2025",
+    "Journal/attachments/zoom1.pdf",
+    "Journal/12-2024",
+    "sits",
+    "Journal/11-2024",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Untitled 3.canvas",
+    "test canvas.canvas"
+  ]
+}

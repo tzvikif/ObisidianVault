@@ -26,6 +26,8 @@ Tags:
 [[Linux terminal commands#Compress|compress]]
 [[Linux terminal commands#customization|customization]]
 [[Linux terminal commands#scp|scp]]
+[[Linux terminal commands#yt-dlp|downloa_media]]
+[[Linux terminal commands#installations|installation issues]]
 
 
 
@@ -203,6 +205,18 @@ find . -maxdepth 1
 # Up to 2 levels deep 
 find . -maxdepth 2 -name "*.txt"
 ```
+find with regular expression (in grep)
+``` bash
+find . | grep -E '\.pdf$' | xargs -I {} mv {} /documents
+```
+with null delimiter
+``` bash
+# in case file name : my file.pdf
+find . -type f -print0 | grep -zE '\.pdf$' | xargs -0 -I {} mv {} /documents
+
+```
+`-print0` → `find` separates file paths with a **null byte** (`\0`) instead of a newline. `grep -z` → tells `grep` to expect null-delimited input and produce null-delimited output.
+`xargs -0` → tells `xargs` to expect null-delimited input.
 ### finding test in files
 ``` bash
 grep "search_term" filename
@@ -242,6 +256,11 @@ display line numbers
 :set number
 ```
 
+## Process
+``` shell
+# inspect proccess by id
+ps -p <id> -f
+```
 ## kill
 ``` bash
 # Find Firefox PID
@@ -352,7 +371,11 @@ tar -xvzf raw.tar.gz [-C /my_destination_folder]
 - `z` – decompress (gzip)
 - `f` – filename to operate on
 - `C` – destination folder
-
+### zip
+``` shell
+unzip file.zip -d /path/to/destination/
+# unzip -l file.zip
+```
 ## customization
 https://www.windowscentral.com/software-apps/3-easy-ways-to-turn-windows-terminal-shells-from-drab-to-drip
 ### starship
@@ -369,7 +392,26 @@ the easiest way is to open terminal in wsl / Windows and then copy from / to.
 scp /mnt/c/Users/Alice/Documents/file.txt username@remote_host:/home/username/
 ```
 
+## yt-dlp
+``` shell
+yt-dlp -x --audio-format mp3 -o "~/Music/%(title)s.%(ext)s" <URL>
+```
 ## References
+
+## installations
+how was was the application installed
+``` shell
+which yt-dlp # display the path
+command -v yt-dlp
+yt-dlp --version
+```
+the problem was the the **bash** pointed to */usr/bin/yt-dlp* but the folder has been already deleted.
+there was a newer version at: */home/tzviki/miniconda3/bin/yt-dlp*
+clear the shells' hash:
+``` shell
+hash -r
+```
+
 
 [Panes in Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/panes?WT.mc_id=-blog-scottha#creating-a-new-pane)
 
