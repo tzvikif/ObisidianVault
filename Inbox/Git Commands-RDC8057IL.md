@@ -8,18 +8,18 @@ Tags:
 
 # Git Commands
 
-- [[git commands#branches|branches]]
-	- [[git commands#inspect|inspect]]
-	- [[git commands#rename|rename]]
-	- [[git commands#create branch|create]]
-	- [[git commands#delete|delete]]
-- [[git commands#fetch|fetch]]
-- [[git commands#log|log]]
-- [[git commands#rebase|rebase]]
-- [[git commands#stash|stash]]
-- [[git commands#reset|reset]]
-- [[git commands#config|config]]
-- [[git commands#clean|cleaning]]
+- [[Git Commands#Branches|Branches]]
+	- [[Git Commands#Inspect|inspect]]
+	- [[Git Commands#rename|rename]]
+	- [[Git Commands#Create branch|create]]
+	- [[Git Commands#delete|delete]]
+- [[Git Commands#Fetch|Fetch]]
+- [[Git Commands#Log|Log]]
+- [[Git Commands#rebase|Rebase]]
+- [[Git Commands#Stash|Stash]]
+- [[Git Commands#Reset|Reset]]
+- [[Git Commands#Config|Config]]
+- [[Git Commands#Clean|Cleaning]]
 - 
 
 ## Under the hood
@@ -35,8 +35,8 @@ git branch
 for remote branches
 ``` bash
 git branch -r
-git branch -a # local and remote
 ```
+
 ### change branch
 ``` bash
 git checkout <branch name>
@@ -56,9 +56,9 @@ git branch -m <current branch name> <new branch name>
 ### Create branch
 create local
 ``` bash
-git checkout -b my_branch
+git checkout -b new-branch-name
 # newer Git versions
-git switch -c my_branch
+git switch -c new-branch-name
 # create local branch from remote branch
 git checkout -b my-local-branch origin/feature/xyz
 
@@ -67,14 +67,10 @@ git checkout -b my-local-branch origin/feature/xyz
 
 create remote
 ``` bash 
-git push -u origin my_branch 
-# creates origin/my_branch on the remote. and sets upstream tracking
-# my_branch -> origin/my_branch
+git push -u origin new-branch-name
 # The `-u` (or `--set-upstream`) flag sets up tracking, so your local branch knows which remote branch to sync with for future pulls and pushes.
-# if you forgot the -u
-git branch --set-upstream-to=origin/my_branch
-# or
-git branch -u origin/my_branch my_branch
+# example
+git push -u origin zoom/tiran
 ```
 
 add repo
@@ -93,7 +89,6 @@ git branch -d <branchname>               # Delete local
 
 ```
 git fetch <remote> <branch>
-git fetch --all --prune # fetch everything and removes deleted remotes
 ```
 format: *old-hash..new-hash branch-name -> remote-tracking-branch*
 example
@@ -117,9 +112,6 @@ git log -p HEAD..origin/zoom_offload_by_port
 # summary of changes
 git diff HEAD origin/zoom_offload_by_port
 ```
-**remark**: the commands above **do not contact the remote server at all**.
-they are checking origin/zoom_offload_by_port locally.
-if you want to be sure your *origin/branch*  is up to date, you need first to fetch it.
 
 ``` bash
 git log -p HEAD..origin/zoom_offload_by_port
@@ -197,29 +189,21 @@ git remote show origin
 ## Rebase
 
 ![[Git Commands.png]]
+
 ``` shell
+git checkout feature
 git rebase master
 ```
 ![[Git Commands-1.png]]
-
-rebase after fetch
+replayed D-E onto *master*
+### squash
 ``` shell
-# checkout to you local branch
-git checkout zoom_offload_by_port
-# rebase
-git rebase origin/zoom_offload_by_port
-```
-Note: **don't rebase commits that have been pushed to a shared repository**
-``` shell
-git rebase --onto <newbase> <upstream> <branch>
-```
-[[git.excalidraw]]
+# k is number of commit you want to squash
+rebase -i HEAD~
 
-force your commit in case you changed history. and you want you commit on the server
-``` shell
-git push --force-with-lease origin master
+# force push after rebase. don't use in public branch
+git push --force-with-lease
 ```
-
 
 ## Merge
 ``` bash
@@ -286,36 +270,7 @@ git restore . # same as above but newer syntax
 - Discards working directory changes
 - Leaves index and HEAD untouched
 
-## push
-- first push. or 
-- you want to connect current branch to another remote branch
-``` shell
-git push -u origin HEAD:master
-```
-HEAD:master = source:destination
-*Push my current branch **to** the remote branch named `master`.*
--u: sets tracking. After this, consider `origin/master` the upstream of my **current local branch**
-more common use
-``` shell
-git push -u origin my-branch
-```
 
-## files
-display tracked files
-``` shell
-git ls-files [folder]
-# display untracked files
-git ls-files --others --exclude-standard
-git ls-files --stage # mode 0: normal, 1/2/3 conflict stages
-# <mode> <blob> <stage> <path>
-# display files in last commit
-git show --name-only --pretty="" HEAD
-# display ignored files
-git status --ignored
-
-```
-options
---stage:  staged info
 
 ## References
 

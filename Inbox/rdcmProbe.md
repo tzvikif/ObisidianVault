@@ -33,6 +33,12 @@ Tags:
 [root@swprobe-rand ~]# systemctl start wildfly_27
 ```
 
+## Set Environment
+``` shell
+ln -sfn /home/nfsroot/cloned_maveriqprobe/maveriqprobe /hpadir
+# also
+mkhpadir cloned_maveriqprobe/maveriqprobe
+```
 
 ## Update 
 
@@ -40,6 +46,11 @@ Tags:
  cd /hpadir/
 ```
  
+## DNS
+add source ipv4.
+to elements.xml / ggsnlist.xml
+![[rdcmProbe_dns.png]]
+
 ## Run pcap with GTP
 
 choose the connection
@@ -153,6 +164,8 @@ update the name of the model if needed. copy the new model to *arch/video_ml/fil
 ## Build
 ``` bash
 cd /hpadir
+# dry run
+# git clean -n -d
 git clean -f -d
 git checkout .
 make BLD=rebuild

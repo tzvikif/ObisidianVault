@@ -15,8 +15,8 @@
   "onceOffCompressFlagReset": true,
   "onceOffGPTVersionReset": true,
   "autosave": true,
-  "autosaveIntervalDesktop": 60000,
-  "autosaveIntervalMobile": 30000,
+  "autosaveIntervalDesktop": 15000,
+  "autosaveIntervalMobile": 10000,
   "drawingFilenamePrefix": "Drawing ",
   "drawingEmbedPrefixWithFilename": true,
   "drawingFilnameEmbedPostfix": " ",
@@ -54,7 +54,7 @@
   "allowPinchZoom": false,
   "allowWheelZoom": false,
   "zoomToFitOnOpen": true,
-  "zoomToFitOnResize": false,
+  "zoomToFitOnResize": true,
   "zoomToFitMaxLevel": 2,
   "zoomStep": 0.05,
   "zoomMin": 0.1,
@@ -66,9 +66,9 @@
   "done": "🗹",
   "hoverPreviewWithoutCTRL": false,
   "linkOpacity": 1,
-  "openInAdjacentPane": true,
+  "openInAdjacentPane": false,
   "showSecondOrderLinks": true,
-  "focusOnFileTab": true,
+  "focusOnFileTab": false,
   "openInMainWorkspace": true,
   "showLinkBrackets": true,
   "allowCtrlClick": true,
@@ -95,7 +95,7 @@
   "experimentalFileTag": "✏️",
   "experimentalLivePreview": true,
   "fadeOutExcalidrawMarkup": false,
-  "loadPropertySuggestions": false,
+  "loadPropertySuggestions": true,
   "experimentalEnableFourthFont": false,
   "experimantalFourthFont": "Virgil",
   "addDummyTextElement": false,
@@ -108,7 +108,55 @@
     "type": "excalidrawlib",
     "version": 2,
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.16.1",
-    "libraryItems": []
+    "libraryItems": [
+      {
+        "id": "2lW6CB_FzBvQNoy2mBk-F",
+        "status": "unpublished",
+        "elements": [
+          {
+            "id": "Nb6ZYRMf",
+            "type": "text",
+            "x": -180,
+            "y": -140,
+            "width": 83.55598449707031,
+            "height": 45,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [
+              "927d0j496fe_lc0zPIEti"
+            ],
+            "frameId": null,
+            "index": "ZV",
+            "roundness": null,
+            "seed": 512506320,
+            "version": 23,
+            "versionNonce": 1570196944,
+            "isDeleted": false,
+            "boundElements": [],
+            "updated": 1763408592674,
+            "locked": false,
+            "text": "A-NN",
+            "rawText": "A-NN",
+            "fontSize": 36,
+            "fontFamily": 5,
+            "textAlign": "left",
+            "verticalAlign": "top",
+            "containerId": null,
+            "originalText": "A-NN",
+            "autoResize": true,
+            "lineHeight": 1.25,
+            "link": null
+          }
+        ],
+        "created": 1763408593482
+      }
+    ]
   },
   "imageElementNotice": true,
   "mdSVGwidth": 500,
@@ -118,7 +166,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "compactModeOnTablets": true,
   "previousRelease": "2.16.1",
   "showReleaseNotes": true,
@@ -136,15 +184,15 @@
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
       "fillStyle": "hachure",
-      "strokeWidth": 0,
-      "roughness": 0,
+      "strokeWidth": 0.5,
+      "roughness": 0.5,
       "penOptions": {
         "highlighter": false,
         "constantPressure": false,
         "hasOutline": false,
-        "outlineWidth": 1,
+        "outlineWidth": 0,
         "options": {
-          "thinning": 0.6,
+          "thinning": 0,
           "smoothing": 0.5,
           "streamline": 0.5,
           "easing": "easeOutSine",
@@ -167,7 +215,7 @@
       "strokeColor": "#FFC47C",
       "backgroundColor": "#FFC47C",
       "fillStyle": "solid",
-      "strokeWidth": 2,
+      "strokeWidth": 1.5,
       "roughness": null,
       "penOptions": {
         "highlighter": true,
@@ -175,7 +223,7 @@
         "hasOutline": true,
         "outlineWidth": 4,
         "options": {
-          "thinning": 1,
+          "thinning": 0.5,
           "smoothing": 0.5,
           "streamline": 0.5,
           "easing": "linear",
@@ -455,11 +503,7 @@
   "gridSettings": {
     "DYNAMIC_COLOR": true,
     "COLOR": "#000000",
-    "OPACITY": 50,
-    "GRID_DIRECTION": {
-      "horizontal": true,
-      "vertical": true
-    }
+    "OPACITY": 50
   },
   "laserSettings": {
     "DECAY_LENGTH": 50,

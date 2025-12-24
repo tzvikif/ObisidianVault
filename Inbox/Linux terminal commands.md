@@ -26,8 +26,13 @@ Tags:
 [[Linux terminal commands#Compress|compress]]
 [[Linux terminal commands#customization|customization]]
 [[Linux terminal commands#scp|scp]]
-[[Linux terminal commands#yt-dlp|downloa_media]]
+[[Linux terminal commands#yt-dlp|download_media]]
 [[Linux terminal commands#installations|installation issues]]
+[[Linux terminal commands#vi|vi]]
+[[Linux terminal commands#copy|copy]]
+
+
+
 
 
 
@@ -255,16 +260,26 @@ display line numbers
 ``` bash
 :set number
 ```
-
-## Process
+copy lines
+in normal mode (esc)
+- [number of lines to copy]yy for copy
+- p for paste
+in visual mode (v)
+- select
+- yy
+- p
+## Processes
 ``` shell
-# inspect proccess by id
-ps -p <id> -f
-```
-## kill
-``` bash
 # Find Firefox PID
 ps aux | grep firefox 
+# inspect proccess by id
+ps -p <id> -f
+pgrep -l <name>
+```
+
+
+## kill
+``` bash
 # Kill it gracefully 
 kill PID 
 # If it doesn't respond, force kill: 
@@ -280,17 +295,12 @@ pkill -9 process_name
 
 ``` bash
 # copy with differenct name
-cp <source_path> <dest_path>
-# copy with same name
-cp <source_path> <dest_folder>
-# example:
-cp report.pdf backup/report_2024.pdf
-# options:
-# -i to prompt before overwriting
-# -v for verbose output showing what's being copied
-# -p to preserve file permissions and timestamps
+cp [options] <source_path> <dest_path>
 ```
-
+-r: recursue. for copying folders
+-a: copies recursively, preserves symlinks, ownership, permissions, and timestamps, ensuring an exact duplicate of the original directory structure and attributes.
+-v: verbose
+-i to prompt before overwriting
 ## move
 ``` bash
 mv source_file.txt destination/new_filename.txt
@@ -396,7 +406,6 @@ scp /mnt/c/Users/Alice/Documents/file.txt username@remote_host:/home/username/
 ``` shell
 yt-dlp -x --audio-format mp3 -o "~/Music/%(title)s.%(ext)s" <URL>
 ```
-## References
 
 ## installations
 how was was the application installed

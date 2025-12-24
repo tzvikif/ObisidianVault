@@ -19,6 +19,17 @@ Gaussian Filter
 - set number of packets
 - 
 
+- [x] set a meeting with Arbel about Qosmos (Arbel and Ohad)
+- [x] send duration , n_bytes
+
+30-11-2025
+- [ ] extract from Qosmos app name , consumtion type , confidence. see Tzaliks email.
+- [ ] fill the features in the excel.
+
+
+
+
+
 ## My Questions
 
 
