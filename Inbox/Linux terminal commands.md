@@ -353,7 +353,7 @@ linux version
 ``` bash
 # one of the following:
 cat /etc/os-release
-	lsb_release -a
+lsb_release -a
 uname -r
 ```
 
@@ -419,6 +419,37 @@ there was a newer version at: */home/tzviki/miniconda3/bin/yt-dlp*
 clear the shells' hash:
 ``` shell
 hash -r
+```
+
+## Network
+
+``` shell
+traceroute <url>
+```
+
+``` shell
+ip address
+ip route
+```
+
+open connections
+``` shell
+netstat
+```
+
+routing table
+``` shell
+route
+```
+
+statistic on any socket
+``` shell
+ss
+```
+
+info about domain
+``` shell
+host <url>
 ```
 
 

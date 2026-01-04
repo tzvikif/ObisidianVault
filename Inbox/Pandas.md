@@ -54,7 +54,7 @@ filtered = df.groupby('category').filter(lambda x: len(x) > 5)
 ## display
 display full column (not scientific notation)
 ``` python
-pd.set_option('display.float_format', '{:.20f}'.format)
+pd.set_option('display.float_format', '{:.5f}'.format)
 ```
 
 

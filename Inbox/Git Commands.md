@@ -20,6 +20,9 @@ Tags:
 - [[git commands#reset|reset]]
 - [[git commands#config|config]]
 - [[git commands#clean|cleaning]]
+- [[Git Commands#worktree|worktree]]
+- [[Git Commands#Cherry-pick|cherry-pick]]
+- [[Git Commands#worktree|worktree]]
 - 
 
 ## Under the hood
@@ -56,14 +59,18 @@ git branch -m <current branch name> <new branch name>
 ### Create branch
 create local
 ``` bash
-git checkout -b my_branch
-# newer Git versions
-git switch -c my_branch
+# create and switch
+git checkout -b my_branch [<another branch>]
+# newer Git versions >= 2.23
+git switch -c my_branch [<another branch]
 # create local branch from remote branch
 git checkout -b my-local-branch origin/feature/xyz
-
-
+# create without switching
+git branch my_branch [<another branch>]
 ```
+flags:
+-c / -b : create branch and switch to it
+-C / -f : force create/overwrite if it already exists
 
 create remote
 ``` bash 
@@ -227,19 +234,23 @@ git push --force-with-lease origin master
 ```
 ## Reset
 
-### moving HEAD pointer (--soft)
+### moving HEAD and current branch pointer (--soft)
 ``` bash
 git reset --soft HEAD~1
 git reset --soft B
 ```
 lets say those are my commits: A → B → C
-- *git reset --soft B* will move HEAD to point at B, but your working directory will still have all the changes from commit C, and those changes will be staged.
-- *git checkout B* will move HEAD to B and update your working directory to match B, discarding the changes from commit C (unless there are uncommitted changes that would be overwritten, in which case Git will prevent the checkout).
-*git reset --soft* i mainly used for reorganizing commits:
-- **Squashing multiple commits into one**: If you made several small commits that logically belong together, you might want to combine them into a single, more meaningful commit before sharing your code.
-- **Reordering commits**: Sometimes you might want to change the order of your commits to make the history more logical.
-- **Editing commit messages**: If you made a typo or want to provide a more descriptive commit message.
-- **Adding changes to a previous commit**: If you forgot to include some changes in your last commit, rather than making a new "oops, forgot this" commit.
+- *git reset --soft B* 
+	- move *HEAD* and *branch name* to point at B
+	- working directory and index are unchanged. 
+- *git checkout B* [--mixed]
+	- will move *HEAD* and *branch name* to point at B. 
+	- updates index to match B.
+	- working directory is unchanged. 
+- *git checkout B* --hard
+	- will move *HEAD* and *branch name* to point at B. 
+	- updates index to match B.
+	- working directory matches index. 
 
 
 ### removing files from staging area(--mixed)
@@ -272,16 +283,22 @@ git config --global user.email "tzviki.fisher@radcom.com"
 ## Clean
 remove all untracked files
 ``` shell
-# dry run
-# git clean -n -d
+# observe what is being deleted (--dry-run, -n)
+git clean -n -d 
 git clean -f -d
+git clean -fdn # review first 
 # delete specific path only
 git clean -f -d path/to/dir
 ```
+-d: recursive
+-f: force (git won't delete otherwise)
+-n (--dry-run): dry run. nothing is being done. just displaying.
+
 ### discard changes
 ``` shell
 git checkout .
 git restore . # same as above but newer syntax
+git restore --staged # copy from HEAD to index
 ```
 - Discards working directory changes
 - Leaves index and HEAD untouched
@@ -301,22 +318,96 @@ git push -u origin my-branch
 ```
 
 ## files
-display tracked files
+### in Index
+display files in the index(tracked) and optionally working tree
 ``` shell
 git ls-files [folder]
 # display untracked files
 git ls-files --others --exclude-standard
 git ls-files --stage # mode 0: normal, 1/2/3 conflict stages
 # <mode> <blob> <stage> <path>
-# display files in last commit
-git show --name-only --pretty="" HEAD
 # display ignored files
 git status --ignored
-
 ```
 options
 --stage:  staged info
+-m : display modified files
+### in commit
+``` shell
+git ls-tree [-r] <commit>
+# display files in last commit
+git show --name-only --pretty="" HEAD
+```
+-r : list all files recursivly
 
+## Cherry-pick
+This creates a **new commit** on your current branch with the same changes but a different hash
+``` shell
+git cherry-pick <commit-hash>
+git cherry-pick <start-hash>..<end-hash>
+# bring the changes without commit
+git cherry-pick --no-commit <commit> [<commit2> <commit3>] 
+```
+
+## worktree
+
+A *worktree* allows you to have multiple branches of the same repository checked out simultaneously in different folders
+
+add worktree
+``` shell
+# creating new branch
+git worktree add <path> -b <new-branch-name>
+# existing branch
+git worktree add <path> <existing-branch-name>
+```
+- It is best practice to create the new worktree folder **outside** of your current project directory (using `../`) to avoid confusing Git with a repository inside another repository.
+- submodules.  git submodule update --init --recursive to begit cont.
+
+
+``` shell
+# list worktree locations
+git worktree list
+# remove worktree
+git worktree remove <path-to-worktree-folder>
+# 
+```
+
+in case uncommitted changes git will block removal.
+``` shell
+git worktree remove -f <path-to-worktree-folder>
+```
+delete the branch itself
+``` shell
+git branch -D worktree-2025-12-28T08-57-58
+```
+if removed manually the folder. clean it using
+``` shell
+git worktree prune
+```
+
+## Inspect changes
+### show
+**Commit metadata** (author, date, message)
+**The patch** introduced by that commit
+for reviewing a commit
+``` shell
+git show <commit> # default target HEAD
+# show only the patch
+git show --stat
+git show --name-only
+```
+### diff
+Shows differences between two states.
+``` shell
+git diff # shows working tree vs index (should show your edits if any)
+git diff HEAD [--working-tree] # Working tree vs HEAD
+git diff --staged # shows index vs HEAD
+# Show me the changes needed to go from <commit1> to <commit2>
+git diff <commit1> <commit2> 
+# between branches
+git diff <branch1>..<branch2>
+
+```
 ## References
 
 https://www.atlassian.com/git/tutorials/syncing/git-fetch
