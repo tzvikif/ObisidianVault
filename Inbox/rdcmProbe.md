@@ -44,7 +44,7 @@ mkhpadir cloned_maveriqprobe/maveriqprobe
 
  ``` bash
  cd /hpadir/
-```
+ ```
  
 ## DNS
 add source ipv4.
@@ -187,9 +187,6 @@ sh /hpadir/RecordAllCDRS.sh start
 sh /hpadir/RecordAllCDRS.sh stop
 # cdrs in /hpadir/cdrs.txt
 ```
-
-
-
 
 ## My Questions
 

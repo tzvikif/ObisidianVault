@@ -9,7 +9,7 @@ Tags:
 # Git Commands
 
 - [[git commands#branches|branches]]
-	- [[git commands#inspect|inspect]]
+	- [[git commands#branch Inspect|inspect]]
 	- [[git commands#rename|rename]]
 	- [[git commands#create branch|create]]
 	- [[git commands#delete|delete]]
@@ -23,14 +23,20 @@ Tags:
 - [[Git Commands#worktree|worktree]]
 - [[Git Commands#Cherry-pick|cherry-pick]]
 - [[Git Commands#worktree|worktree]]
-- 
+- [[Git Commands#diff|diff]]
+- [[Git Commands#revert|revert]]
+- [[Git Commands#inspect|inspect]]
+	- [[Git Commands#in Index|index]]
+	- [[Git Commands#in commit|commit]]
+	- 
+
 
 ## Under the hood
 *./.git/objects* directory stores all the commits (local and remote)
 *./.git/refs/heads/* stores **local** branches
 *./.git/refs/remotes/* stored **remote** branches
 ## Branches
-### Inspect
+### branch Inspect
 for local branches
 ``` bash
 git branch
@@ -49,7 +55,7 @@ git checkout -f <branch name> #
  
 if you are on the branch you want to change
 ``` bash
-git branch -m <current branch name> <new branch name>
+git branch -m  <new branch name>
 ```
 if your are on branch different branch
 ``` bash
@@ -178,7 +184,13 @@ git log origin/master --oneline
 ```
 display commits that are missing in remote
 ``` bash
+# what did HEAD add?
 git log origin/master..HEAD
+```
+display commits that are added by A or by B but not both.
+``` shell
+# Commits unique on either side. rarely used.
+git log A...B
 ```
 ## Tracking
 ### inspect tracking
@@ -220,7 +232,7 @@ Note: **don't rebase commits that have been pushed to a shared repository**
 ``` shell
 git rebase --onto <newbase> <upstream> <branch>
 ```
-[[git.excalidraw]]
+[[git_rebase_onto.excalidraw]]
 
 force your commit in case you changed history. and you want you commit on the server
 ``` shell
@@ -273,11 +285,31 @@ git stash pop
 
 ```
 ## Commit
-
+Modify the contents of the last commit
+``` shell
+# edit
+git add <what you want>
+git commit --amend
+# or
+# edit
+git add <what you want>
+git reset --soft HEAD~1
+git commit
+```
+**Notice**: git --amend changes commit hash.
 ## Config
+### set
 ``` bash
 git config --global user.name "tzviki"
 git config --global user.email "tzviki.fisher@radcom.com"
+# rebase on pull for repo
+git config pull.rebase true
+# or for specific branch
+git config branch.<branchname>.rebase true
+```
+### check current setting
+``` shell
+git config --get pull.rebase
 ```
 
 ## Clean
@@ -317,7 +349,7 @@ more common use
 git push -u origin my-branch
 ```
 
-## files
+## inspect
 ### in Index
 display files in the index(tracked) and optionally working tree
 ``` shell
@@ -334,11 +366,30 @@ options
 -m : display modified files
 ### in commit
 ``` shell
-git ls-tree [-r] <commit>
+# list file in a commit
+git ls-tree -r <commit> [folder]
 # display files in last commit
 git show --name-only --pretty="" HEAD
+git show <commit>:[<file_path>]
+# shows diff for a file
+git show <commit> -- <file_path>
+# shows commits that changes that file
+git log <commit> -- <file_path> 
+# same as above. with patches.
+git log -p <commit> -- <file_path>
+# Inspect the file without remembering paths (search)
+git grep "some text" <commit>[:<path>]
 ```
--r : list all files recursivly
+-r : list all files recursively
+
+### working tree
+Temporarily check out a file from a commit
+replaces the file on disk
+``` shell
+git checkout <commit> -- path/to/file
+# or newer version
+git restore --source=<commit> path/to/file
+```
 
 ## Cherry-pick
 This creates a **new commit** on your current branch with the same changes but a different hash
@@ -357,6 +408,8 @@ add worktree
 ``` shell
 # creating new branch
 git worktree add <path> -b <new-branch-name>
+# example
+git worktree add ../wt-feature feature
 # existing branch
 git worktree add <path> <existing-branch-name>
 ```
@@ -398,16 +451,32 @@ git show --name-only
 ```
 ### diff
 Shows differences between two states.
+Those snapshots can come from:
+- the **working tree**
+- the **index**
+- a **commit**
+- the **merge base** of two commits
+![[Git Commands diff.png]]
 ``` shell
 git diff # shows working tree vs index (should show your edits if any)
 git diff HEAD [--working-tree] # Working tree vs HEAD
 git diff --staged # shows index vs HEAD
 # Show me the changes needed to go from <commit1> to <commit2>
-git diff <commit1> <commit2> 
-# between branches
+git diff <commit1> <commit2> [--name-only]
+# everything that is different between <branch1> and <branch2>
+# no ancestry logic involved. confusing for PR 
 git diff <branch1>..<branch2>
+# tree(merge-base(A,B)) ↔ tree(B). what <branch2> added since diverged from A. 
+git diff A...B
 
 ```
+
+## revert
+create a commit that *undo* the commit
+``` shell
+git revert 
+```
+
 ## References
 
 https://www.atlassian.com/git/tutorials/syncing/git-fetch

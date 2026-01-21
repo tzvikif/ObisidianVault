@@ -118,7 +118,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "compactModeOnTablets": true,
   "previousRelease": "2.16.1",
   "showReleaseNotes": true,
@@ -140,9 +140,9 @@
       "roughness": 0,
       "penOptions": {
         "highlighter": false,
-        "constantPressure": false,
+        "constantPressure": true,
         "hasOutline": false,
-        "outlineWidth": 1,
+        "outlineWidth": 0,
         "options": {
           "thinning": 0.6,
           "smoothing": 0.5,

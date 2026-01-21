@@ -365,7 +365,14 @@ sudo lsof -i :8080 # who is using that port
 ps -p <PID> -o pid,cmd # details about that process
 ```
 
-
+### limit packet size
+sometimes having trouble running *git fetch* in wsl while using vpn.
+``` shell
+ip link show
+# usually the interface is eth0:
+sudo ip link set dev eth0 mtu 1350
+git fetch --all
+```
 ## Compress 
 
 ### tar
