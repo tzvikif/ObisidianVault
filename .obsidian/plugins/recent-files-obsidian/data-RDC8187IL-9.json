@@ -1,52 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
-    },
-    {
-      "basename": "Wireshark",
-      "path": "Literature Notes/Wireshark.md"
-    },
-    {
-      "basename": "Drawing 2026-01-25 10.58.57.excalidraw",
-      "path": "Excalidraw/Drawing 2026-01-25 10.58.57.excalidraw.md"
+      "basename": "VAE.excalidraw",
+      "path": "Excalidraw/VAE.excalidraw.md"
     },
     {
       "basename": "Pandas",
       "path": "Inbox/Pandas.md"
     },
     {
-      "basename": "Excel",
-      "path": "Inbox/Excel.md"
-    },
-    {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
-      "basename": "Drawing 2026-01-22 14.03.31.excalidraw",
-      "path": "Excalidraw/Drawing 2026-01-22 14.03.31.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2026-01-21 13.58.56.excalidraw",
-      "path": "Excalidraw/Drawing 2026-01-21 13.58.56.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2026-01-21 18.04.42.excalidraw",
-      "path": "Excalidraw/Drawing 2026-01-21 18.04.42.excalidraw.md"
-    },
-    {
       "basename": "rdcmProbe",
       "path": "Inbox/rdcmProbe.md"
-    },
-    {
-      "basename": "22-01-2026",
-      "path": "Journal/22-01-2026.md"
-    },
-    {
-      "basename": "VAE.excalidraw",
-      "path": "Excalidraw/VAE.excalidraw.md"
     },
     {
       "basename": "Drawing 2025-05-20 14.16.45.excalidraw",
@@ -87,6 +51,18 @@
     {
       "basename": "Drawing 2025-05-20 16.55.12.excalidraw",
       "path": "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
+    },
+    {
+      "basename": "Wireshark",
+      "path": "Literature Notes/Wireshark.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
     },
     {
       "basename": "git_rebase_onto.excalidraw",
