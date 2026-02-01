@@ -13,12 +13,6 @@ Tags:
 [[rdcmProbe#Models|models]]
 [[rdcmProbe#Record CDRs|Record CDRs]]
 
-
-
-
-
-
-
 ## Web Monitor
 	http://172.16.10.140:8080/monserver/AjaxClient/JSP/Login/Login.jsp
 

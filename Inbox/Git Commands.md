@@ -330,7 +330,7 @@ git clean -f -d path/to/dir
 ``` shell
 git checkout .
 git restore . # same as above but newer syntax
-git restore --staged # copy from HEAD to index
+git restore --staged . # remove from index
 ```
 - Discards working directory changes
 - Leaves index and HEAD untouched
@@ -378,7 +378,13 @@ git log <commit> -- <file_path>
 # same as above. with patches.
 git log -p <commit> -- <file_path>
 # Inspect the file without remembering paths (search)
-git grep "some text" <commit>[:<path>]
+git grep "some text" <commit> -- [<path>]
+# files that changes at least once in the last 10 commits.
+git log -n 10 --name-only --pretty=format: | sort -u
+# same as above with status
+git log -n 10 --name-status --pretty=format: | sort -u
+# display files changes only in mainline
+git log --first-parent --name-only
 ```
 -r : list all files recursively
 

@@ -5,28 +5,48 @@
       "path": "Inbox/Git Commands.md"
     },
     {
-      "basename": "Wireshark",
-      "path": "Literature Notes/Wireshark.md"
-    },
-    {
-      "basename": "Drawing 2026-01-25 10.58.57.excalidraw",
-      "path": "Excalidraw/Drawing 2026-01-25 10.58.57.excalidraw.md"
-    },
-    {
-      "basename": "Pandas",
-      "path": "Inbox/Pandas.md"
-    },
-    {
-      "basename": "Excel",
-      "path": "Inbox/Excel.md"
-    },
-    {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
+      "basename": "rdcmProbe",
+      "path": "Inbox/rdcmProbe.md"
     },
     {
       "basename": "Drawing 2026-01-22 14.03.31.excalidraw",
       "path": "Excalidraw/Drawing 2026-01-22 14.03.31.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2026-01-26 11.24.29.excalidraw",
+      "path": "Excalidraw/Drawing 2026-01-26 11.24.29.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-05-20 14.16.45.excalidraw",
+      "path": "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-05-20 16.55.12.excalidraw",
+      "path": "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-06-03 16.57.02.excalidraw",
+      "path": "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-07-27 15.37.19.excalidraw",
+      "path": "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-08-19 16.48.32.excalidraw",
+      "path": "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2025-11-12 10.33.34.excalidraw",
+      "path": "Excalidraw/Drawing 2025-11-12 10.33.34.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2026-01-14 10.33.26.excalidraw",
+      "path": "Excalidraw/Drawing 2026-01-14 10.33.26.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2026-01-18 10.34.38.excalidraw",
+      "path": "Excalidraw/Drawing 2026-01-18 10.34.38.excalidraw.md"
     },
     {
       "basename": "Drawing 2026-01-21 13.58.56.excalidraw",
@@ -37,56 +57,40 @@
       "path": "Excalidraw/Drawing 2026-01-21 18.04.42.excalidraw.md"
     },
     {
-      "basename": "rdcmProbe",
-      "path": "Inbox/rdcmProbe.md"
+      "basename": "Drawing 2026-01-25 10.58.57.excalidraw",
+      "path": "Excalidraw/Drawing 2026-01-25 10.58.57.excalidraw.md"
     },
     {
-      "basename": "22-01-2026",
-      "path": "Journal/22-01-2026.md"
+      "basename": "Shannon information content of an outcome",
+      "path": "Zettelkasten/Shannon information content of an outcome.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "Zettelkasten/Entropy.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "Pandas",
+      "path": "Inbox/Pandas.md"
+    },
+    {
+      "basename": "Excel",
+      "path": "Inbox/Excel.md"
+    },
+    {
+      "basename": "Wireshark",
+      "path": "Literature Notes/Wireshark.md"
     },
     {
       "basename": "VAE.excalidraw",
       "path": "Excalidraw/VAE.excalidraw.md"
     },
     {
-      "basename": "Drawing 2025-05-20 14.16.45.excalidraw",
-      "path": "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md"
-    },
-    {
       "basename": "rdcmAnoDet.excalidraw",
       "path": "Excalidraw/rdcmAnoDet.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2026-01-18 10.34.38.excalidraw",
-      "path": "Excalidraw/Drawing 2026-01-18 10.34.38.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2026-01-14 10.33.26.excalidraw",
-      "path": "Excalidraw/Drawing 2026-01-14 10.33.26.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2025-12-08 10.45.02.excalidraw",
-      "path": "Excalidraw/Drawing 2025-12-08 10.45.02.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2025-11-12 10.33.34.excalidraw",
-      "path": "Excalidraw/Drawing 2025-11-12 10.33.34.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2025-08-19 16.48.32.excalidraw",
-      "path": "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2025-07-27 15.37.19.excalidraw",
-      "path": "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2025-06-03 16.57.02.excalidraw",
-      "path": "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2025-05-20 16.55.12.excalidraw",
-      "path": "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md"
     },
     {
       "basename": "git_rebase_onto.excalidraw",
@@ -99,14 +103,6 @@
     {
       "basename": "08-01-2026",
       "path": "Journal/08-01-2026.md"
-    },
-    {
-      "basename": "04-01-2026",
-      "path": "Journal/04-01-2026.md"
-    },
-    {
-      "basename": "21-12-2025",
-      "path": "Journal/21-12-2025.md"
     },
     {
       "basename": "VAE2.excalidraw",
@@ -123,22 +119,6 @@
     {
       "basename": "udl_ch_8_1.excalidraw",
       "path": "Excalidraw/udl_ch_8_1.excalidraw.md"
-    },
-    {
-      "basename": "16-12-2025",
-      "path": "Journal/16-12-2025.md"
-    },
-    {
-      "basename": "15-12-2025",
-      "path": "Journal/15-12-2025.md"
-    },
-    {
-      "basename": "14-12-2025",
-      "path": "Journal/14-12-2025.md"
-    },
-    {
-      "basename": "11-12-2025",
-      "path": "Journal/11-12-2025.md"
     },
     {
       "basename": "Jensen's Inequality",
@@ -161,16 +141,8 @@
       "path": "Inbox/Untitled 1.base"
     },
     {
-      "basename": "01-12-2025",
-      "path": "Journal/01-12-2025.md"
-    },
-    {
       "basename": "rdcmKochav_Magnet",
       "path": "Inbox/rdcmKochav_Magnet.md"
-    },
-    {
-      "basename": "29-11-2025",
-      "path": "Journal/29-11-2025.md"
     }
   ],
   "omittedPaths": [],

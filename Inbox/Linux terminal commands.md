@@ -260,14 +260,21 @@ display line numbers
 ``` bash
 :set number
 ```
-copy lines
+### copy lines
 in normal mode (esc)
 - [number of lines to copy]yy for copy
+- dd - cut line
 - p for paste
 in visual mode (v)
 - select
 - yy
 - p
+### move line
+``` shell
+# ddp - move down
+# ddkP - move up
+```
+
 ## Processes
 ``` shell
 # Find Firefox PID
