@@ -30,10 +30,11 @@ Tags:
 ## Set Environment
 ``` shell
 ln -sfn /home/nfsroot/cloned_maveriqprobe/maveriqprobe /hpadir
-# also
+```
+also
+``` shell
 mkhpadir cloned_maveriqprobe/maveriqprobe
 ```
-
 ## Update 
 
  ``` bash
@@ -41,7 +42,9 @@ mkhpadir cloned_maveriqprobe/maveriqprobe
  ```
  
 ## DNS
-add source ipv4.
+sometimes the ip is *ipv6*  and the dns request is in *ipv4* 
+in that case you must add both. 
+
 to elements.xml / ggsnlist.xml
 ![[rdcmProbe_dns.png]]
 

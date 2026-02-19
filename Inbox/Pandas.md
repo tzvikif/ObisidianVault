@@ -57,6 +57,7 @@ display full column (not scientific notation)
 pd.set_option('display.float_format', '{:.5f}'.format)
 ```
 
+[[pandas_TimeSeries]]
 
 ## My Questions
 

@@ -8,6 +8,7 @@ Tags:
 
 # Git Commands
 
+- [[Git Commands#Clone|clone]]
 - [[git commands#branches|branches]]
 	- [[git commands#branch Inspect|inspect]]
 	- [[git commands#rename|rename]]
@@ -35,6 +36,19 @@ Tags:
 *./.git/objects* directory stores all the commits (local and remote)
 *./.git/refs/heads/* stores **local** branches
 *./.git/refs/remotes/* stored **remote** branches
+
+## Clone
+``` shell
+# git clone [--depth <number of commits>] <repo-url> [folder name]
+git clone --depth 100 http://bitbucket-prod.radcom.co.il:7990/scm/prob/maveriqprobe.git
+# check if shallow repository
+git rev-parse --is-shallow-repository
+# convert to full history later (optinal)
+git fetch --unshallow
+# of step by step
+git fetch --depth 500
+```
+folder name - creates folder. otherwise it uses the default folder from remote.
 ## Branches
 ### branch Inspect
 for local branches

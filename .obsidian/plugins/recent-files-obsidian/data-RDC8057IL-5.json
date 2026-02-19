@@ -1,76 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Conda",
-      "path": "Inbox/Conda.md"
-    },
-    {
-      "basename": "Anomality Detection",
-      "path": "Inbox/Anomality Detection.md"
-    },
-    {
-      "basename": "Time Series",
-      "path": "Inbox/Time Series.md"
-    },
-    {
-      "basename": "Weak Stationarity",
-      "path": "Inbox/Weak Stationarity.md"
-    },
-    {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
-    },
-    {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
-      "basename": "Drawing 2026-02-19 10.35.54.excalidraw",
-      "path": "Excalidraw/Drawing 2026-02-19 10.35.54.excalidraw.md"
-    },
-    {
-      "basename": "Holt Winter",
-      "path": "Inbox/Holt Winter.md"
-    },
-    {
-      "basename": "rdcmProbe",
-      "path": "Inbox/rdcmProbe.md"
-    },
-    {
-      "basename": "pandas_TimeSeries",
-      "path": "Inbox/pandas_TimeSeries.md"
-    },
-    {
-      "basename": "LaTex",
-      "path": "Inbox/LaTex.md"
-    },
-    {
-      "basename": "How i write math in Obsidian",
-      "path": "Zettelkasten/How i write math in Obsidian.md"
-    },
-    {
-      "basename": "MAD",
-      "path": "Inbox/MAD.md"
-    },
-    {
-      "basename": "AnomalityDetection1.excalidraw",
-      "path": "Excalidraw/AnomalityDetection1.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2026-02-11 11.55.25.excalidraw",
-      "path": "Excalidraw/Drawing 2026-02-11 11.55.25.excalidraw.md"
-    },
-    {
-      "basename": "Pandas",
-      "path": "Inbox/Pandas.md"
-    },
-    {
-      "basename": "Useful  markdown syntax in Obsidian",
-      "path": "Inbox/Useful  markdown syntax in Obsidian.md"
-    },
-    {
-      "basename": "Obsidian Cheat sheet",
-      "path": "Inbox/Obsidian Cheat sheet.md"
+      "basename": "11-02-2026",
+      "path": "Journal/11-02-2026.md"
     },
     {
       "basename": "Drawing 2026-02-09 15.31.15.excalidraw",
@@ -81,8 +13,28 @@
       "path": "Excalidraw/Drawing 2026-02-03 14.19.30.excalidraw.md"
     },
     {
+      "basename": "09-02-2026",
+      "path": "Journal/09-02-2026.md"
+    },
+    {
       "basename": "Drawing 2026-02-08 11.04.43.excalidraw",
       "path": "Excalidraw/Drawing 2026-02-08 11.04.43.excalidraw.md"
+    },
+    {
+      "basename": "08-02-2026",
+      "path": "Journal/08-02-2026.md"
+    },
+    {
+      "basename": "Drawing 2026-02-05 16.38.13.excalidraw",
+      "path": "Excalidraw/Drawing 2026-02-05 16.38.13.excalidraw.md"
+    },
+    {
+      "basename": "rdcmProbe",
+      "path": "Inbox/rdcmProbe.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
     },
     {
       "basename": "Wireshark",
@@ -91,6 +43,10 @@
     {
       "basename": "Probe-1",
       "path": "Inbox/attachments/Probe-1.png"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
     },
     {
       "basename": "Drawing 2026-02-04 14.41.49.excalidraw",
@@ -157,6 +113,10 @@
       "path": "Zettelkasten/Entropy.md"
     },
     {
+      "basename": "Pandas",
+      "path": "Inbox/Pandas.md"
+    },
+    {
       "basename": "Excel",
       "path": "Inbox/Excel.md"
     },
@@ -191,10 +151,37 @@
     {
       "basename": "udl_chapter_8.excalidraw",
       "path": "Excalidraw/udl_chapter_8.excalidraw.md"
+    },
+    {
+      "basename": "udl_ch_8_1.excalidraw",
+      "path": "Excalidraw/udl_ch_8_1.excalidraw.md"
+    },
+    {
+      "basename": "Jensen's Inequality",
+      "path": "Zettelkasten/Jensen's Inequality.md"
+    },
+    {
+      "basename": "XGBoost",
+      "path": "Inbox/XGBoost.md"
+    },
+    {
+      "basename": "Drawing 2025-12-04 10.11.12.excalidraw",
+      "path": "Excalidraw/Drawing 2025-12-04 10.11.12.excalidraw.md"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "Inbox/Untitled 2.base"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Inbox/Untitled 1.base"
+    },
+    {
+      "basename": "rdcmKochav_Magnet",
+      "path": "Inbox/rdcmKochav_Magnet.md"
     }
   ],
   "omittedPaths": [],
   "omittedTags": [],
-  "updateOn": "file-open",
   "omitBookmarks": false
 }

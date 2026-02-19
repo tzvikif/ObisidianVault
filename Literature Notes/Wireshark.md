@@ -14,6 +14,8 @@ tls.handshake.extensions_server_name contains "google"
 # with client hello
 tls.handshake.type == 1 &&
 tls.handshake.extensions_server_name contains "google"
+tls.handshake.extensions_server_name_len > 0
+tls.handshake.type==1 # tls Client Hello
 ```
 ### regex
 ``` shell

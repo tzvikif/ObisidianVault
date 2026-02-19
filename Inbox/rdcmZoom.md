@@ -296,4 +296,4 @@ problem with video off  in uplink
 
 https://jira-prod.radcom.co.il:8443/browse/ACE-24253
 [Nexus](http://nexus3-prod.radcom.co.il:8081/#browse/browse:automation_files)
-[[Tabular Features time series]]
+[[pandas_TimeSeries]]
