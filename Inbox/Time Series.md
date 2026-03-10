@@ -13,7 +13,8 @@ Tags:
 [[Weak Stationarity]] 
 [[Anomality Detection]]
 [[Holt Winter]]
-
+[[ACF]]
+[[PACF]]
 
 ## My Questions
 

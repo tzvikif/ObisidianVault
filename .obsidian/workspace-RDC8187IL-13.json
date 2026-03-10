@@ -20,6 +20,62 @@
             }
           },
           {
+            "id": "9a9b71b7291d3d0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Git Commands.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git Commands"
+            }
+          },
+          {
+            "id": "fdf35902c95d48f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/26-02-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "26-02-2026"
+            }
+          },
+          {
+            "id": "77a0b8e1a5549453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Linux terminal commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux terminal commands"
+            }
+          },
+          {
+            "id": "f38f37424af847d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Weak Stationarity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Weak Stationarity"
+            }
+          },
+          {
             "id": "1d4e33ecf3a79f3f",
             "type": "leaf",
             "state": {
@@ -32,27 +88,17 @@
             }
           },
           {
-            "id": "3dd9bc6177e6150e",
+            "id": "608a17842adaf1f5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-05 14.18.02.excalidraw.md"
+                "file": "Inbox/Conda.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-05 14.18.02.excalidraw"
-            }
-          },
-          {
-            "id": "9f243fd0ad35087e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-03-05 11.05.19.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-05 11.05.19.excalidraw"
+              "icon": "lucide-file",
+              "title": "Conda"
             }
           },
           {
@@ -62,83 +108,15 @@
               "type": "markdown",
               "state": {
                 "file": "Inbox/Pandas.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Pandas"
             }
-          },
-          {
-            "id": "8545d718cab3bb29",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-03-01 19.09.19.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-01 19.09.19.excalidraw"
-            }
-          },
-          {
-            "id": "a6997c15c54652c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/ACF.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ACF"
-            }
-          },
-          {
-            "id": "269170afad035026",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/rdcmProbe.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "rdcmProbe"
-            }
-          },
-          {
-            "id": "46d2c6b737e30afd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Linux terminal commands.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux terminal commands"
-            }
-          },
-          {
-            "id": "a1c2aa1859f4cf9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/LaTex.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LaTex"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/LaTex.md",
+                "file": "Inbox/Conda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +201,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LaTex"
+              "title": "Backlinks for Conda"
             }
           },
           {
@@ -288,44 +266,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a1c2aa1859f4cf9f",
+  "active": "fdf35902c95d48f6",
   "lastOpenFiles": [
-    "Journal/10-03-2026.md",
-    "Inbox/LaTex.md",
-    "Inbox/KL-Divergence.md",
-    "Inbox/Cross-Entropy.md",
-    "Inbox/ACF.md",
-    "Inbox/attachments/Pasted image 20260309131016.png",
-    "Inbox/Linux terminal commands.md",
-    "Excalidraw/VAE.excalidraw.md",
-    "Inbox/rdcmProbe.md",
-    "Inbox/attachments/acf.png",
-    "Inbox/Time Series.md",
-    "Excalidraw/Drawing 2026-03-05 11.05.19.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-05 14.18.02.excalidraw.md",
-    "Excalidraw/time_series_stationary.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-09 12.11.43.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-01 19.09.19.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-09 12.08.36.excalidraw.md",
-    "Journal/04-03-2026.md",
-    "Inbox/Pandas.md",
-    "Journal/09-03-2026.md",
-    "Journal/08-03-2026.md",
-    "Inbox/Untitled 3.md",
-    "Journal/05-03-2026.md",
-    "Inbox/Git Commands.md",
-    "Inbox/attachments/Pandas_2_y_axis.png",
     "Excalidraw/time_series_blocks.excalidraw.md",
-    "Journal/02-03-2026.md",
-    "Excalidraw/Drawing 2026-02-26 19.21.47.excalidraw.md",
-    "Journal/01-03-2026.md",
-    "Inbox/attachments/Pandas_ts3-1.png",
-    "Inbox/attachments/Pandas_ts2.png",
-    "Inbox/attachments/Pandas_ts3.png",
-    "Inbox/attachments/Pandas_ts1.png",
+    "Journal/26-02-2026.md",
     "Excalidraw/attachments/Pasted Image 20260224175244_739.png",
     "Excalidraw/attachments/Pasted Image 20260224175218_227.png",
     "Excalidraw/attachments/Pasted Image 20260224175201_499.png",
+    "Excalidraw/attachments/Pasted Image 20260224175148_185.png",
+    "Inbox/Pandas.md",
+    "Excalidraw/time_series_stationary.excalidraw.md",
+    "Excalidraw/attachments/Pasted Image 20260224135233_581.png",
+    "Excalidraw/attachments/Pasted Image 20260224135148_195.png",
+    "Excalidraw/attachments/Pasted Image 20260224134925_977.png",
+    "Inbox/Git Commands.md",
+    "Inbox/Linux terminal commands.md",
+    "Journal/24-02-2026.md",
+    "Inbox/Conda.md",
+    "Inbox/Time Series.md",
+    "Inbox/Anomality Detection.md",
+    "Journal/23-02-2026.md",
+    "Inbox/Weak Stationarity.md",
+    "Journal/22-02-2026.md",
+    "Journal/21-02-2026.md",
+    "Excalidraw/attachments/Pasted Image 20260219145657_159.png",
+    "Excalidraw/Drawing 2026-02-19 12.33.51.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-19 12.33.42.excalidraw.md",
+    "Excalidraw/attachments/Pasted Image 20260219144549_387.png",
+    "Excalidraw/attachments/Pasted Image 20260219144531_443.png",
+    "Journal/19-02-2026.md",
+    "Inbox/Holt Winter.md",
+    "Inbox/rdcmProbe.md",
+    "Inbox/pandas_TimeSeries.md",
+    "Inbox/LaTex.md",
+    "Zettelkasten/How i write math in Obsidian.md",
+    "Inbox/MAD.md",
+    "Excalidraw/Drawing 2026-02-19 10.02.42.excalidraw.md",
+    "Excalidraw/AnomalityDetection1.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-11 11.55.25.excalidraw.md",
     "Inbox/Untitled 2.base",
     "Inbox/Untitled 1.base"
   ]

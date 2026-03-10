@@ -11,9 +11,14 @@ Tags:
 - [[Git Commands#Clone|clone]]
 - [[git commands#branches|branches]]
 	- [[git commands#branch Inspect|inspect]]
+		- [[Git Commands#am i merged into HEAD?|am i merged into HEAD?]]
 	- [[git commands#rename|rename]]
 	- [[git commands#create branch|create]]
+		- [[Git Commands#orphan branch|orphan]]
+		- [[Git Commands#create remote|remote]]
 	- [[git commands#delete|delete]]
+		- [[Git Commands#sync local branch with remote after deletion|sync local branch with remote after deletion.]]
+		
 - [[git commands#fetch|fetch]]
 - [[git commands#log|log]]
 - [[git commands#rebase|rebase]]
@@ -60,6 +65,19 @@ for remote branches
 git branch -r
 git branch -a # local and remote
 ```
+
+### am i merged into HEAD?
+lists local branches whose commits are NOT included in your current branch HEAD (usually master).
+Git considers them *unsafe to delete*
+``` shell
+git branch --no-merged
+```
+on the other hand
+``` shell
+git branch --merged
+```
+shows branches that are already *fully merged and safe to delete*
+
 ### change branch
 ``` bash
 git checkout <branch name>
@@ -87,12 +105,25 @@ git switch -c my_branch [<another branch]
 git checkout -b my-local-branch origin/feature/xyz
 # create without switching
 git branch my_branch [<another branch>]
+
 ```
 flags:
 -c / -b : create branch and switch to it
 -C / -f : force create/overwrite if it already exists
+### orphan branch
+``` shell
+# Does not reference any previous commit
+git checkout --orphan new_branch_name
+```
+typical text steps:
+``` shell
+git rm -rf .          # optional: remove all tracked files
+# add new files
+git add .
+git commit -m "Initial commit on orphan branch"
+```
 
-create remote
+### create remote
 ``` bash 
 git push -u origin my_branch 
 # creates origin/my_branch on the remote. and sets upstream tracking
@@ -113,7 +144,16 @@ $ git remote add new-remote-repo https://bitbucket.com/user/repo.git
 git push -d <remote_name> <branchname>   # Delete remote
 git branch -d <branchname>               # Delete local
 ```
-
+options  -D(instead of -d) for *force delete*
+### sync local branch with remote after deletion.
+to update the the branch list after deleting from remote:
+``` shell
+git fetch --prune
+# or
+git remote prune origin
+# This makes every future `git fetch` automatically clean deleted remote branches.
+git config --global fetch.prune true
+```
 ## Fetch
 
 *git fetch* download the remote content but does not *merge* them as in *git pull*
@@ -426,10 +466,10 @@ A *worktree* allows you to have multiple branches of the same repository checked
 
 add worktree
 ``` shell
+# adding worktree
+git worktree add ../wt-feature feature
 # creating new branch
 git worktree add <path> -b <new-branch-name>
-# example
-git worktree add ../wt-feature feature
 # existing branch
 git worktree add <path> <existing-branch-name>
 ```

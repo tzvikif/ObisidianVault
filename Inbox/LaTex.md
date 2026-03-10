@@ -8,9 +8,23 @@ Tags:
 
 # LaTex
 
-## examples:
+[[LaTex#Basic symbols|Basic symbols]]
+[[LaTex#Greek alpha beta|Greek alpha beta]]
+[[LaTex#Sums|Sums]]
+[[LaTex#Integrals|Integrals]]
+[[LaTex#Combinatorics|Combinatorics]]
+[[LaTex#logic|logic]]
+[[LaTex#linear algebra|linear algebra]]
+[[LaTex#Spaces|Spaces]]
+[[LaTex#Examples|Examples]]
+[[LaTex#Letters|Letters]]
+
+
+
+
+
+## Examples:
 $a\in\mathbb{R}^k$
-$\displaystyle \sum_{n=1}^{\infty}\frac{1}{n+1}$
 $\frac{\pi}{2}\odot\frac{4}{18}$
 $\hat{y}\cdot\bar{y}$   
 $\left\{sin\left(\frac{1}{n}\right)\right\}_{n}^{\infty}$
@@ -22,15 +36,45 @@ $\displaystyle \hat{\phi} = \underset{\phi} {argmin} \left[ \prod_{i=1}^{I} Pr(y
 ${TF-IDF}(t, d) = \text{TF}(t, d) \times \underbrace{\log\left( \frac{N}{DF(t)} \right)}_{IDF}$
 $\lvert X \rvert$
 $\|X\|$
-## Space
+
+## Greek alpha beta
+$\omega$ - @o
+$\Omega$ - @O
+$\alpha$ - @a
+$\beta$ - @b
+$\gamma$ - @g
+$\delta$ - @d
+$\Delta$ - @D
+$\epsilon$ - @e
+$\lambda$ - @l
+$\Lambda$ - @L
+$\phi$ - \phi
+$\Phi$ - \Phi
+$\sigma$ - @s
+$\Sigma$ - @S
+$\theta$ - @t
+$\Theta$ - @T
+$\rho$ - \rho
+$\zeta$ - @z
+
+
+## Sums
+$\displaystyle \sum_{n=1}^{\infty}\frac{1}{n+1}$
+## Integrals
+$\displaystyle \int_{0}^{1}  \, dx$  - dint
+
+## Spaces
 1. `\;` - a thick space
 2. `\:` - a medium space
 3. `\,` - a thin space
 4. `\!` - a negative thin space
 ## Combinatorics
 $\displaystyle { n\choose k }$
+$\left( \begin{array}{c} {N} \\ {k} \end{array} \right)$
+
 ## logic
-$\sim$, $\lor$, $\land$, $\to$, $\Rightarrow$ ,$\Leftrightarrow$, $\exists$, $\forall$
+$\sim$ - simm
+$\lor$, $\land$, $\to$, $\Rightarrow$ ,$\Leftrightarrow$, $\exists$, $\forall$
 ## linear algebra
 $\vec{v}$, $\mathbf{v}$, $||\vec{v}||$, $\odot$
 ## Basic symbols
@@ -39,18 +83,20 @@ $\times$, $\ne$, $\le$, $\ge$, $\approx$ , $\infty$, $\sqrt{x}$, $\sqrt[n]{x}$, 
 ## Latex Suite
 $\hat{a}$, $\vec{b}$, $\underline{c}$, $\bar{d}$
 
-$\left( \begin{array}{c} {N} \\ {k} \end{array} \right)$
-
 $\left[ \begin{array}{c} {N} \\ {k} \end{array} \right]$
 partial $\frac{\partial \mathcal{L}}{\partial \hat{y}}$
 $\underset{\theta} {\mathrm{argmax}} ~p(D|\theta)$
 nabla $\nabla$
 
-"LL" $\mathcal{L}$
-$\mathscr{L}$
-
+## Letters
+$\mathbf{D}$ - bf
+$\mathrm{D}$ - rm
+$\mathcal{L}$ - LL
+$\mathscr{L}$ - \mathscr
+$\mathbb{N}$ - NN
+$\mathbb{R}$ - RR
+$\mathbb{E}$ - \mathbb (RR and then replace with E)
 ## shortcuts
-
 ch - ()
 
 

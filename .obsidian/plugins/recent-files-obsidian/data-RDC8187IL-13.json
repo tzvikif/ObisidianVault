@@ -1,84 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "LaTex",
-      "path": "Inbox/LaTex.md"
-    },
-    {
-      "basename": "KL-Divergence",
-      "path": "Inbox/KL-Divergence.md"
-    },
-    {
-      "basename": "Cross-Entropy",
-      "path": "Inbox/Cross-Entropy.md"
-    },
-    {
-      "basename": "ACF",
-      "path": "Inbox/ACF.md"
-    },
-    {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
-      "basename": "VAE.excalidraw",
-      "path": "Excalidraw/VAE.excalidraw.md"
-    },
-    {
-      "basename": "rdcmProbe",
-      "path": "Inbox/rdcmProbe.md"
-    },
-    {
-      "basename": "Time Series",
-      "path": "Inbox/Time Series.md"
-    },
-    {
-      "basename": "Drawing 2026-03-05 11.05.19.excalidraw",
-      "path": "Excalidraw/Drawing 2026-03-05 11.05.19.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2026-03-05 14.18.02.excalidraw",
-      "path": "Excalidraw/Drawing 2026-03-05 14.18.02.excalidraw.md"
-    },
-    {
-      "basename": "time_series_stationary.excalidraw",
-      "path": "Excalidraw/time_series_stationary.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2026-03-01 19.09.19.excalidraw",
-      "path": "Excalidraw/Drawing 2026-03-01 19.09.19.excalidraw.md"
-    },
-    {
-      "basename": "Pandas",
-      "path": "Inbox/Pandas.md"
-    },
-    {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
+      "basename": "26-02-2026",
+      "path": "Journal/26-02-2026.md"
     },
     {
       "basename": "time_series_blocks.excalidraw",
       "path": "Excalidraw/time_series_blocks.excalidraw.md"
     },
     {
-      "basename": "Weak Stationarity",
-      "path": "Inbox/Weak Stationarity.md"
+      "basename": "Pandas",
+      "path": "Inbox/Pandas.md"
+    },
+    {
+      "basename": "time_series_stationary.excalidraw",
+      "path": "Excalidraw/time_series_stationary.excalidraw.md"
+    },
+    {
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
+    },
+    {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
     },
     {
       "basename": "Conda",
       "path": "Inbox/Conda.md"
     },
     {
+      "basename": "Time Series",
+      "path": "Inbox/Time Series.md"
+    },
+    {
       "basename": "Anomality Detection",
       "path": "Inbox/Anomality Detection.md"
+    },
+    {
+      "basename": "Weak Stationarity",
+      "path": "Inbox/Weak Stationarity.md"
     },
     {
       "basename": "Holt Winter",
       "path": "Inbox/Holt Winter.md"
     },
     {
+      "basename": "rdcmProbe",
+      "path": "Inbox/rdcmProbe.md"
+    },
+    {
       "basename": "pandas_TimeSeries",
       "path": "Inbox/pandas_TimeSeries.md"
+    },
+    {
+      "basename": "LaTex",
+      "path": "Inbox/LaTex.md"
     },
     {
       "basename": "How i write math in Obsidian",
@@ -193,8 +169,36 @@
       "path": "Inbox/Excel.md"
     },
     {
+      "basename": "VAE.excalidraw",
+      "path": "Excalidraw/VAE.excalidraw.md"
+    },
+    {
       "basename": "rdcmAnoDet.excalidraw",
       "path": "Excalidraw/rdcmAnoDet.excalidraw.md"
+    },
+    {
+      "basename": "git_rebase_onto.excalidraw",
+      "path": "Excalidraw/git_rebase_onto.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2026-01-07 19.40.17.excalidraw",
+      "path": "Excalidraw/Drawing 2026-01-07 19.40.17.excalidraw.md"
+    },
+    {
+      "basename": "08-01-2026",
+      "path": "Journal/08-01-2026.md"
+    },
+    {
+      "basename": "VAE2.excalidraw",
+      "path": "Excalidraw/VAE2.excalidraw.md"
+    },
+    {
+      "basename": "udl_chapter_10.excalidraw",
+      "path": "Excalidraw/udl_chapter_10.excalidraw.md"
+    },
+    {
+      "basename": "udl_chapter_8.excalidraw",
+      "path": "Excalidraw/udl_chapter_8.excalidraw.md"
     }
   ],
   "omittedPaths": [],
