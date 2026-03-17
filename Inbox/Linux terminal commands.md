@@ -8,15 +8,17 @@ Tags:
 
 # Linux terminal commands
 
-[[Linux terminal commands#Directory Size|Directory size]]
-[[Linux terminal commands#Disks Size|Disk size]]
+### disk
+- [[Linux terminal commands#Directory Size|Directory size]]
+- [[Linux terminal commands#Disks Size|Disk size]]
 [[Linux terminal commands#awk|awk]]
-[[Linux terminal commands#find|find]]
+### find
+- [[Linux terminal commands#find|find]]
+- [[Linux terminal commands#grep|grep]]
 [[Linux terminal commands#keep running after logout|keep running after logout]]
 [[Linux terminal commands#vi|vi cheat sheet]]
 [[Linux terminal commands#copy|move and copy]]
-[[Linux terminal commands#add string to file name|change file names to all files in a folder]]
-[[Linux terminal commands#grep|grep]]
+[[Linux terminal commands#add string to file name|change file names to all files in a folder]] 
 [[Linux terminal commands#symlink|symlink]]
 [[Linux terminal commands#shell alias|shell alias]]
 [[Linux terminal commands#system|system]]
@@ -28,7 +30,6 @@ Tags:
 [[Linux terminal commands#scp|scp]]
 [[Linux terminal commands#yt-dlp|download_media]]
 [[Linux terminal commands#installations|installation issues]]
-[[Linux terminal commands#vi|vi]]
 [[Linux terminal commands#copy|copy]]
 
 

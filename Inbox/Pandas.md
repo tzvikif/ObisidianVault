@@ -38,7 +38,7 @@ df = df.dropna(subset=['A', 'B'], how='all')
 
 ## filtering
 
-### group
+## grouping
 ``` python
 df = pd.DataFrame({
     'category': ['A','A','A','B','B','C','C','C','C','C','D','D'],
@@ -56,6 +56,25 @@ df[expression] - expression should be indices of df
 filtered = df.groupby('category').filter(lambda x: len(x) > 5)
 ```
 
+``` python
+df.groupby("Store")["Sales"].agg(["mean", "max", "min"])
+df.groupby("Store").agg(
+    avg_sales=("Sales", "mean"),
+    max_sales=("Sales", "max"),
+    total_profit=("Profit", "sum")
+)
+```
+custom
+``` python
+def my_range(x):
+    return x.max() - x.min()
+
+df.groupby("Store")["Sales"].agg(my_range)
+```
+lambda
+``` python
+df.groupby("Store")["Sales"].agg(lambda x: x.quantile(0.9))
+```
 ## Time Series
 ### datetime conversion
 ``` python
@@ -114,12 +133,26 @@ def plot_series(series_df, cols, title=''):
 ```
 
 #### two y axis
+using plot
 ``` python
 # first plot
 df["30_day_rolling_vol"] = df["Volume"].rolling(window=30).mean()df[["30_day_rolling_vol"]].plot(legend=True)
 # second plot
 ax = df["Close"].plot(secondary_y=True, legend=True)
 ax.set_ylabel("Closing Price")
+plt.show()
+```
+using ax
+``` python
+fig, ax = plt.subplots()
+
+ax.plot(df.index, df["sales"])
+ax.set_ylabel("Sales")
+
+ax2 = ax.twinx()
+ax2.plot(df.index, df["temperature"])
+ax2.set_ylabel("Temperature")
+
 plt.show()
 ```
 ![[Pandas_2_y_axis.png|500]]

@@ -58,13 +58,13 @@
             }
           },
           {
-            "id": "0db1166c1fe0728b",
+            "id": "46d2c6b737e30afd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Inbox/Linux terminal commands.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -72,19 +72,21 @@
             }
           },
           {
-            "id": "c7de7be778e18304",
+            "id": "0f5a15e2907b5e16",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/ביטוח_טויוטה.excalidraw.md"
+                "file": "Inbox/rdcmProbe.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ביטוח_טויוטה.excalidraw"
+              "icon": "lucide-file",
+              "title": "rdcmProbe"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -233,37 +235,34 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0db1166c1fe0728b",
+  "active": "0f5a15e2907b5e16",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-03-15 16.49.47.excalidraw.md",
-    "Excalidraw/ביטוח_טויוטה.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-17 11.29.28.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-15 15.23.58.excalidraw.md",
-    "Inbox/Linux terminal commands.md",
-    "Inbox/ARIMA.md",
-    "Inbox/SARIMA.md",
-    "Inbox/LaTex.md",
-    "Excalidraw/Drawing 2026-03-17 12.17.57.excalidraw.md",
-    "Excalidraw/attachments/Pasted Image 20260317122114_894.png",
-    "Excalidraw/attachments/Pasted Image 20260317122048_413.png",
-    "Journal/17-03-2026.md",
-    "Inbox/attachments/ARIMA1.png",
+    "Journal/16-03-2026.md",
+    "Inbox/rdcmProbe.md",
     "Excalidraw/Chronos-2.excalidraw.md",
     "Excalidraw/Drawing 2026-03-05 14.18.02.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-05 11.05.19.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-21 13.58.56.excalidraw.md",
-    "Excalidraw/loss_func_CE_5_2.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-14 10.33.26.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md",
-    "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md",
+    "Excalidraw/bjj.excalidraw.md",
     "Excalidraw/Drawing 2026-01-21 18.04.42.excalidraw.md",
-    "Inbox/Time Series.md",
-    "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md",
-    "Excalidraw/Drawing 2025-11-12 10.33.34.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-18 10.34.38.excalidraw.md",
-    "Excalidraw/ROC.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-05 11.05.19.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-08 11.04.43.excalidraw.md",
+    "Excalidraw/udl_ch_8_1.excalidraw.md",
+    "Excalidraw/transformer.excalidraw.md",
+    "Excalidraw/tomer_LLM.excalidraw.md",
+    "Excalidraw/time_series_stationary.excalidraw.md",
+    "Excalidraw/VAE.excalidraw.md",
+    "Inbox/Pandas.md",
+    "Excalidraw/Drawing 2026-03-01 19.09.19.excalidraw.md",
+    "Inbox/Linux terminal commands.md",
+    "Inbox/Python.md",
+    "Journal/12-03-2026.md",
+    "Excalidraw/Drawing 2026-03-11 17.09.56.excalidraw.md",
+    "Journal/11-03-2026.md",
+    "Inbox/LaTex.md",
+    "Journal/10-03-2026.md",
+    "Inbox/KL-Divergence.md",
+    "Inbox/Cross-Entropy.md",
+    "Inbox/ACF.md",
     "Inbox/attachments/Pasted image 20260309131016.png",
     "Inbox/attachments/acf.png",
     "Inbox/attachments/Pandas_2_y_axis.png",
@@ -271,6 +270,9 @@
     "Inbox/attachments/Pandas_ts2.png",
     "Inbox/attachments/Pandas_ts3.png",
     "Inbox/attachments/Pandas_ts1.png",
+    "Excalidraw/attachments/Pasted Image 20260224175244_739.png",
+    "Excalidraw/attachments/Pasted Image 20260224175218_227.png",
+    "Excalidraw/attachments/Pasted Image 20260224175201_499.png",
     "Inbox/Untitled 2.base",
     "Inbox/Untitled 1.base"
   ]
