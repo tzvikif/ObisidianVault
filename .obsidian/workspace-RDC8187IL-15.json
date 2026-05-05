@@ -4,25 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "57dbc65ee8e186ff",
+        "id": "d243b7bd9d8a0eba",
         "type": "tabs",
         "children": [
           {
-            "id": "6292e2e942b2f263",
+            "id": "05e0db1b17565685",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Inbox/Python.md",
-                "mode": "preview",
-                "source": false
+                "file": "Excalidraw/VAE.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Python"
+              "icon": "excalidraw-icon",
+              "title": "VAE.excalidraw"
             }
           },
           {
-            "id": "2ccd0f1317c7a415",
+            "id": "3dd9bc6177e6150e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-05 14.18.02.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-05 14.18.02.excalidraw"
+            }
+          },
+          {
+            "id": "c59b0a232967c234",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,63 +46,47 @@
             }
           },
           {
-            "id": "97e537c99faa5c1b",
+            "id": "0556d6c5f1ddd335",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Chronos-2.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Chronos-2.excalidraw"
+            }
+          },
+          {
+            "id": "6a0aa003778f4280",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/rdcmProbe.md",
+                "file": "Journal/25-03-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rdcmProbe"
+              "title": "25-03-2026"
             }
           },
           {
-            "id": "0745a74554008e52",
+            "id": "8aa8593d276abd46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/rg.md",
+                "file": "Inbox/Time Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rg"
-            }
-          },
-          {
-            "id": "d53c3e4df0c07190",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Git Commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git Commands"
-            }
-          },
-          {
-            "id": "6c0b80d8003eff6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/rdcmIcebergDB.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "rdcmIcebergDB"
+              "title": "Time Series"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -144,16 +138,6 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "9cbb74f5a7872cef",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ]
       }
@@ -175,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Linux terminal commands.md",
+                "file": "Inbox/LaTex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linux terminal commands"
+              "title": "Backlinks for LaTex"
             }
           },
           {
@@ -194,12 +178,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Linux terminal commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Linux terminal commands"
+              "title": "Outgoing links"
             }
           },
           {
@@ -251,52 +234,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3ea19bb821432676",
+  "active": "6a0aa003778f4280",
   "lastOpenFiles": [
-    "Inbox/rg.md",
-    "Journal/05-05-2026.md",
-    "Inbox/Linux terminal commands.md",
-    "Inbox/Git Commands.md",
-    "Excalidraw/Drawing 2026-05-04 15.03.56.excalidraw.md",
-    "Journal/04-05-2026.md",
-    "Inbox/covariance.md",
-    "Inbox/rdcmProbe.md",
-    "Journal/03-05-2026.md",
-    "Excalidraw/Drawing 2026-04-29 11.04.29.excalidraw.md",
-    "Journal/29-04-2026.md",
-    "Inbox/vim.md",
-    "Journal/28-04-2026.md",
-    "Inbox/Pandas.md",
-    "Inbox/rdcmZoom.md",
-    "Inbox/Python.md",
-    "Inbox/LLM.md",
-    "Inbox/Cross-Entropy.md",
-    "Inbox/Untitled 3.md",
-    "Excalidraw/VAE.excalidraw.md",
-    "Inbox/UV.md",
-    "Inbox/RAG.md",
-    "Inbox/LLM architecture.md",
-    "Journal/27-04-2026.md",
-    "Inbox/Python_3.md",
-    "Excalidraw/Drawing 2026-04-26 13.47.53.excalidraw.md",
-    "Excalidraw/attachments/Pasted Image 20260426140054_214.png",
-    "Excalidraw/attachments/Pasted Image 20260426135620_747.png",
-    "Inbox/attachments/Pandas-2.png",
-    "Inbox/attachments/Pandas-1.png",
-    "Inbox/attachments/Pandas.png",
-    "Inbox/attachments/rdcmIcebergDB-4.png",
-    "Inbox/attachments/rdcmIcebergDB-3.png",
-    "Inbox/attachments/rdcmIcebergDB-2.png",
-    "Inbox/attachments/rdcmIcebergDB-1.png",
-    "Inbox/attachments/rdcmIcebergDB.png",
-    "Inbox/attachments/ARIMA1.png~RF43faf27a.TMP",
-    "Excalidraw/attachments/מוסך.jpeg~RF43faf23c.TMP",
-    "Inbox/SARIMA.md~RF43faf20d.TMP",
-    "Excalidraw/anomalities.excalidraw.md~RF43faf1de.TMP",
-    "Excalidraw/Backprop..excalidraw.md~RF43faf190.TMP",
-    "Excalidraw/Drawing 2026-03-17 11.29.28.excalidraw.md~RF43faf132.TMP",
-    "Excalidraw/LoRa.excalidraw.md~RF43faf103.TMP",
-    "Excalidraw/ביטוח_טויוטה.excalidraw.md~RF43faf0c5.TMP",
+    "Excalidraw/Drawing 2025-06-03 16.57.02.excalidraw.md",
+    "Journal/25-03-2026.md",
+    "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md",
+    "Excalidraw/Drawing 2025-11-12 10.33.34.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-14 10.33.26.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-18 10.34.38.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-21 13.58.56.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-05 11.05.19.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-21 18.04.42.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-05 14.18.02.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-15 15.23.58.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-15 16.49.47.excalidraw.md",
+    "Excalidraw/ROC.excalidraw.md",
+    "Excalidraw/time_series_blocks.excalidraw.md",
+    "Excalidraw/t-dist.excalidraw.md",
+    "Excalidraw/pension_simba.excalidraw.md",
+    "Excalidraw/loss_func_CE_5_2.excalidraw.md",
+    "Excalidraw/ELBO_Multivariate_Gaussian.excalidraw.md",
+    "Inbox/Time Series.md",
+    "Excalidraw/Drawing 2026-03-16 12.44.03.excalidraw.md",
+    "Inbox/t-statistic.md",
+    "Inbox/Standard Error (SE).md",
+    "Inbox/p-value.md",
+    "Inbox/ARIMA.md",
+    "Inbox/Holt Winter.md",
+    "Inbox/attachments/Pasted image 20260309131016.png",
+    "Inbox/attachments/acf.png",
+    "Inbox/attachments/Pandas_2_y_axis.png",
+    "Inbox/attachments/Pandas_ts3-1.png",
+    "Inbox/attachments/Pandas_ts2.png",
+    "Inbox/attachments/Pandas_ts3.png",
+    "Inbox/attachments/Pandas_ts1.png",
+    "Excalidraw/attachments/Pasted Image 20260224175244_739.png",
+    "Excalidraw/attachments/Pasted Image 20260224175218_227.png",
+    "Excalidraw/attachments/Pasted Image 20260224175201_499.png",
     "Inbox/Untitled 2.base",
     "Inbox/Untitled 1.base"
   ]

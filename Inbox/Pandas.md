@@ -14,6 +14,13 @@ Tags:
 - [[Pandas#plot|plot]]
 	- [[Pandas#day of week|day of week]]
 	- 
+[[Pandas#from long format to wide format|from long format to wide format]]
+[[Pandas#one-hot encoding|one-hot encoding]]
+
+
+
+
+
 
 ## Merge
 ## Filter rows
@@ -100,20 +107,6 @@ df1 = pd.read_csv("bitcoin_price.csv", index_col="Date", parse_dates=True)
 ```
 ![[Pandas_ts1.png]]
 
-#### long table -> bright table
-It takes the **innermost index level (`Store`)** and moves it to columns.
-This is equivalent to a *pivot table*
-``` python
-df_10.groupby([df_10.index.day_of_week, 'Store'])['Sales'].mean().unstack()
-
-```
-- Rows → `day_of_week`
-- Columns → `Store`
-- Values → mean Sales
-the *unstack* is used usually for preparation for plotting.
-![[Pandas_ts2.png]]
-![[Pandas_ts3-1.png|400]]
-
 ### plot
 #### day of week
 x axis - days of the week.
@@ -160,6 +153,63 @@ plt.show()
 display full column (not scientific notation)
 ``` python
 pd.set_option('display.float_format', '{:.5f}'.format)
+```
+
+## from long format to wide format
+### pivot
+syntax
+``` python
+ df.pivot(index='row_col', columns='col_to_pivot', values='data_col')
+```
+**Parameters**:
+- **index**: Column(s) to use as the new DataFrame's index.
+- **columns**: Column to use to create the new column headers.
+- **values**: Column(s) to fill the new table's cells.
+
+
+### pivot_table
+Use `df.pivot_table()` when you need to **aggregate** data or handle duplicate entries for the same index/column pair.
+
+### unstack
+It takes the **innermost index level (`Store`)** and moves it to columns.
+This is equivalent to a *pivot table*
+``` python
+df_10.groupby([df_10.index.day_of_week, 'Store'])['Sales'].mean().unstack()
+
+```
+- Rows → `day_of_week`
+- Columns → `Store`
+- Values → mean Sales
+the *unstack* is used usually for preparation for plotting.
+
+## from wide to long
+### melt()
+- **`id_vars`**: Columns to keep as identifiers (will not be "melted").
+- **`value_vars`**: Specific columns to unpivot. If omitted, all columns not in `id_vars` are melted.
+- **`var_name`**: Custom name for the new "variable" column.
+- **`value_name`**: Custom name for the new "value" column
+#### example
+![[Pandas-1.png]]
+``` python
+pd.melt(df, id_vars=["A"], value_vars=["B", "C"], var_name="myVarname", value_name="myValueName")
+```
+output
+![[Pandas-2.png]]
+
+
+### stack()
+## one-hot encoding
+
+``` python
+df = pd.DataFrame({'A': [1, 2, 3]})
+df = df.join(pd.get_dummies(df['A'], prefix='A').astype(bool))
+```
+result:
+![[Pandas.png]]
+or
+``` python
+for v in df['A'].unique():
+    df[f'A_{v}'] = df['A'].eq(v)
 ```
 
 [[pandas_TimeSeries]]

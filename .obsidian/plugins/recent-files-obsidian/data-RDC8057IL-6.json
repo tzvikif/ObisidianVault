@@ -1,88 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "rdcmIcebergDB",
-      "path": "Inbox/rdcmIcebergDB.md"
-    },
-    {
-      "basename": "rg",
-      "path": "Inbox/rg.md"
-    },
-    {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
-    },
-    {
-      "basename": "Git Commands",
-      "path": "Inbox/Git Commands.md"
+      "basename": "09-04-2026",
+      "path": "Journal/09-04-2026.md"
     },
     {
       "basename": "rdcmProbe",
       "path": "Inbox/rdcmProbe.md"
     },
     {
-      "basename": "vim",
-      "path": "Inbox/vim.md"
+      "basename": "Git Commands",
+      "path": "Inbox/Git Commands.md"
     },
     {
-      "basename": "Pandas",
-      "path": "Inbox/Pandas.md"
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
     },
     {
-      "basename": "Python",
-      "path": "Inbox/Python.md"
+      "basename": "Conda",
+      "path": "Inbox/Conda.md"
     },
     {
-      "basename": "LLM",
-      "path": "Inbox/LLM.md"
+      "basename": "rdcmIcebergDB",
+      "path": "Inbox/rdcmIcebergDB.md"
     },
     {
-      "basename": "Cross-Entropy",
-      "path": "Inbox/Cross-Entropy.md"
+      "basename": "Drawing 2026-03-05 14.18.02.excalidraw",
+      "path": "Excalidraw/Drawing 2026-03-05 14.18.02.excalidraw.md"
     },
     {
-      "basename": "VAE.excalidraw",
-      "path": "Excalidraw/VAE.excalidraw.md"
+      "basename": "Drawing 2026-03-29 15.42.57.excalidraw",
+      "path": "Excalidraw/Drawing 2026-03-29 15.42.57.excalidraw.md"
     },
     {
-      "basename": "UV",
-      "path": "Inbox/UV.md"
-    },
-    {
-      "basename": "RAG",
-      "path": "Inbox/RAG.md"
-    },
-    {
-      "basename": "LLM architecture",
-      "path": "Inbox/LLM architecture.md"
-    },
-    {
-      "basename": "Drawing 2026-04-19 11.50.16.excalidraw",
-      "path": "Excalidraw/Drawing 2026-04-19 11.50.16.excalidraw.md"
-    },
-    {
-      "basename": "smbclient",
-      "path": "Inbox/smbclient.md"
-    },
-    {
-      "basename": "mount.cifs",
-      "path": "Inbox/mount.cifs.md"
-    },
-    {
-      "basename": "Drawing 2026-04-19 16.46.55.excalidraw",
-      "path": "Excalidraw/Drawing 2026-04-19 16.46.55.excalidraw.md"
-    },
-    {
-      "basename": "graph-RAG",
-      "path": "Inbox/graph-RAG.md"
+      "basename": "Drawing 2026-03-17 11.29.28.excalidraw",
+      "path": "Excalidraw/Drawing 2026-03-17 11.29.28.excalidraw.md"
     },
     {
       "basename": "Drawing 2025-05-20 14.16.45.excalidraw",
       "path": "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md"
-    },
-    {
-      "basename": "Time Series",
-      "path": "Inbox/Time Series.md"
     },
     {
       "basename": "Drawing 2025-05-20 16.55.12.excalidraw",
@@ -97,6 +53,10 @@
       "path": "Excalidraw/Drawing 2025-08-19 16.48.32.excalidraw.md"
     },
     {
+      "basename": "Drawing 2025-11-12 10.33.34.excalidraw",
+      "path": "Excalidraw/Drawing 2025-11-12 10.33.34.excalidraw.md"
+    },
+    {
       "basename": "Drawing 2026-01-18 10.34.38.excalidraw",
       "path": "Excalidraw/Drawing 2026-01-18 10.34.38.excalidraw.md"
     },
@@ -109,24 +69,24 @@
       "path": "Excalidraw/Drawing 2026-03-05 11.05.19.excalidraw.md"
     },
     {
-      "basename": "Drawing 2026-03-05 14.18.02.excalidraw",
-      "path": "Excalidraw/Drawing 2026-03-05 14.18.02.excalidraw.md"
-    },
-    {
       "basename": "Drawing 2026-03-15 15.23.58.excalidraw",
       "path": "Excalidraw/Drawing 2026-03-15 15.23.58.excalidraw.md"
     },
     {
-      "basename": "Chronos-2.excalidraw",
-      "path": "Excalidraw/Chronos-2.excalidraw.md"
+      "basename": "Drawing 2026-03-15 16.49.47.excalidraw",
+      "path": "Excalidraw/Drawing 2026-03-15 16.49.47.excalidraw.md"
     },
     {
-      "basename": "pandas_TimeSeries",
-      "path": "Inbox/pandas_TimeSeries.md"
+      "basename": "graph-RAG",
+      "path": "Inbox/graph-RAG.md"
     },
     {
-      "basename": "Conda",
-      "path": "Inbox/Conda.md"
+      "basename": "LLM",
+      "path": "Inbox/LLM.md"
+    },
+    {
+      "basename": "LLM architecture",
+      "path": "Inbox/LLM architecture.md"
     },
     {
       "basename": "ROC.excalidraw",
@@ -153,8 +113,20 @@
       "path": "Excalidraw/ELBO_Multivariate_Gaussian.excalidraw.md"
     },
     {
+      "basename": "Time Series",
+      "path": "Inbox/Time Series.md"
+    },
+    {
       "basename": "Holt Winter",
       "path": "Inbox/Holt Winter.md"
+    },
+    {
+      "basename": "VAE.excalidraw",
+      "path": "Excalidraw/VAE.excalidraw.md"
+    },
+    {
+      "basename": "Chronos-2.excalidraw",
+      "path": "Excalidraw/Chronos-2.excalidraw.md"
     },
     {
       "basename": "udl_ch_8_1.excalidraw",
@@ -173,12 +145,24 @@
       "path": "Excalidraw/time_series_stationary.excalidraw.md"
     },
     {
+      "basename": "Pandas",
+      "path": "Inbox/Pandas.md"
+    },
+    {
+      "basename": "Python",
+      "path": "Inbox/Python.md"
+    },
+    {
       "basename": "LaTex",
       "path": "Inbox/LaTex.md"
     },
     {
       "basename": "KL-Divergence",
       "path": "Inbox/KL-Divergence.md"
+    },
+    {
+      "basename": "Cross-Entropy",
+      "path": "Inbox/Cross-Entropy.md"
     },
     {
       "basename": "ACF",
@@ -193,8 +177,28 @@
       "path": "Inbox/Anomality Detection.md"
     },
     {
+      "basename": "pandas_TimeSeries",
+      "path": "Inbox/pandas_TimeSeries.md"
+    },
+    {
       "basename": "How i write math in Obsidian",
       "path": "Zettelkasten/How i write math in Obsidian.md"
+    },
+    {
+      "basename": "MAD",
+      "path": "Inbox/MAD.md"
+    },
+    {
+      "basename": "AnomalityDetection1.excalidraw",
+      "path": "Excalidraw/AnomalityDetection1.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2026-02-11 11.55.25.excalidraw",
+      "path": "Excalidraw/Drawing 2026-02-11 11.55.25.excalidraw.md"
+    },
+    {
+      "basename": "Useful  markdown syntax in Obsidian",
+      "path": "Inbox/Useful  markdown syntax in Obsidian.md"
     }
   ],
   "omittedPaths": [],

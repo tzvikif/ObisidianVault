@@ -12,6 +12,8 @@ Tags:
 [[rdcmProbe#run pcap with pure gi|setup for pure gi]]
 [[rdcmProbe#Models|models]]
 [[rdcmProbe#Record CDRs|Record CDRs]]
+[[rdcmProbe#kill process|kill process]]
+	
 
 ## Web Monitor
 	http://172.16.10.140:8080/monserver/AjaxClient/JSP/Login/Login.jsp
@@ -159,6 +161,7 @@ Note: the models are copied to archive . if you want to change model go to [[rdc
 in the file *arch/video_ml/files/config/ml_api_xgboost.ini*
 update the name of the model if needed. copy the new model to *arch/video_ml/files/xgmodels*
 ## Build
+for CentOs (old)
 ``` bash
 cd /hpadir
 # dry run
@@ -170,7 +173,12 @@ make BLD=rebuild
 # after build is done run this to reset config to fit current version scheme:
 sh /hpadir/hostinstallhelper.sh swoffline
 ```
-
+Rocky
+``` bash
+remake
+# after build is done run this to reset config to fit current version scheme:
+sh /hpadir/hostinstallhelper.sh swoffline
+```
 check */hpadir/log* for compilation issues
 
 ## SNI filter
@@ -184,6 +192,17 @@ sh /hpadir/RecordAllCDRS.sh start
 sh /hpadir/RecordAllCDRS.sh stop
 # cdrs in /hpadir/cdrs.txt
 ```
+
+## kill process
+``` bash
+pkill -9 hpa
+pkill -9 r70
+```
+
+
+/host_config_template/
+
+
 
 ## My Questions
 

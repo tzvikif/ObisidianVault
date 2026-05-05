@@ -19,7 +19,7 @@ myenv\Scripts\activate
 # Activating on Unix/MacOS
 source myenv/bin/activate
 # check environment
-echo $VIRTUAL_ENV
+echo $VIRTUAL_ENVp 
 ```
 
 Verify which Python is being used by running
@@ -55,6 +55,12 @@ conda automatically adds the name of the channel the base url:
 https://conda.anaconda.org/<channel-name>
 for example:
 for channel *nvidia* : https://conda.anaconda.org/nvidia
+
+## miscellaneous
+to verify which interpreter runs
+``` bash
+uv run python -c "import sys; print(sys.executable)"
+```
 
 ## My Questions
 

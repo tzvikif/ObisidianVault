@@ -8,63 +8,45 @@ Tags:
 
 # Linux terminal commands
 
-disk
-- [[Linux terminal commands#Directory Size|Directory size]]
-- [[Linux terminal commands#Disks Size|Disk size]]
-- [[Linux terminal commands#Mount|Mount]]
-
+[[Linux terminal commands#Directory Size|Directory size]]
+[[Linux terminal commands#Disks Size|Disk size]]
 [[Linux terminal commands#awk|awk]]
-
-find
-- [[Linux terminal commands#find|find]]
-- [[Linux terminal commands#grep|grep]]
-- [[rg]]
-
+[[Linux terminal commands#find|find]]
 [[Linux terminal commands#keep running after logout|keep running after logout]]
-[[vim|vim cheat sheet]]
+[[Linux terminal commands#vi|vi cheat sheet]]
 [[Linux terminal commands#copy|move and copy]]
-[[Linux terminal commands#add string to file name|change file names to all files in a folder]] 
+[[Linux terminal commands#add string to file name|change file names to all files in a folder]]
+[[Linux terminal commands#grep|grep]]
 [[Linux terminal commands#symlink|symlink]]
 [[Linux terminal commands#shell alias|shell alias]]
 [[Linux terminal commands#system|system]]
 - [[Linux terminal commands#kill|kill]]
-- 
 [[Linux terminal commands#network|network]]
 - [[Linux terminal commands#ports|ports]]
-
 [[Linux terminal commands#Compress|compress]]
 [[Linux terminal commands#customization|customization]]
 [[Linux terminal commands#scp|scp]]
 [[Linux terminal commands#yt-dlp|download_media]]
 [[Linux terminal commands#installations|installation issues]]
+[[Linux terminal commands#vi|vi]]
 [[Linux terminal commands#copy|copy]]
-[[Linux terminal commands#SSH|ssh]]
 
 
-## Mount
-### drive
+
+
+
+
+
+
+
+
+
+
+
+
 mount drive *D* to folder */mnt/d*
 ``` bash
 sudo mount -t drvfs D: /mnt/d
-```
-### shared folder (Windows)
-``` bash
-smbclient //172.16.1.143/Traces -U RAD_NTDOM01/tzviki.fisher
-```
-using [[smbclient]]
-
-[[mount.cifs]]
-``` bash
-sudo mount.cifs //172.16.1.143/Traces /mnt/traces \
-  -o credentials=/home/$USER/.smbcredentials,sec=ntlmssp,vers=3.0
-```
-credential file 
-``` bash
-cat > ~/.smbcredentials <<'EOF'
-username=tzviki.fisher
-password=MYPASS
-domain=RAD_NTDOM01
-EOF
 ```
 
 ## Directory Size
@@ -273,6 +255,27 @@ ps aux | grep script.sh
 - `>&1` means "redirect to where 1 (stdout) is pointing"
 - So stderr is redirected to the same place as stdout (output.log)
 `&` at the end: Runs the process in the background
+
+## vi
+display line numbers
+``` bash
+:set number
+```
+### copy lines
+in normal mode (esc)
+- [number of lines to copy]yy for copy
+- dd - cut line
+- p for paste
+in visual mode (v)
+- select
+- yy
+- p
+### move line
+``` shell
+# ddp - move down
+# ddkP - move up
+```
+
 ## Processes
 ``` shell
 # Find Firefox PID
@@ -324,7 +327,8 @@ grep -E 'a{2,4}' file.txt # "aa", "aaa", or "aaaa"
 # Search recursively for a pattern in all text files
 grep -r "TODO" --include="*.txt" /path/to/search
 ```
-	
+options:
+-l : show unique filenames
 ## add string to file name
 ``` bash
 for file in *.pcapng; do mv "$file" "ml_kpi_debug_decoder_$file"; done
@@ -338,10 +342,6 @@ for file in *.pcap; do echo "Would rename $file to ml_kpi_debug_decoder_$file"; 
 ln -s /path/to/your/python/executable your_new_name
 # -f force if the symlink exists you overwrite it
 ```
-options
--s: create *symbolic link* instead of hard link (must be on the same filesystem)
--f: force - Remove existing destination before creating the link
--n: in case target is symlink. overwrite symlink itself, not what it points to
 find the path for which the link points to
 ``` bash
 readlink -f <symlink name>
@@ -418,8 +418,6 @@ the easiest way is to open terminal in wsl / Windows and then copy from / to.
 scp /mnt/c/Users/Alice/Documents/file.txt username@remote_host:/home/username/
 ```
 
-
-
 ## yt-dlp
 ``` shell
 yt-dlp -x --audio-format mp3 -o "~/Music/%(title)s.%(ext)s" <URL>
@@ -470,51 +468,66 @@ info about domain
 host <url>
 ```
 
-## SSH
-### generate ssh key
+## Remte
+
+### ssh
 ``` bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh username@hostname
+# alternative
+ssh -l username hostname
+# port if needed
+ssh username@hostname -p 2222
+# use private specific private key
+ssh -i ~/.ssh/id_rsa username@hostname
+
 ```
-**Enter** for default path
-When prompted for passphrase:
-- leave empty if you want completely passwordless login
-- otherwise set one for additional security
-result
+ 
+ define a default user in *ssh* config (~/.ssh/config)
+ ``` bash
+ Host myserver
+    HostName 192.168.1.10
+    User root
+    Port 22
+ ```
+connect
 ``` bash
-~/.ssh/id_ed25519        (private key)
-~/.ssh/id_ed25519.pub    (public key)
-```
-*Note*
-verify that
-``` bash
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys
+ssh myserver
 ```
 
-### Copy the public key to the remote machine
+### set connection with key authentication
+generate key
 ``` bash
-ssh-copy-id -i ~/.ssh/radcom-deployment.pub username@remote_host
+ssh-keygen
 ```
--i: public key file (other then the default)
-### login
+Copy the public key to the remote host
 ``` bash
-ssh -i ~/.ssh/radcom-deployment username@remote_host
+ssh-copy-id username@hostname
+# using default public key: 
+# ~/.ssh/id_rsa.pub or ~/.ssh/id_ed25519.pub
+# to specify custom public key
+ssh-copy-id -i ~/.ssh/my_custom_key.pub username@hostname
 ```
-#### To avoid specifying the key each time, configure:
+
+connect
 ``` bash
-~/.ssh/config
+ssh username@hostname
 ```
-with
+
+### file ownership
+change
 ``` bash
-Host myvm
-    HostName 192.168.1.10
-    User tzviki
-    IdentityFile ~/.ssh/radcom-deployment
+sudo chown -R <username>:<username> <directory>
+# change to ownership of the files to my user
+sudo chown -R $(whoami):$(whoami) <directory>
+# change for subdirectories except <directory>
+sudo chown -R username:username <directory>/*
+# 
 ```
-then connect with
-``` bash
-ssh myvm
-```
+
+
+
+
+
 
 [Panes in Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/panes?WT.mc_id=-blog-scottha#creating-a-new-pane)
 
