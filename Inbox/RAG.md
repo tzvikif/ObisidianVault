@@ -8,7 +8,10 @@ Tags:
 
 # RAG
 
-
+rag uses vectorDB to handle the embedding vectors.
+for example 
+- [[FAISS]]
+- [[ChromaDB]]
 
 ## My Questions
 

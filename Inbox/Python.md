@@ -19,7 +19,7 @@ myenv\Scripts\activate
 # Activating on Unix/MacOS
 source myenv/bin/activate
 # check environment
-echo $VIRTUAL_ENVp 
+echo $VIRTUAL_ENV 
 ```
 
 Verify which Python is being used by running
@@ -61,7 +61,24 @@ to verify which interpreter runs
 ``` bash
 uv run python -c "import sys; print(sys.executable)"
 ```
+install [[cuda]]
 
+### check cuda installtion
+``` python
+python - <<'PY'
+import torch
+
+print("torch:", torch.__version__)
+print("torch file:", torch.__file__)
+print("cuda available:", torch.cuda.is_available())
+print("torch cuda version:", torch.version.cuda)
+
+if torch.cuda.is_available():
+    print("gpu:", torch.cuda.get_device_name(0))
+    x = torch.randn(3, 3, device="cuda")
+    print(x)
+PY
+```
 ## My Questions
 
 

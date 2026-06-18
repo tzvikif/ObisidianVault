@@ -290,7 +290,7 @@ kill PID
 # If it doesn't respond, force kill: 
 kill -9 PID
 #kill by name
-pkill process_name 
+pkill [-f] process_name 
 # or forcefully: 
 pkill -9 process_name
 ```
@@ -335,7 +335,7 @@ for file in *.pcap; do echo "Would rename $file to ml_kpi_debug_decoder_$file"; 
 ## symlink
 ``` bash
 # make symlic your_new_name to /path/to/your/python/executable
-ln -s /path/to/your/python/executable your_new_name
+ln -s <target> <link name>
 # -f force if the symlink exists you overwrite it
 ```
 options

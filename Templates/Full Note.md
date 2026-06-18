@@ -2,7 +2,7 @@
 
 {{Date}} {{time}}
 
-Status: #in_progress
+Status: 
 
 Tags:
 

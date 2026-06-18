@@ -8,63 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0745a74554008e52",
+            "id": "6292e2e942b2f263",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/rg.md",
+                "file": "Inbox/Conda.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rg"
+              "title": "Conda"
             }
           },
           {
-            "id": "9d7d869b9847cd18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Step by Step.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Step by Step"
-            }
-          },
-          {
-            "id": "4ba03a25f0457c8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Learning Plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Learning Plan"
-            }
-          },
-          {
-            "id": "0632919774df98ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Expectation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Expectation"
-            }
-          },
-          {
-            "id": "ba7e82c5525d048b",
+            "id": "2ccd0f1317c7a415",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -76,9 +34,79 @@
               "icon": "lucide-file",
               "title": "Pandas"
             }
+          },
+          {
+            "id": "97e537c99faa5c1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Linux terminal commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux terminal commands"
+            }
+          },
+          {
+            "id": "0745a74554008e52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/rg.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rg"
+            }
+          },
+          {
+            "id": "d53c3e4df0c07190",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Git Commands.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git Commands"
+            }
+          },
+          {
+            "id": "01dae7fdfad5f2bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/IVFADC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IVFADC"
+            }
+          },
+          {
+            "id": "84956bc147554d75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Linux terminal commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux terminal commands"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "expectation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Pandas.md",
+                "file": "Inbox/Linux terminal commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +200,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pandas"
+              "title": "Backlinks for Linux terminal commands"
             }
           },
           {
@@ -181,12 +209,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Daily Knowledge.md",
+                "file": "Inbox/Linux terminal commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Daily Knowledge"
+              "title": "Outgoing links from Linux terminal commands"
             }
           },
           {
@@ -210,13 +238,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Daily Knowledge.md",
-                "followCursor": true,
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Daily Knowledge"
+              "title": "Outline"
             }
           }
         ]
@@ -231,6 +258,7 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
@@ -238,35 +266,34 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ba7e82c5525d048b",
+  "active": "97e537c99faa5c1b",
   "lastOpenFiles": [
-    "Inbox/Python.md",
-    "Inbox/Learning Plan.md",
-    "Inbox/Daily Knowledge.md",
-    "Inbox/Step by Step.md",
-    "Zettelkasten/Binomial Distribution.md",
-    "Inbox/LaTex.md",
-    "Inbox/rg.md",
-    "Inbox/Expectation.md",
-    "Inbox/Exponential Distribution.md",
-    "Inbox/Pandas.md",
-    "Excalidraw/Backprop..excalidraw.md",
-    "Excalidraw/LoRa.excalidraw.md",
+    "Journal/24-05-2026.md",
     "Inbox/Linux terminal commands.md",
-    "Inbox/Probability and Statistics.md",
-    "Map Of Content/GNN explainability references.md",
-    "Inbox/Cross-Entropy.md",
-    "Inbox/KL-Divergence.md",
-    "Zettelkasten/Entropy.md",
-    "Literature Notes/mutual information.md",
-    "Excalidraw/credit.excalidraw.md",
+    "Journal/14-05-2026.md",
+    "Inbox/IVFADC.md",
+    "Excalidraw/rdcmMagnet_flow.excalidraw.md",
     "Inbox/Conda.md",
-    "Inbox/LaTeX-Sandbox.md",
-    "Zettelkasten/Shannon information content of an outcome.md",
-    "Inbox/Obsidian Cheat sheet.md",
-    "Templates/Full Note.md",
-    "Inbox/Learning over Content Consuming.md",
-    "Journal/20-05-2026.md~RF8510e1cd.TMP",
+    "Journal/13-05-2026.md",
+    "Inbox/Python.md",
+    "Inbox/Pandas.md",
+    "Inbox/rg.md",
+    "Journal/11-05-2026.md",
+    "Inbox/FAISS.md",
+    "Inbox/LaTex.md",
+    "Journal/10-05-2026.md",
+    "Literature Notes/Wireshark.md",
+    "Excalidraw/FAISS.excalidraw.md",
+    "Journal/07-05-2026.md",
+    "Inbox/rdcmIcebergDB.md",
+    "Journal/06-05-2026.md",
+    "Inbox/Git Commands.md",
+    "Inbox/RAG.md",
+    "Inbox/TF-IDF.md",
+    "Excalidraw/Drawing 2026-05-06 10.19.40.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-20 14.16.45.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-20 16.55.12.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-27 15.37.19.excalidraw.md",
     "Excalidraw/attachments/Pasted Image 20260426140054_214.png",
     "Excalidraw/attachments/Pasted Image 20260426135620_747.png",
     "Inbox/attachments/Pandas-2.png",
@@ -285,6 +312,7 @@
     "Excalidraw/Drawing 2026-03-17 11.29.28.excalidraw.md~RF43faf132.TMP",
     "Excalidraw/LoRa.excalidraw.md~RF43faf103.TMP",
     "Excalidraw/ביטוח_טויוטה.excalidraw.md~RF43faf0c5.TMP",
-    "Inbox/Untitled 2.base"
+    "Inbox/Untitled 2.base",
+    "Inbox/Untitled 1.base"
   ]
 }

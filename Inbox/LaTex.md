@@ -58,6 +58,16 @@ $\rho$ - \rho
 $\zeta$ - @z
 
 
+|            |     |           |     |
+| ---------- | --- | --------- | --- |
+| $\omega$   | @o  | $\lambda$ | @l  |
+| $\Omega$   | @O  | $\Lambda$ | @L  |
+| $\alpha$   | @a  |           |     |
+| $\beta$    | @b  |           |     |
+| $\gamma$   | @g  |           |     |
+| $\delta$   | @d  |           |     |
+| $\epsilon$ | @e  |           |     |
+
 ## Sums
 $\displaystyle \sum_{n=1}^{\infty}\frac{1}{n+1}$
 ## Integrals
@@ -80,6 +90,14 @@ $\vec{v}$, $\mathbf{v}$, $||\vec{v}||$, $\odot$
 ## Basic symbols
 $\times$, $\ne$, $\le$, $\ge$, $\approx$ , $\infty$, $\sqrt{x}$, $\sqrt[n]{x}$, $\pm$
 
+## complex functions
+$$
+f(x)=
+\begin{cases}
+\lambda e^{-\lambda x}, & x \ge 0 \\
+0, & x < 0
+\end{cases}
+$$
 ## Latex Suite
 $\hat{a}$, $\vec{b}$, $\underline{c}$, $\bar{d}$
 

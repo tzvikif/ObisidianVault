@@ -13,6 +13,9 @@ Tags:
 [[Filtering in Obsidian]]
 [[Obsidian Cheat sheet#Navigate pages|Navigate Pages]]
 
+## Graph View
+open note graph view
+Ctr+p -> local graph view
 
 
 ## Navigate Pages

@@ -9,21 +9,19 @@ Tags:
 # Pandas
 
 [[Pandas#handle Nan|handle Nan]]
-[[Pandas#filtering|filtering]]
+[[Pandas#filtering|Filter rows]]
+- [[Pandas#filter row if any column satisfy a condition|filter row if any column satisfy a condition]]
+
+[[Pandas#Group Filtering|Group Filtering]][[Pandas#filtering|]]
 [[Pandas#Time Series|Time Series]]
 - [[Pandas#plot|plot]]
 	- [[Pandas#day of week|day of week]]
 	- 
-[[Pandas#from long format to wide format|from long format to wide format]]
+
+[[Pandas#from long format to wide format|from long format to wide]]
+[[Pandas#from wide to long|from wide to long]]
 [[Pandas#one-hot encoding|one-hot encoding]]
-
-
-
-
-
-
-## Merge
-## Filter rows
+[[Pandas#display|display]]
 
 
 ## handle NaN
@@ -43,21 +41,35 @@ df = df.dropna(subset=['A', 'B'], how='all')
 ```
 ### default value
 
-## filtering
+## Filter rows
+### filter row if any column satisfy a condition
+``` python
+cols = ["col1", "col2", "col3"]
+df_filtered = df[(df[cols] < 0).any(axis=1)]
 
-## grouping
+# all columns are < 0
+df_filtered = df[(df[cols] < 0).all(axis=1)]
+```
+## Group Filtering
 ``` python
 df = pd.DataFrame({
     'category': ['A','A','A','B','B','C','C','C','C','C','D','D'],
     'value': [10, 20, 30, 5, 6, 8, 9, 10, 11, 12, 13, 14]
 })
 ```
-filter count > 5
+### filter by number of elements in group
 ``` python
 counts = df.groupby('category')['value'].count()
-filtered = df[df['category'].isin(counts[counts > 5].index)]
-
+filtered = df[df['category'].isin(counts[counts > 2].index)]
 ```
+using filter() on group
+``` python
+df.groupby('category').filter(lambda x: len(x) > 2)
+```
+Notes:
+- x in lambda is a *DataFrame*
+- filter() filters *entire group* not individual rows.
+
 df[expression] - expression should be indices of df
 ``` python
 filtered = df.groupby('category').filter(lambda x: len(x) > 5)
@@ -154,6 +166,10 @@ display full column (not scientific notation)
 ``` python
 pd.set_option('display.float_format', '{:.5f}'.format)
 ```
+text
+``` python
+pd.set_option("display.max_colwidth", None)
+```
 
 ## from long format to wide format
 ### pivot
@@ -183,19 +199,20 @@ df_10.groupby([df_10.index.day_of_week, 'Store'])['Sales'].mean().unstack()
 the *unstack* is used usually for preparation for plotting.
 
 ## from wide to long
+
+![[Pandas-1.png]]
+output
+![[Pandas-2.png]]
+
 ### melt()
 - **`id_vars`**: Columns to keep as identifiers (will not be "melted").
 - **`value_vars`**: Specific columns to unpivot. If omitted, all columns not in `id_vars` are melted.
 - **`var_name`**: Custom name for the new "variable" column.
 - **`value_name`**: Custom name for the new "value" column
-#### example
-![[Pandas-1.png]]
+
 ``` python
 pd.melt(df, id_vars=["A"], value_vars=["B", "C"], var_name="myVarname", value_name="myValueName")
 ```
-output
-![[Pandas-2.png]]
-
 
 ### stack()
 ## one-hot encoding
