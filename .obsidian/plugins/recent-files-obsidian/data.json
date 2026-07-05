@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux terminal commands",
+      "path": "Inbox/Linux terminal commands.md"
+    },
+    {
+      "basename": "Learning Plan",
+      "path": "Inbox/Learning Plan.md"
+    },
+    {
+      "basename": "Aleatoric and Epistemic Uncertainty in  Machine Learning",
+      "path": "Inbox/Aleatoric and Epistemic Uncertainty in  Machine Learning.md"
+    },
+    {
+      "basename": "Conda",
+      "path": "Inbox/Conda.md"
+    },
+    {
+      "basename": "rg",
+      "path": "Inbox/rg.md"
+    },
+    {
+      "basename": "epistemic uncertainty",
+      "path": "Inbox/epistemic uncertainty.md"
+    },
+    {
+      "basename": "aleatoric uncertainty",
+      "path": "Inbox/aleatoric uncertainty.md"
+    },
+    {
+      "basename": "Step by Step",
+      "path": "Inbox/Step by Step.md"
+    },
+    {
+      "basename": "Daily Knowledge",
+      "path": "Inbox/Daily Knowledge.md"
+    },
+    {
       "basename": "Pandas",
       "path": "Inbox/Pandas.md"
     },
@@ -9,28 +45,12 @@
       "path": "Inbox/Python.md"
     },
     {
-      "basename": "Learning Plan",
-      "path": "Inbox/Learning Plan.md"
-    },
-    {
-      "basename": "Daily Knowledge",
-      "path": "Inbox/Daily Knowledge.md"
-    },
-    {
-      "basename": "Step by Step",
-      "path": "Inbox/Step by Step.md"
-    },
-    {
       "basename": "Binomial Distribution",
       "path": "Zettelkasten/Binomial Distribution.md"
     },
     {
       "basename": "LaTex",
       "path": "Inbox/LaTex.md"
-    },
-    {
-      "basename": "rg",
-      "path": "Inbox/rg.md"
     },
     {
       "basename": "Expectation",
@@ -47,10 +67,6 @@
     {
       "basename": "LoRa.excalidraw",
       "path": "Excalidraw/LoRa.excalidraw.md"
-    },
-    {
-      "basename": "Linux terminal commands",
-      "path": "Inbox/Linux terminal commands.md"
     },
     {
       "basename": "Probability and Statistics",
@@ -79,10 +95,6 @@
     {
       "basename": "credit.excalidraw",
       "path": "Excalidraw/credit.excalidraw.md"
-    },
-    {
-      "basename": "Conda",
-      "path": "Inbox/Conda.md"
     },
     {
       "basename": "LaTeX-Sandbox",
@@ -183,22 +195,6 @@
     {
       "basename": "Drawing 2026-01-21 13.58.56.excalidraw",
       "path": "Excalidraw/Drawing 2026-01-21 13.58.56.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2026-03-05 11.05.19.excalidraw",
-      "path": "Excalidraw/Drawing 2026-03-05 11.05.19.excalidraw.md"
-    },
-    {
-      "basename": "How i write math in Obsidian",
-      "path": "Zettelkasten/How i write math in Obsidian.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Inbox/vim.md"
-    },
-    {
-      "basename": "LLM",
-      "path": "Inbox/LLM.md"
     }
   ],
   "omittedPaths": [],

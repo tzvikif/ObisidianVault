@@ -68,7 +68,7 @@ EOF
 ```
 
 ## Directory Size
-
+### du
 ``` shell
 du <options> <directory name>
 ```
@@ -78,7 +78,20 @@ options:
 - -d: max-depth
 - -s: summarize
 - -time: show time of last modification of any file or directory
-- –exclude: Excludes specific directories or files from disk usage calculation based on patterns or names.
+- –-exclude: Excludes specific directories or files from disk usage calculation based on patterns or names. --exclude="my_directory
+#### example
+``` shell
+du -sh \
+  -d 1
+  --exclude='node_modules' \
+  --exclude='.git' \
+  --exclude='venv' \
+  .
+```
+*-d 1* is equivalent to *--max-depth=1*
+
+
+### using ncdu
 ``` bash
 ncdu <directory>
 ```
